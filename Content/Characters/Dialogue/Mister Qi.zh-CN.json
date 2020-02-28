@@ -1,0 +1,27 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": false
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Mon": "繼續努力，孩子。你一定會功成名就的。#$e#需要什麼東西的話，只管告訴我就是了。",
+        "Tue": "我就知道你總有一天會到這裡。當然，為了能讓你更加努力，我稍微提升了一點難度。",
+        "Wed": "我出生時也只是個普通的男孩子。但我從小就下定主意，要變得更加出色。",
+        "Thu": "嘿。你可不要到處跑來跑去，宣揚這個地方，知道嗎？這裡可是我的...秘密基地呢。#$e#就請你為了我，保守這個秘密吧？",
+        "Fri": "永遠不要放棄努力。#$e#做什麼事情都要做到盡善盡美。",
+        "Sat": "想要放鬆的時候，就來這裡吧。",
+        "Sun": "繼續努力，總有一天你也會像我一樣。"
+    }
+}
