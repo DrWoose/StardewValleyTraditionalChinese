@@ -1,0 +1,36 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": false
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "504": "Sneakers/有點單薄...但是時尚嘛！/50/1/0/0/運動鞋",
+        "505": "Rubber Boots/提供元素保護。/50/0/1/1/橡膠鞋",
+        "506": "Leather Boots/這種皮革非常柔軟。/50/1/1/2/皮鞋",
+        "507": "Work Boots/加固了鋼鐵作為額外防護。/50/2/0/3/工作鞋",
+        "508": "Combat Boots/加固了鐵絲作防護。/150/3/0/4/戰鞋",
+        "509": "Tundra Boots/毛絨絨的材質保持你的腳跟溫暖。/150/2/1/5/凍土鞋",
+        "510": "Thermal Boots/設計於惡劣氣候地帶使用。/50/1/2/6/熱能鞋",
+        "511": "Dark Boots/使用黑色粗厚皮革所打造。/250/4/2/7/黑暗之鞋",
+        "512": "Firewalker Boots/據說能夠承受最高溫的熔岩。/250/3/3/8/踏火鞋",
+        "513": "Genie Shoes/奇怪的能量圍繞著鞋面。/250/1/6/9/神怪之鞋",
+        "514": "Space Boots/銥編織，所以散發著紫色亮光。/450/4/4/10/太空鞋",
+        "515": "Cowboy Boots/鄉下人的時尚高度。/250/2/2/11/牛仔靴"
+    }
+}

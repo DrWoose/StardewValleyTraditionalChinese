@@ -1,0 +1,64 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": false
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "0": "Cowboy Hat/皮革雖殘舊而且裂開了，但依然柔軟。雖然味道不好聞。/false/true/牛仔帽",
+        "1": "Bowler Hat/由柔滑的毛氈製成。/false/true/圓頂禮帽",
+        "2": "Top Hat/紳士的經典。/false/true/大禮帽",
+        "3": "Sombrero/節日性的裝飾草帽/false/true/墨西哥帽",
+        "4": "Straw Hat/輕便涼爽的帽子，農夫最愛。/false/true/草帽",
+        "5": "Official Cap/看起來是位郵差或者員警的帽子。無論如何，它仍然輕軟，味道不臭。/false/true/大簷帽",
+        "6": "Blue Bonnet/這頂草原之帽讓人回憶起簡簡單單的舊時光。/false/true/藍色軟帽",
+        "7": "Plum Chapeau/看上去不錯。/false/true/紫紅小帽",
+        "8": "Skeleton Mask/紅紅的眼睛散發著神秘的亮光。/true/true/骷髏面具",
+        "9": "Goblin Mask/此面具能夠嚇死左鄰右舍。為了效果，耳朵接合處是用橡膠做的。/true/true/哥布林面具",
+        "10": "Chicken Mask/戴上它，你肯定會被笑死。/true/true/小雞面具",
+        "11": "Earmuffs/讓你的耳朵暖烘烘的。裝飾用的是城堡村的手工天鵝絨。/true/false/護耳",
+        "12": "Delicate Bow/仔細一看，小小的粉色珍珠在閃閃發光。/true/false/精美蝴蝶結",
+        "13": "Tropiclip/形狀像棕櫚樹。/true/false/熱帶風小髮飾",
+        "14": "Butterfly Bow/非常柔軟。/true/false/蝴蝶結",
+        "15": "Hunter's Cap/動物毛線即使在森林深處都能保暖。/false/true/獵人帽",
+        "16": "Trucker Hat/帽後帶網孔以通風。/false/true/司機帽",
+        "17": "Sailor's Cap/新鮮又古板。/false/true/水手帽",
+        "18": "Good Ol' Cap/一頂軟塌塌的大禮帽，有一張皺巴巴的帳單。看來是一頂有故事的帽子。/false/true/老夥計帽",
+        "19": "Fedora/城裡人的標準。/false/true/軟呢帽",
+        "20": "Cool Cap/褪色了很多，但曾經是鮮豔的藍色。/false/true/涼帽",
+        "21": "Lucky Bow/中間是純金打造的。/true/false/幸運蝴蝶結",
+        "22": "Polka Bow/戴上它回頭率一定超高。/true/false/波爾卡蝴蝶結",
+        "23": "Gnome's Cap/土地神的腦袋很大。/false/true/土地神帽",
+        "24": "Eye Patch/難以看出是真的還是服裝店買來的。/true/false/眼罩",
+        "25": "Santa Hat/聖誕來了。/false/true/聖誕帽",
+        "26": "Tiara/一粒巨大的紫水晶，旁邊圍繞著黃金。/true/true/三重冕",
+        "27": "Hard Hat/保護你的腦袋。/false/true/安全帽",
+        "28": "Sou'wester/讓水手在暴風雨中不會淋濕。/false/true/防雨帽",
+        "29": "Daisy/新鮮的春天髮飾，用來戴在頭上。/true/false/雛菊髮飾",
+        "30": "Watermelon Band/顏色搭配是受到夏日大家最愛的水果所啟發。/true/false/西瓜髮飾",
+        "31": "Mouse Ears/使用合成纖維打造。/true/true/老鼠耳朵",
+        "32": "Cat Ears/包含貓鬚/true/true/貓耳",
+        "33": "Cowgal Hat/鑲嵌著鑽石。/false/true/牛仔女郎帽",
+        "34": "Cowpoke Hat/牛奶專家所戴。/false/true/專業牛仔帽",
+        "35": "Archer's Cap/無論你是否是弓箭手，都適合佩戴。/false/true/射手帽",
+        "36": "Panda Hat/一頂萌萌的熊貓帽子，這是Eric給TGP玩家的禮物/false/true/熊貓帽子（TGP 玩家專屬）",
+        "37": "Blue Cowboy Hat/冷藍色的牛仔布牛仔帽。/false/true/藍色牛仔帽",
+        "38": "Red Cowboy Hat/醒目的紅絨面革牛仔帽。/false/true/紅色牛仔帽",
+        "39": "Cone Hat/來自遙遠國度且令人感到好奇的帽子。/false/true/錐帽"
+    }
+}

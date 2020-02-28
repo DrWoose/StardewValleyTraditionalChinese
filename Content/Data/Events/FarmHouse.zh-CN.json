@@ -1,0 +1,22 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": false
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "558291/y 3/H": "grandpas_theme/-2000 -1000/farmer 13 23 2/broadcastEvent/addTemporaryActor Grandpa 1 1 -100 -100 2 true/skippable/specificTemporarySprite grandpaSpirit/viewport -1000 -1000 true/pause 10000/speak Grandpa \"我親愛的孩子...^我親愛的孫女...#$b#自從我們最後一次講話，已經過去了很多年。你那時還很小...記得嗎？^自從我們最後一次講話，已經過去了很多年。你那時還是個小女孩...記得嗎？#$b#你現在已經長大了啊！#$b#雖然你也許已經忘了我，但我一直都陪著你#$b#雖然...我的身體離開了這個世界，但我的心永遠留在星露谷。\"/specificTemporarySprite grandpaNight/pause 4000/speak Grandpa \"你來到這裡已經兩年了...\"/grandpaEvaluation/pause 3000/speak Grandpa \"%farm的未來掌握在你手裡#$b#再見！\"/pause 1000/globalFade/removeTemporarySprites/playMusic none/pause 1000/end bed",
+        "558292/e 321777/t 600 620/H": "grandpas_theme/-2000 -1000/farmer 13 23 2/broadcastEvent/addTemporaryActor Grandpa 1 1 -100 -100 2 true/skippable/specificTemporarySprite grandpaSpirit/viewport -1000 -1000 true/pause 10000/speak Grandpa \"我親愛的孩子...^我親愛的孫女...#$b#我很高興你召喚了我。也許上次我對你太嚴厲了。#$b#請原諒我。你一直那麼努力，我真為你感到驕傲。\"/specificTemporarySprite grandpaNight/pause 4000/speak Grandpa \"那麼...\"/grandpaEvaluation2/pause 3000/globalFade/removeTemporarySprites/playMusic none/pause 1000/end bed"
+    }
+}
