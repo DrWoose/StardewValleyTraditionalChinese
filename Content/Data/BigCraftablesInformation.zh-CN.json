@@ -160,6 +160,11 @@
         "192": "Seasonal Plant/50/-300/Crafting -9/隨著季節變化的觀賞性植物。不需要澆水。/true/true/0/季節性植物",
         "196": "Seasonal Plant/50/-300/Crafting -9/隨著季節變化的觀賞性植物。不需要澆水。/true/true/0/季節性植物",
         "200": "Seasonal Plant/200/-300/Crafting -9/隨著季節變化的觀賞性植物。不需要澆水。/true/true/0/季節性植物",
-        "204": "Seasonal Plant/50/-300/Crafting -9/隨著季節變化的觀賞性植物。不需要澆水。/true/true/0/季節性植物"
+        "204": "Seasonal Plant/50/-300/Crafting -9/隨著季節變化的觀賞性植物。不需要澆水。/true/true/0/季節性植物",
+		"208": "Workbench/1500/-300/Crafting -9/在這裡製作物品時，你可以使用任何相鄰箱子中的材料。/true/true/0/工作台",
+        "209": "Mini-Jukebox/1500/-300/Crafting -9/可以播放自己最喜歡的音樂。/true/true/0/迷你點唱機",
+        "211": "Wood Chipper/500/-300/Crafting -9/放入一塊硬木，把它分解成普通的木頭。/true/true/0/碎木機",
+        "216": "Mini-Fridge/1500/-300/Crafting -9/可以儲存額外的烹飪原材料。/true/true/0/迷你冰箱",
+        "219": "Cursed P.K. Arcade System/0/-300/Crafting -9/這台草原之王街機系統有哪裡不對勁……/true/true/0/被詛咒的P.K.街機系統"
     }
 }
