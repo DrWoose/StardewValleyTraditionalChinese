@@ -75,6 +75,7 @@
         "Weathered Floor": "388 1/Field/331/false/l 0/風化地板",
         "Crystal Floor": "338 1/Field/333 5/false/l 0/水晶地板",
         "Stone Floor": "390 1/Field/329/false/l 0/石頭地板",
+		"Brick Floor": "330 2 390 5/Field/293 5/false/l 0/紅磚地板",
         "Wood Path": "388 1/Field/405/false/l 0/木頭小徑",
         "Gravel Path": "390 1/Field/407/false/l 0/礫石小徑",
         "Cobblestone Path": "390 1/Field/411/false/l 0/鵝卵石小徑",
@@ -113,6 +114,12 @@
         "Garden Pot": "330 1 390 10 338 1/Home/62/true/null/花盆",
         "Stone Sign": "390 25/Home/38/true/null/石牌",
         "Wedding Ring": "337 5 74 1/Home/801/false/null/結婚戒指",
-        "Wood Sign": "388 25/Home/37/true/null/木牌"
+        "Wood Sign": "388 25/Home/37/true/null/木牌",
+		"Deluxe Scarecrow": "388 50 386 1 771 40/Home/167/true/null/豪華稻草人",
+        "Mini-Jukebox": "335 2 787 1/Home/209/true/null/迷你點唱機",
+        "Tree Fertilizer": "771 5 390 5/Field/805/false/s Foraging 7/樹肥",
+        "Grass Starter": "771 10/Field/297/false/null/草籽",
+        "Tea Sapling": "-777 2 771 5 388 5/Field/251/false/null/茶苗",
+        "Warp Totem: Desert": "709 2 88 1 386 4/Field/261/false/null/傳送圖騰：沙漠"
     }
 }
