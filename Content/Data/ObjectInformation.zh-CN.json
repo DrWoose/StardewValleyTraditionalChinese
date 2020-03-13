@@ -70,7 +70,7 @@
         "111": "Rusty Spur/25/-300/Arch/生鏽的靴刺/曾經連在某個牛仔靴子上的舊靴刺。肯定已經有好幾代的人在此飼養動物了。/Farm .1/Money 1 100",
         "112": "Rusty Cog/25/-300/Arch/生鏽的齒輪/一個保存完好的齒輪，它一定是某個古代機器的一部分。這可能是矮人工藝出品。/Mountain .05/Debris 1 20 4",
         "113": "Chicken Statue/50/-300/Arch/雞雕像/一個青銅底座的雞雕像。這個地區的古代人一定很喜歡雞。/Farm .1/Decor 5 31",
-        "114": "Ancient Seed/5/-300/Arch/古代種子/某個古代植物的乾老種子。它顯然早就死了……/Forest .01 Mountain .01/Seeds 9",
+        "114": "Ancient Seed/5/-300/Arch/古代種子/某種古代植物的乾老種子。它顯然早就死了……/Forest .01 Mountain .01/Seeds 9",
         "115": "Prehistoric Tool/50/-300/Arch/史前工具/某種粗糙古老的挖掘工具。/Mountain .03 Forest .03 BusStop .04/Debris 1 30 12",
         "116": "Dried Starfish/40/-300/Arch/乾海星/原始海洋裡的海星。這是個非常純淨的標本！/Beach .1/Money 1 200",
         "117": "Anchor/100/-300/Arch/-錨-/它可能屬於古代海盜。/Beach .05/Item 1 289",
