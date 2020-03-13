@@ -65,7 +65,7 @@
         "Survival Burger": "216 1 78 1 272 1/70 1/241/s Foraging 2/救生漢堡",
         "Dish o' The Sea": "131 2 210 1/38 2/242/s Fishing 3/海之菜餚",
         "Miner's Treat": "78 2 245 1 -6 1/60 1/243/s Mining 3/礦工特餐",
-        "Roots Platter": "78 1 412 1/1 10/244/s Combat 3/塊莖拼盤",
+        "Roots Platter": "78 1 412 1/1 10/244/s Combat 3/塊根拼盤",
         "Algae Soup": "153 4/1 5/456/f Clint 3/海藻湯",
         "Pale Broth": "157 2/1 4/457/f Marnie 3/清湯",
         "Plum Pudding": "406 2 246 1 245 1/1 10/604/l 100/葡萄乾布丁",
@@ -87,7 +87,7 @@
         "Escargot": "721 1 248 1/1 10/729/f Willy 5/法式田螺",
         "Maple Bar": "724 1 245 1 246 1/1 10/731/l 100/楓糖板擦甜甜圈",
         "Crab Cakes": "717 1 246 1 -5 1 247 1/1 10/732/l 100/蟹肉餅",
-        "Triple Shot Espresso": "395 3/1 10/253/l 100/三倍即溶咖啡",
+        "Triple Shot Espresso": "395 3/1 10/253/l 100/三倍濃縮咖啡",
         "Shrimp Cocktail": "720 1 256 1 16 1/1 10/733/l 100/雞尾酒蝦",
         "Seafoam Pudding": "267 1 269 1 814 1/1 10/265/s Fishing 9/海泡布丁"
     }
