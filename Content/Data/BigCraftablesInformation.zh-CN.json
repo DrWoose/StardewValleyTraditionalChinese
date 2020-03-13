@@ -28,7 +28,7 @@
         "5": "House Plant/50/-300/Crafting -9/為你的房子或農場添加一些個性。/true/true/0/家居植物",
         "6": "House Plant/50/-300/Crafting -9/為你的房子或農場添加一些個性。/true/true/0/家居植物",
         "7": "House Plant/50/-300/Crafting -9/為你的房子或農場添加一些個性。/true/true/0/家居植物",
-        "8": "Scarecrow/50/-300/Crafting -9/防止烏鴉襲擊你的農作物，範圍有限（大約半徑8格）。/true/true/0/稻草人",
+        "8": "Scarecrow/50/-300/Crafting -9/防止烏鴉襲擊你的農作物，範圍有限（大約半徑 8 格）。/true/true/0/稻草人",
         "9": "Lightning Rod/50/-300/Crafting -9/收集暴風雨的能量，轉換為電池。/true/true/0/避雷針",
         "10": "Bee House/50/-300/Crafting -9/放置在屋外，然後等著吃甜蜜的蜂蜜吧！（除了冬天）。/true/true/0/蜂房",
         "12": "Keg/50/-300/Crafting -9/放置水果或蔬菜在內，最終會釀造成飲品。/true/true/0/釀造桶",
@@ -112,7 +112,7 @@
         "111": "Decorative Pitcher/0/-300/Crafting -9/用黃銅手工打造。/true/true/0/裝飾瓶子",
         "112": "Dried Sunflowers/0/-300/Crafting -9/鮮豔的傢俱飾物。/true/true/0/風乾太陽花",
         "113": "Rarecrow/0/-300/Crafting -9/將它們全部收齊！（8-2）/true/true/0/珍奇烏鴉",
-        "114": "Charcoal Kiln/0/-300/Crafting -9/將10塊木材轉換成一塊煤炭。/true/true/0/木炭窯",
+        "114": "Charcoal Kiln/0/-300/Crafting -9/將 10 塊木材轉換成一塊煤炭。/true/true/0/木炭窯",
         "116": "Stardew Hero Trophy/0/-300/Crafting -9/星露谷居民的至高獎項！/true/true/0/星露谷英雄獎盃",
         "117": "Soda Machine/0/-300/Crafting -9/總會彈出美妙的東西。/true/true/0/汽水機",
         "118": "Barrel/0/-300/Crafting -9/……/true/true/0/木桶",
@@ -147,7 +147,7 @@
         "154": "Worm Bin/0/-300/Crafting -9/穩定地提供誘餌。這些蟲可以依靠自身維持生存。/true/true/0/蟲餌箱",
         "155": "??HMTGF??/0/-300/Crafting -9/??HMTGF??/true/true/0/??HMTGF??",
         "156": "Slime Incubator/0/-300/Crafting -9/將史萊姆蛋孵化成史萊姆，讓你能夠在室外飼養史萊姆。/true/false/0/史萊姆孵化器",
-        "158": "Slime Egg-Press/0/-300/Crafting -9/壓製100塊史萊姆泥為一粒史萊姆蛋。簡直是奇蹟！/true/false/0/史萊姆蛋壓製機",
+        "158": "Slime Egg-Press/0/-300/Crafting -9/壓製 100 塊史萊姆泥為一粒史萊姆蛋。簡直是奇蹟！/true/false/0/史萊姆蛋壓製機",
         "159": "Junimo Kart Arcade System/0/-300/Crafting -9/在家玩「祝尼魔賽車」！/true/true/0/祝尼魔賽車街機系統",
         "160": "Statue Of Perfection/0/-300/Crafting -9/由純銥打造而成。/true/true/0/完美雕像",
         "161": "??Pinky Lemon??/0/-300/Crafting -9/??粉色檸檬??/true/true/0/??粉色檸檬??",
@@ -155,7 +155,7 @@
         "163": "Cask/0/-300/Crafting -9/在地窖中使用以使產品變陳，如葡萄酒和乳酪。/true/true/0/木桶",
         "164": "Solid Gold Lewis/0/-300/Crafting -9/鎮長的秘密項目。/true/true/0/路易斯黃金像",
         "165": "Auto-Grabber/0/-300/Crafting -9/每天早晨自動從你的動物處採集。適用於乳牛、綿羊和山羊。/true/true/0/自動採集器",
-        "167": "Deluxe Scarecrow/50/-300/Crafting -9/阻止烏鴉攻擊你的莊稼。範圍很大（大約16格）。/true/true/0/豪華稻草人",
+        "167": "Deluxe Scarecrow/50/-300/Crafting -9/阻止烏鴉攻擊你的莊稼。範圍很大（大約 16 格）。/true/true/0/豪華稻草人",
         "184": "Seasonal Plant/50/-300/Crafting -9/隨著季節變化的觀賞性植物。不需要澆水。/true/true/0/季節性植物",
         "188": "Seasonal Plant/50/-300/Crafting -9/隨著季節變化的觀賞性植物。不需要澆水。/true/true/0/季節性植物",
         "192": "Seasonal Plant/50/-300/Crafting -9/隨著季節變化的觀賞性植物。不需要澆水。/true/true/0/季節性植物",
@@ -166,6 +166,6 @@
         "209": "Mini-Jukebox/1500/-300/Crafting -9/可以播放自己最喜歡的音樂。/true/true/0/迷你點唱機",
         "211": "Wood Chipper/500/-300/Crafting -9/放入一塊硬木，把它分解成普通的木材。/true/true/0/碎木機",
         "216": "Mini-Fridge/1500/-300/Crafting -9/可以儲存額外的烹飪原材料。/true/true/0/迷你冰箱",
-        "219": "Cursed P.K. Arcade System/0/-300/Crafting -9/這台草原之王街機系統有哪裡不對勁……/true/true/0/被詛咒的P.K.街機系統"
+        "219": "Cursed P.K. Arcade System/0/-300/Crafting -9/這台草原之王街機系統有哪裡不對勁……/true/true/0/被詛咒的 P.K. 街機系統"
     }
 }
