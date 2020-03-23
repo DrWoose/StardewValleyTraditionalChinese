@@ -36,7 +36,7 @@
         "Mine Elevator": "388 30 390 15 334 5/4/2/1/1/-1/-1/null/礦井電梯/快速在你建造的任何礦場升降機之間傳送。每層礦場你只能設一個。/Buildings/none/64/64/-1/MineElevator/UndergroundMine",
         "Chicken": "animal/500/64/64/雞/下蛋，美味的蛋。有兩種顏色。/null/Farm",
         "Duck": "animal/1000/64/64/鴨/會下蛋，偶爾會掉落鴨毛。/null/Farm",
-        "Rabbit": "animal/1500/64/64/兔子/毛絨絨的兔子！/null/Farm",
+        "Rabbit": "animal/1500/64/64/兔子/毛茸茸的兔子！/null/Farm",
         "Cow": "animal/1000/64/96/牛/生產豐厚香醇的牛奶。/null/Farm",
         "Sheep": "animal/1500/64/96/綿羊/剃下來的動物毛非常值錢。/null/Farm",
         "Goat": "animal/1500/64/96/山羊/生產美味可口的羊奶。/null/Farm",
