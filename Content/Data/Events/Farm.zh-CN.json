@@ -17,7 +17,7 @@
     ],
     "content": {
         "5/e 3/v Abigail/t 600 800": "continue/64 15/farmer 64 16 2 Abigail 64 18 0/pause 1500/speak Abigail \"嗨。 呃...我為昨天奇怪的舉止道歉。#$b#你也許已經明白發生什麼了...$l#$b#呃，那好...再見。\"/pause 500/end",
-        "47/f Sam 2000/t 600 800/e 44": "continue/64 15/farmer 64 16 2 Sam 64 18 0/pause 1500/speak Sam \"嗨，@。你猜怎麼著？我們樂隊今晚要演出了，就在祖祖城！#$b#今天下午4點在車站等我，然後一起去演出現場。你一定要來啊！\"/pause 300/end dialogue Sam \"我對今晚的演出又興奮又激動，我相信一定會順利的。\"",
+        "47/f Sam 2000/t 600 800/e 44": "continue/64 15/farmer 64 16 2 Sam 64 18 0/pause 1500/speak Sam \"嗨，@。你猜怎麼著？我們樂團今晚要演出了，就在祖祖城！#$b#今天下午4點在車站等我，然後一起去演出現場。你一定要來啊！\"/pause 300/end dialogue Sam \"我對今晚的演出又興奮又激動，我相信一定會順利的。\"",
         "2346097/f Abigail 2010/x abbySpiritBoard": "null",
         "2346096/f Penny 2505/x pennySpa": "null",
         "2346095/f Elliott 2002/x elliottReading": "null",
