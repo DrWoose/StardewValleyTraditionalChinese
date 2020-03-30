@@ -191,7 +191,7 @@
         "Club_CalicoJack_Rules1": "遊戲的目標是盡可能接近 21 點。牌的大小從 1 點至 9 點不等，而第一張牌的上限可高達 11 點。每個玩家一開始會獲得兩張牌，但莊家的第一張牌是隱藏牌。每回合你可選擇抽一張 1 點到 9 點之間的隨機牌，或者選擇放棄該輪抽牌。",
         "Club_CalicoJack_Rules2": "一旦你放棄抽牌，莊家隱藏的牌會被亮出。莊家必須抽到總數等於或大於 18 點。如果任何一個玩家超過 21 點，那麼他們就輸了。如果莊家放棄抽牌，那麼所有的牌都會被亮出，點數最高者獲勝。",
         "Club_CalicoJackHS_NotEnoughCoins": "你至少需要 1,000 個硬幣才能在這裡玩。",
-        "Club_CalicoJack_NotEnoughCoins": "嘿，固定投注是 100 個硬幣。你沒有足夠的硬幣，想玩的話請到那台機器購買硬幣。",
+        "Club_CalicoJack_NotEnoughCoins": "嘿，賭注固定是 100 個硬幣。你的硬幣不夠，想玩的話請到那台機器購買硬幣。",
         "ScienceHouse_Carpenter_UpgradeHouse1": "我可以擴建你的房子並加蓋一個廚房。此升級需要消耗 10,000G 和 450 塊木材。你確定嗎？",
         "ScienceHouse_Carpenter_UpgradeHouse2": "我可以擴建你的房子並加蓋一個嬰兒室。此升級需要消耗 50,000G 和 150 塊硬木。你確定嗎？",
         "ScienceHouse_Carpenter_UpgradeHouse3": "我可以替你的房子加蓋一個地窖。地窖可用於保存葡萄酒和乳酪之類的產品。此升級需要消耗 100,000G。你確定嗎？",
