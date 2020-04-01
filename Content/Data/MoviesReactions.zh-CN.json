@@ -1529,7 +1529,7 @@
 			  "DuringMovie": {
 				"ResponsePoint": null,
 				"Script": "/message \"克林特從沒有標籤的燒瓶中吸了一口。\"",
-				"Text": "這只是……嗝……Joja可樂。$h^(輕聲)……如果你……累了……可以把你的頭放在我的……我的肩膀上。嘿……隨便你！$4"
+				"Text": "這只是……嗝……Joja 可樂。$h^(輕聲)……如果你……累了……可以把你的頭放在我的……我的肩膀上。嘿……隨便你！$4"
 			  },
 			  "AfterMovie": {
 				"ResponsePoint": null,

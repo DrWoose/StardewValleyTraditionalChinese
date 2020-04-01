@@ -47,8 +47,8 @@
 		  {
 			"ID": 2,
 			"Name": "Joja Cola",
-			"DisplayName": " Joja可樂",
-			"Description": "一份超大杯的Joja招牌汽水。",
+			"DisplayName": " Joja 可樂",
+			"Description": "一份超大杯的 Joja 招牌汽水。",
 			"Price": 40,
 			"ItemTags": [
 			  "Drink",
@@ -254,8 +254,8 @@
 		  {
 			"ID": 21,
 			"Name": "JojaCorn",
-			"DisplayName": "Joja玉米",
-			"Description": "Joja公司擁有專利的玉米食品，塗有大量的黃油醬。",
+			"DisplayName": "Joja 玉米",
+			"Description": "Joja 公司擁有專利的玉米食品，塗有大量的黃油醬。",
 			"Price": 10,
 			"ItemTags": [
 			  "Joja"
