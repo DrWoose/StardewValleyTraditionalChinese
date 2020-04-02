@@ -57,7 +57,7 @@
         "summer_10": "你的農場有小兔子嗎？小兔子好可愛！<",
         "summer_Thu": "如果經常曬太陽會使你頭髮更亮。#$e#這是好事哦！",
         "summer_Fri": "艾力克斯今天在做什麼呢……#$e#啊？我沒注意你在這。",
-        "summer_Sat": "農場的工作好像很無聊的樣子……#$q 42/43 summer_Sat_old#一天都在做什麼呢？#$r 42 10 summer_Sat_12#護理植物#$r 42 10 summer_Sat_12#探索山洞#$r 43 -10 summer_Sat_13#在妳的房間四處打探#$r 42 10 summer_Sat_12#挖寶藏",
+        "summer_Sat": "農場的工作好像很無聊的樣子……#$q 42/43 summer_Sat_old#一天都在做什麼呢？#$r 42 10 summer_Sat_12#護理植物#$r 42 10 summer_Sat_12#探索山洞#$r 43 -10 summer_Sat_13#在你的房間四處打探#$r 42 10 summer_Sat_12#挖寶藏",
         "summer_Sat_old": "#$p 43#嘿，你最好別在我房間裡偷偷摸摸的！！$a|不過我想這說不定能讓你練出個好身材。",
         "summer_Sat_12": "嗯……聽起來是個大工程。",
         "summer_Sat_13": "什麼？你最好別有這個想法！$a",
