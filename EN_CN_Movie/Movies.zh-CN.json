@@ -585,7 +585,7 @@
 		  "winter_movie_0": {
 			"ID": null,
 			"SheetIndex": 5,
-			"Title": "冷星牧場的奇蹟",
+			"Title": "冷星牧場的奇跡",
 			"Description": "儘管困難重重，一個家庭還是保持著冬星精神的延續……",
 			"Tags": [
 			  "family",
@@ -598,7 +598,7 @@
 				"Sound": "",
 				"MessageDelay": 500,
 				"Script": "",
-				"Text": "《冷星牧場的奇蹟》",
+				"Text": "《冷星牧場的奇跡》",
 				"Shake": false,
 				"ResponsePoint": null,
 				"ID": "winter0_0"
