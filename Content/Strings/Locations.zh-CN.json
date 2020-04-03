@@ -169,7 +169,7 @@
         "Mines_ResetMine": "確定重設你的礦井進度？\n     （你會重回第一層）。",
         "Club_QiCoins_NotEnoughMoney": "錯誤：錢不夠。",
         "Club_ClubSeller_NotEnoughMoney": "嘿，我說要 1,000,000G！這點錢根本不夠。",
-        "ScienceHouse_CarpenterMenu": "有什麼可以幫你的嗎？",
+        "ScienceHouse_CarpenterMenu": "需要什麼嗎？",
         "ScienceHouse_CarpenterMenu_Shop": "商店",
         "ScienceHouse_CarpenterMenu_UpgradeHouse": "升級房子",
         "ScienceHouse_CarpenterMenu_Construct": "建造農場建築",
