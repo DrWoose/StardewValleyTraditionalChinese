@@ -162,7 +162,7 @@
         "JunimoNote_RewardVault": "獎勵：修復巴士",
         "JunimoNote_RewardFishTank": "獎勵：移除閃閃發光的巨石",
         "JunimoNote_MustBeAtCC": "必須存放在活動中心",
-        "LetterViewer_MoneyIncluded": "附有$ {0}G",
+        "LetterViewer_MoneyIncluded": "附有${0}G",
         "LetterViewer_LearnedRecipe": "新的{0}配方：",
         "LetterViewer_LearnedRecipeName": "「{0}」",
         "LevelUp_Title": "等級 {0} {1}",
