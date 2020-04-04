@@ -354,7 +354,7 @@
         "Chat_UserListUser": "- {0}",
         "Chat_Help": "支援的指令：",
         "Chat_HelpList": "- {0}：列出線上玩家",
-        "Chat_HelpClear": "- {0}：清除聊天記錄",
+        "Chat_HelpClear": "- {0}：清除聊天紀錄",
         "Chat_HelpCredits": "- {0}：顯示工作人員名單",
         "Chat_HelpColor": "- {0} [color]：設定你的預設文字顏色。",
         "Chat_HelpColorList": "- {0}：列出可用的文字顏色。",
