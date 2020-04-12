@@ -1844,7 +1844,7 @@
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
-				"Script": "/emote Sebastian 32/message \"塞巴斯蒂安臉上露出了笑容。 \"",
+				"Script": "/emote Sebastian 32/message \"賽巴斯汀臉上露出了笑容。 \"",
 				"Text": "這電影的攝影技術一流。"
 			  },
 			  "AfterMovie": {

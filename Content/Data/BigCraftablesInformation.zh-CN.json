@@ -33,7 +33,7 @@
         "10": "Bee House/50/-300/Crafting -9/放置在屋外，然後等著吃甜蜜的蜂蜜吧！（除了冬天）。/true/true/0/蜂房",
         "12": "Keg/50/-300/Crafting -9/放置水果或蔬菜在內，最終會釀造成飲品。/true/true/0/釀造桶",
         "13": "Furnace/50/-300/Crafting -9/將礦石和煤炭轉換為金屬方塊。/true/true/0/熔爐",
-        "15": "Preserves Jar/50/-300/Crafting -9/將蔬菜醃製成泡菜，水果醃製成果醬。/true/true/0/醃製罐",
+        "15": "Preserves Jar/50/-300/Crafting -9/將蔬菜醃製成泡菜，水果醃製成果醬。/true/true/0/醃製桶",
         "16": "Cheese Press/50/-300/Crafting -9/將牛奶轉換成乳酪。/true/true/0/壓酪機",
         "17": "Loom/50/-300/Crafting -9/將動物毛轉換成美麗的布料。/true/true/0/織布機",
         "19": "Oil Maker/50/-300/Crafting -9/生產松露美食油。/true/true/0/製油機",
@@ -147,7 +147,7 @@
         "154": "Worm Bin/0/-300/Crafting -9/穩定地提供誘餌。這些蟲可以依靠自身維持生存。/true/true/0/蟲餌箱",
         "155": "??HMTGF??/0/-300/Crafting -9/??HMTGF??/true/true/0/??HMTGF??",
         "156": "Slime Incubator/0/-300/Crafting -9/將史萊姆蛋孵化成史萊姆，讓你能夠在室外飼養史萊姆。/true/false/0/史萊姆孵化器",
-        "158": "Slime Egg-Press/0/-300/Crafting -9/壓製 100 塊史萊姆泥為一粒史萊姆蛋。簡直是奇跡！/true/false/0/史萊姆蛋壓製機",
+        "158": "Slime Egg-Press/0/-300/Crafting -9/壓製 100 塊史萊姆泥為一粒史萊姆蛋。簡直是奇蹟！/true/false/0/史萊姆蛋壓製機",
         "159": "Junimo Kart Arcade System/0/-300/Crafting -9/在家玩「祝尼魔賽車」！/true/true/0/祝尼魔賽車街機系統",
         "160": "Statue Of Perfection/0/-300/Crafting -9/由純銥打造而成。/true/true/0/完美雕像",
         "161": "??Pinky Lemon??/0/-300/Crafting -9/??粉色檸檬??/true/true/0/??粉色檸檬??",
@@ -162,10 +162,10 @@
         "196": "Seasonal Plant/50/-300/Crafting -9/隨著季節變化的觀賞性植物。不需要澆水。/true/true/0/季節性植物",
         "200": "Seasonal Plant/200/-300/Crafting -9/隨著季節變化的觀賞性植物。不需要澆水。/true/true/0/季節性植物",
         "204": "Seasonal Plant/50/-300/Crafting -9/隨著季節變化的觀賞性植物。不需要澆水。/true/true/0/季節性植物",
-        "208": "Workbench/1500/-300/Crafting -9/在這裡製作物品時，你可以使用任何相鄰箱子中的材料。/true/true/0/工作台",
+        "208": "Workbench/1500/-300/Crafting -9/在這裡製作物品時，你可以使用任何相鄰箱子中的材料。/true/true/0/工作臺",
         "209": "Mini-Jukebox/1500/-300/Crafting -9/可以播放自己最喜歡的音樂。/true/true/0/迷你點唱機",
         "211": "Wood Chipper/500/-300/Crafting -9/放入一塊硬木，把它分解成普通的木材。/true/true/0/碎木機",
         "216": "Mini-Fridge/1500/-300/Crafting -9/可以儲存額外的烹飪原材料。/true/true/0/迷你冰箱",
-        "219": "Cursed P.K. Arcade System/0/-300/Crafting -9/這台草原之王街機系統有哪裡不對勁……/true/true/0/被詛咒的 P.K. 街機系統"
+        "219": "Cursed P.K. Arcade System/0/-300/Crafting -9/這臺草原之王街機系統有哪裡不對勁……/true/true/0/被詛咒的 P.K. 街機系統"
     }
 }

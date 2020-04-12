@@ -85,7 +85,7 @@
         "126": "Strange Doll/1000/-300/Arch/詭異玩偶/？？？/Farm .001 Town .001 Mountain .001 Forest .001 BusStop .001 Beach .001 UndergroundMine .001/Item 1 126",
         "127": "Strange Doll/1000/-300/Arch/詭異玩偶/？？？/Farm .001 Town .001 Mountain .001 Forest .001 BusStop .001 Beach .001 UndergroundMine .001/Item 1 127",
         "128": "Pufferfish/200/-40/Fish -4/河豚/牠受到威脅時會膨脹。/Day^Summer",
-        "129": "Anchovy/30/5/Fish -4/鱭魚/一種海裡的小銀魚。/Day Night^Spring Fall",
+        "129": "Anchovy/30/5/Fish -4/鯷魚/一種海裡的小銀魚。/Day Night^Spring Fall",
         "130": "Tuna/100/15/Fish -4/鮪魚/一種住在海裡的大型魚。/Day^Summer Winter",
         "131": "Sardine/40/5/Fish -4/沙丁魚/一種常見的海魚。/Day^Spring Summer Fall Winter",
         "132": "Bream/45/5/Fish -4/鯛魚/一種夜間活躍的常見河魚。/Night^Spring Summer Fall Winter",
@@ -460,7 +460,7 @@
         "579": "Prehistoric Scapula/100/-300/Arch/史前肩胛骨/一般都被說成是「肩部刀刃」……無法確定這是什麼生物的骨頭。/Town .01",
         "580": "Prehistoric Tibia/100/-300/Arch/史前脛骨/又大又堅硬的腿骨。/Forest .01",
         "581": "Prehistoric Skull/100/-300/Arch/史前頭骨/這絕對是一個哺乳類動物的頭蓋骨。/Mountain .01",
-        "582": "Skeletal Hand/100/-300/Arch/手部骨骼/這些史前遺跡能夠存在這麼久真是個奇跡。/Beach .01",
+        "582": "Skeletal Hand/100/-300/Arch/手部骨骼/這些史前遺跡能夠存在這麼久真是個奇蹟。/Beach .01",
         "583": "Prehistoric Rib/100/-300/Arch/史前肋骨/肋骨一側的淺溝說明這根肋骨曾經是什麼人的晚餐。/Farm .01",
         "584": "Prehistoric Vertebra/100/-300/Arch/史前椎骨/某種史前生物脊椎的一部分。/BusStop .01",
         "585": "Skeletal Tail/100/-300/Arch/尾部骨骼/這尾巴還真短。/UndergroundMine .01",
@@ -604,7 +604,7 @@
         "809": "Movie Ticket/500/-300/Basic/電影票/允許一個人進入電影院。送給朋友就可以邀請他們和你一起看電影。",
         "810": "Crabshell Ring/2000/-300/Ring/蟹殼戒指/戒指的頂部是由附魔的蟹殼製成的。",
         "811": "Napalm Ring/2000/-300/Ring/燃燒彈戒指/當你擊敗敵人時，它們會爆炸。",
-        "812": "Roe/30/20/Basic -23/魚卵/新鮮的魚卵。可以放進醃製罐中醃漬，從而產生特殊風味。",
+        "812": "Roe/30/20/Basic -23/魚卵/新鮮的魚卵。可以放進醃製桶中醃漬，從而產生特殊風味。",
         "814": "Squid Ink/110/-300/Basic -23/魷魚墨汁/魷魚使用這種墨汁來迷惑可能的掠食者。",
         "815": "Tea Leaves/50/-300/Basic -75/茶葉/茶樹幼葉。可沖泡成受人歡迎的提神茶水。"
     }
