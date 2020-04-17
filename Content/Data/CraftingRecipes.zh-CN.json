@@ -21,7 +21,7 @@
         "Iron Fence": "335 1/Field/324 10/false/Farming 4/鐵柵欄",
         "Hardwood Fence": "709 1/Field/298/false/Farming 6/硬木柵欄",
         "Gate": "388 10/Home/325/false/l 0/柵欄門",
-        "Chest": "388 50/Home/130/true/null/寶箱",
+        "Chest": "388 50/Home/130/true/null/箱子",
         "Torch": "388 1 92 2/Field/93/false/l 0/火把",
         "Scarecrow": "388 50 382 1 771 20/Home/8/true/Farming 1/稻草人",
         "Bee House": "388 40 382 8 335 1 724 1/Home/10/true/Farming 3/蜂房",
