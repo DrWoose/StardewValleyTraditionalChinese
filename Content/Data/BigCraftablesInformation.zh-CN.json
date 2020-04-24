@@ -132,7 +132,7 @@
         "138": "Rarecrow/0/-300/Crafting -9/將它們全部收齊！（8-6）/true/true/0/珍奇烏鴉",
         "139": "Rarecrow/0/-300/Crafting -9/將它們全部收齊！（8-7）/true/true/0/珍奇烏鴉",
         "140": "Rarecrow/0/-300/Crafting -9/將它們全部收齊！（8-8）/true/true/0/珍奇烏鴉",
-        "141": "Prairie King Arcade System/0/-300/Crafting -9/在家裡玩「草原之王的冒險之旅」！/true/true/0/草原之王街機系統",
+        "141": "Prairie King Arcade System/0/-300/Crafting -9/在家裡玩《草原之王的冒險之旅》！/true/true/0/草原之王遊戲機臺",
         "143": "Wooden Brazier/25/-300/Crafting -9/提供一點亮光。/true/true/0/木製火盆",
         "144": "Stone Brazier/40/-300/Crafting -9/提供一點亮光。/true/true/0/石製火盆",
         "145": "Gold Brazier/100/-300/Crafting -9/提供一點亮光。/true/true/0/金製火盆",
@@ -148,7 +148,7 @@
         "155": "??HMTGF??/0/-300/Crafting -9/??HMTGF??/true/true/0/??HMTGF??",
         "156": "Slime Incubator/0/-300/Crafting -9/將史萊姆蛋孵化成史萊姆，讓你能夠在室外飼養史萊姆。/true/false/0/史萊姆孵化器",
         "158": "Slime Egg-Press/0/-300/Crafting -9/壓製 100 塊史萊姆泥為一粒史萊姆蛋。簡直是奇蹟！/true/false/0/史萊姆蛋壓製機",
-        "159": "Junimo Kart Arcade System/0/-300/Crafting -9/在家玩「祝尼魔賽車」！/true/true/0/祝尼魔賽車街機系統",
+        "159": "Junimo Kart Arcade System/0/-300/Crafting -9/在家玩《祝尼魔賽車》！/true/true/0/祝尼魔賽車遊戲機臺",
         "160": "Statue Of Perfection/0/-300/Crafting -9/由純銥打造而成。/true/true/0/完美雕像",
         "161": "??Pinky Lemon??/0/-300/Crafting -9/??粉色檸檬??/true/true/0/??粉色檸檬??",
         "162": "??Foroguemon??/0/-300/Crafting -9/??碎屑雕像??/true/true/0/??碎屑雕像??",
@@ -166,6 +166,6 @@
         "209": "Mini-Jukebox/1500/-300/Crafting -9/可以播放自己最喜歡的音樂。/true/true/0/迷你點唱機",
         "211": "Wood Chipper/500/-300/Crafting -9/放入一塊硬木，把它分解成普通的木材。/true/true/0/碎木機",
         "216": "Mini-Fridge/1500/-300/Crafting -9/可以儲存額外的烹飪原材料。/true/true/0/迷你冰箱",
-        "219": "Cursed P.K. Arcade System/0/-300/Crafting -9/這臺草原之王街機系統有哪裡不對勁……/true/true/0/被詛咒的 P.K. 街機系統"
+        "219": "Cursed P.K. Arcade System/0/-300/Crafting -9/這臺草原之王遊戲機臺有哪裡不對勁……/true/true/0/被詛咒的草原之王遊戲機臺"
     }
 }
