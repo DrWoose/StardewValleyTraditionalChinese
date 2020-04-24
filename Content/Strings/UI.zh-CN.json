@@ -100,7 +100,7 @@
         "Collections_Description_ArtifactsFound": "總共找到：{0}",
         "Collections_Description_RecipesCooked": "烹飪次數：{0}",
         "Collections_Description_FishCaught": "捕獲的數量：{0}",
-        "Collections_Description_BiggestCatch": "最大捕獲量：{0}英寸。",
+        "Collections_Description_BiggestCatch": "最大長度：{0} 英寸",
         "Collections_Description_MineralsFound": "發現的數量：{0}",
         "Collections_Description_NumberShipped": "運送的數量：{0}",
         "QuestButton_Hover": "日誌（{0}）",
