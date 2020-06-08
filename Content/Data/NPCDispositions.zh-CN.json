@@ -18,7 +18,7 @@
     "content": {
         "Abigail": "teen/rude/outgoing/neutral/female/datable/Sebastian/Town/fall 13/Caroline '媽媽' Pierre '爸爸'/SeedShop 1 9/阿比蓋爾",
         "Caroline": "adult/polite/neutral/neutral/female/not-datable/Pierre/Town/winter 7/Pierre '丈夫' Abigail ''/SeedShop 22 5/卡洛琳",
-        "Clint": "adult/rude/shy/negative/male/not-datable/Emily/Town/winter 26/Emily ''/Blacksmith 3 13/克林",
+        "Clint": "adult/rude/shy/negative/male/not-datable/Emily/Town/winter 26/Emily ''/Blacksmith 3 13/克林特",
         "Demetrius": "adult/polite/neutral/positive/male/not-datable/Robin/Town/summer 19/Robin '妻子' Maru ''/ScienceHouse 19 4/迪馬崔斯",
         "Willy": "adult/neutral/neutral/neutral/male/not-datable/null/Town/summer 24/Elliott ''/FishShop 5 4/威利",
         "Elliott": "adult/polite/neutral/neutral/male/datable/Leah/Town/fall 5/Willy ''/ElliottHouse 1 5/艾略特",
@@ -43,7 +43,7 @@
         "Pierre": "adult/neutral/outgoing/positive/male/not-datable/Caroline/Town/spring 26/Abigail '女兒' Caroline '妻子'/SeedShop 4 17/皮耶爾",
         "Robin": "adult/neutral/outgoing/positive/female/not-datable/Demetrius/Town/fall 21/Demetrius '丈夫' Maru '女兒' Sebastian '兒子'/ScienceHouse 21 4/羅賓",
         "Sam": "teen/neutral/outgoing/positive/male/datable/Penny/Town/summer 17/Vincent '小弟弟' Jodi '媽媽' Kent '爸爸' Sebastian ''/SamHouse 22 13/山姆",
-        "Sebastian": "teen/rude/shy/negative/male/datable/Abigail/Town/winter 10/Robin '媽媽' Maru '同母異父的妹妹' Sam ''/SebastianRoom 10 9/塞巴斯蒂安",
+        "Sebastian": "teen/rude/shy/negative/male/datable/Abigail/Town/winter 10/Robin '媽媽' Maru '同母異父的妹妹' Sam ''/SebastianRoom 10 9/賽巴斯汀",
         "Shane": "adult/rude/shy/negative/male/datable/null/Town/spring 20/Marnie '阿姨'/AnimalShop 25 6/謝恩",
         "Vincent": "child/neutral/outgoing/positive/male/not-datable/Jas/Town/spring 10/Jas ''/SamHouse 10 23/文森",
         "Wizard": "adult/rude/neutral/negative/male/not-datable/null/Other/winter 17//WizardHouse 3 17/巫師",

@@ -21,7 +21,7 @@
         "Earth Obelisk": "337 10 86 10/3/2/-1/-1/-2/-1/null/土方尖塔/將你傳送到山嶺。/Buildings/none/48/128/-1/null/Farm/1000000/true",
         "Water Obelisk": "337 5 372 10 393 10/3/2/-1/-1/-2/-1/null/水方尖塔/將你傳送到海灘。/Buildings/none/48/128/-1/null/Farm/1000000/true",
         "Junimo Hut": "390 200 268 9 771 100/3/2/-1/-1/-2/-1/null/祝尼魔小屋/祝尼魔會為你收割小屋周圍的莊稼。/Buildings/none/48/64/-1/null/Farm/20000/true",
-        "Gold Clock": "/3/2/-1/-1/-2/-1/null/黃金時鐘/阻止雜物出現在你的農場，以及防止籬笆腐爛。/Buildings/none/48/80/-1/null/Farm/10000000/true",
+        "Gold Clock": "/3/2/-1/-1/-2/-1/null/黃金時鐘/阻止雜物出現在你的農場，以及防止柵欄腐爛。/Buildings/none/48/80/-1/null/Farm/10000000/true",
         "Stable": "709 100 335 5/4/2/-1/-1/-2/-1/null/馬廄/讓你可以飼養以及騎乘馬匹。/Buildings/none/64/96/-1/null/Farm/10000/false",
         "Well": "390 75/3/3/-1/-1/-1/-1/null/水井/用來重裝你的澆水壺。/Buildings/none/32/32/-1/null/Farm/1000/false",
         "Coop": "388 300 390 100/6/3/1/2/2/2/Coop/雞舍/可容納 4 隻家禽。/Buildings/none/64/96/4/null/Farm/4000/false",

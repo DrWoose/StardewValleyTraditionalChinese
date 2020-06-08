@@ -119,7 +119,7 @@
 		"fall_movie_0": {
 			"ID": null,
 			"SheetIndex": 1,
-			"Title": "神秘事跡",
+			"Title": "神秘事蹟",
 			"Description": "午夜面紗背後所隱藏的……只有經歷過才會相信！",
 			"Tags": [
 			  "horror",
@@ -132,7 +132,7 @@
 				"Sound": "",
 				"MessageDelay": 500,
 				"Script": "/pause 4000",
-				"Text": "《神秘事跡》",
+				"Text": "《神秘事蹟》",
 				"Shake": false,
 				"ResponsePoint": null,
 				"ID": "fall0_0"
@@ -231,7 +231,7 @@
 				"Sound": "",
 				"MessageDelay": 500,
 				"Script": "/playSound shadowpeep",
-				"Text": "“你一定要告訴你的朋友去看今晚的《神秘事跡》……”",
+				"Text": "“你一定要告訴你的朋友去看今晚的《神秘事蹟》……”",
 				"Shake": false,
 				"ResponsePoint": null,
 				"ID": "fall0_9"
@@ -585,7 +585,7 @@
 		  "winter_movie_0": {
 			"ID": null,
 			"SheetIndex": 5,
-			"Title": "冷星牧場的奇跡",
+			"Title": "冷星牧場的奇蹟",
 			"Description": "儘管困難重重，一個家庭還是保持著冬星精神的延續……",
 			"Tags": [
 			  "family",
@@ -598,7 +598,7 @@
 				"Sound": "",
 				"MessageDelay": 500,
 				"Script": "",
-				"Text": "《冷星牧場的奇跡》",
+				"Text": "《冷星牧場的奇蹟》",
 				"Shake": false,
 				"ResponsePoint": null,
 				"ID": "winter0_0"
