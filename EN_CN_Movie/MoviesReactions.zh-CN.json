@@ -445,7 +445,7 @@
 			  "AfterMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "真是可憐！他們現在都是把什麼垃圾當成“電影”的啊…… "
+				"Text": "真是可憐！他們現在都是把什麼垃圾當成“電影”的啊……"
 			  }
 			},
 			"ID": "reaction_5"
@@ -1268,7 +1268,7 @@
 			  "BeforeMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "哦天哪，我太激動了！我聽說它的配樂很棒。"
+				"Text": "哦天啊，我太激動了！我聽說它的配樂很棒。"
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
@@ -1844,7 +1844,7 @@
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
-				"Script": "/emote Sebastian 32/message \"賽巴斯汀臉上露出了笑容。 \"",
+				"Script": "/emote Sebastian 32/message \"賽巴斯汀臉上露出了笑容。\"",
 				"Text": "這電影的攝影技術一流。"
 			  },
 			  "AfterMovie": {
@@ -2262,7 +2262,7 @@
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
-				"Script": "/message \"謝恩正在努力忍笑。 \"",
+				"Script": "/message \"謝恩正在努力忍笑。\"",
 				"Text": "不錯，很好看……$h"
 			  },
 			  "AfterMovie": {
