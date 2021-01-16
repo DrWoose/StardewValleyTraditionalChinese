@@ -183,7 +183,7 @@
         "256": "Junimo Chest/0/-300/Crafting -9/藉著森林魔法的力量，所有祝尼魔箱皆會連結至同一個儲存處。/true/true/0/祝尼魔箱",
         "264": "Heavy Tapper/0/-300/Crafting -9/放在楓樹、橡樹、松樹上，然後等著裝滿樹液吧！比普通樹液採集器快一倍。/true/false/0/大型樹液採集器",
         "265": "Deconstructor/0/-300/Crafting -9/分解合成的物品，並回收最有價值的材料。/true/true/0/分解機",
-        "272": "Auto-Petter/0/-300/Crafting -9/每天早上自動撫摸你飼養的動物。必須放在雞舍或畜棚內。/true/true/0/自動撫摸機",
+        "272": "Auto-Petter/0/-300/Crafting -9/Joja 公司專利技術，適用於雞舍和畜棚。可以讓動物滿足，但是無法達成親自撫摸的所有好處。使用後仍可手動撫摸來補足。/true/true/0/自動撫摸機",
         "275": "Hopper/0/-300/Crafting -9/放入的物品會自動放進前面的機器裡。/true/true/0/加料器",
         "278": "Campfire/0/-300/Crafting -9/隨時隨地做飯！/true/true/1/篝火",
         "280": "Statue Of True Perfection/0/-300/Crafting -9/由純銥雕鑄而成。/true/true/0/真正完美的雕像"
