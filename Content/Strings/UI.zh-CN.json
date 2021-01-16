@@ -693,7 +693,7 @@
 		"Forge_InsufficientCinderShards": "你的火山晶石不夠。",
 		"Forge_Unforge": "取消鍛造",
 		"Item_Tooltip_Forged": "已鍛造",
-		"LocalJoinPrompt": "按下開始加入遊戲",
+		"LocalJoinPrompt": "按下星號（*）加入遊戲",
 		"StartLocalMulti": "開始本地連線",
 		"DropOutLocalMulti": "離開遊戲",
 		"ChooseOne": "請選擇：",
@@ -705,7 +705,7 @@
 		"GameMenu_MoveBuildingPermissions_Off": "僅限房主",
 		"GameMenu_MoveBuildingPermissions_Owned": "僅限該建築物的主人",
 		"GameMenu_MoveBuildingPermissions_On": "任何人",
-		"Character_FarmBeach": "海灘農場_覓食與釣魚的好去處，還有成片的空地。有時會有補給箱沖到沙灘上。但是，灑水器在沙子上沒有用。",
+		"Character_FarmBeach": "海灘農場_採集與釣魚的好去處，還有成片的空地。有時會有補給箱沖到沙灘上。但是，灑水器在沙子上沒有用。",
 		"Forge_enchanting": "附魔中……",
 		"Forge_forging": "鍛造中……",
 		"Forge_description1": "把武器或工具放在左邊的插槽。把寶石放在右邊的插槽。",
@@ -815,5 +815,8 @@
 		"AGO_Farmhouse_Tooltip": "你的農舍將安置在農場的另一個位置。",
 		"AGO_EasyMode": "簡單模式",
 		"AGO_EasyMode_Tooltip": "使遊戲的某些方面變得更容易，並減少懲罰。"
+        "ParrotPlatform_Question": "要坐鸚鵡特快到哪裡？",
+        "PlayerLimit": "玩家數上限",
+        "DisplayAdjustmentText": "按上或下調整視窗大小，以貼合您的螢幕。"
     }
 }
