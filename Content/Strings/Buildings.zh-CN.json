@@ -28,6 +28,8 @@
         "WrongFishTypeCoral": "{0}只能放在{0}魚塘中。",
         "WrongFishType": "你的{0}不想生活在{1}魚塘中。",
         "CantPutInPonds": "{0}在那裡不會高興的。",
-        "PondFull": "這個魚塘已經滿了。"
+        "PondFull": "這個魚塘已經滿了。",
+		"Paint_Region_Roof": "屋頂",
+		"Paint_Region_Building": "屋頂"
     }
 }

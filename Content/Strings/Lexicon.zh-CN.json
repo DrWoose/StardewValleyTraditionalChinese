@@ -37,6 +37,8 @@
         "QuestionDialogue_No": "否",
         "GenericPlayerTerm": "農夫",
         "Pronoun_Female": "她",
-        "Pronoun_Male": "他"
+        "Pronoun_Male": "他",
+		"Possessive_Pronoun_Male": "他的",
+		"Possessive_Pronoun_Female": "她的"
     }
 }
