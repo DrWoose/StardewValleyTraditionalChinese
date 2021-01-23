@@ -525,10 +525,10 @@
         "Profile_Birthday": "生日",
         "PondQuery_StatusRequestComplete6": "魚群看起來很開心。",
         "PondQuery_StatusRequestComplete4": "「啊，是{0}……這讓我們相當愜意。」",
-        "PondQuery_StatusRequestComplete5": "「大伙來看……是新鮮的{0}！」",
+        "PondQuery_StatusRequestComplete5": "「大家來看……是新鮮的{0}！」",
         "SleepAnnounceMode_All": "所有人",
         "PondQuery_StatusRequestComplete3": "「謝謝你！這{0}會讓我們長得壯壯的。」",
-        "PondQuery_StatusRequestComplete0": "「Wow，謝謝你的{0}！」",
+        "PondQuery_StatusRequestComplete0": "「哇，謝謝你的{0}！」",
         "PondQuery_StatusRequestComplete1": "「嘿，看哪，這是{0}。正是我們需要的！」",
         "Emote_Heart": "愛心",
         "Options_StowingMode_On": "開啟",
@@ -815,7 +815,7 @@
 		"AGO_Farmhouse_Tooltip": "你的農舍將安置在農場的另一個位置。",
 		"AGO_EasyMode": "簡單模式",
 		"AGO_EasyMode_Tooltip": "使遊戲的某些方面變得更容易，並減少懲罰。"
-        "ParrotPlatform_Question": "要坐鸚鵡特快到哪裡？",
+        "ParrotPlatform_Question": "要坐鸚鵡快遞到哪裡？",
         "PlayerLimit": "玩家數上限",
         "DisplayAdjustmentText": "按上或下調整視窗大小，以貼合您的螢幕。"
     }
