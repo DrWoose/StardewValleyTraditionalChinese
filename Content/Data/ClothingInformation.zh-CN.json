@@ -234,7 +234,7 @@
         "1294": "Yellow Suit/黃色西裝/敢穿這套西裝說明你大膽自信。/296/-1/50/0 50 200/false/Shirt",
         "1295": "Hot Pink Shirt/熱粉色襯衫/熱帶粉色的絲綢襯衫。/297/-1/50/0 50 200/false/Shirt",
         "1296": "Tropical Sunrise Shirt/熱帶日出T恤/這件T恤有椰子的味道。/298/-1/50/0 50 200/false/Shirt",
-        "1297": "Island Bikini/島嶼比基尼/芬群島經典款式。/299/-1/50/255 195 0/true/Shirt/Sleeveless",
+        "1297": "Island Bikini/島嶼比基尼/芬群島經典款。/299/-1/50/255 195 0/true/Shirt/Sleeveless",
         "-1": "Pants/褲子/可以穿的褲子。/0/-1/50/255 235 203/true/Pants",
         "-2": "Shirt/上衣/可以穿的上衣。/0/-1/50/255 255 255/false/Shirt"
     }
