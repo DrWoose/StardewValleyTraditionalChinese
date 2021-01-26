@@ -906,7 +906,7 @@
 				"Music": "",
 				"Sound": "",
 				"MessageDelay": 500,
-				"Script": "/pause 1000/message \"“(沉重的喘息)……看！”\"/playSound leafrustle/specificTemporarySprite woodswalker/pause 1000/playSound rainsound/pause 5000",
+				"Script": "/pause 1000/message \"“（沉重的喘息）……看！”\"/playSound leafrustle/specificTemporarySprite woodswalker/pause 1000/playSound rainsound/pause 5000",
 				"Text": "",
 				"Shake": false,
 				"ResponsePoint": "",
@@ -929,7 +929,7 @@
 				"Sound": "",
 				"MessageDelay": 500,
 				"Script": "/specificTemporarySprite movieFrame 7 5 1700/playSound batScreech/spriteText 4 \"啊！\"/pause 20",
-				"Text": "“哦，原來只是你，加里……(喘)(喘)……別抓著我的胳膊！”",
+				"Text": "“哦，原來只是你，加里……（喘）（喘）……別抓著我的胳膊！”",
 				"Shake": true,
 				"ResponsePoint": "",
 				"ID": "fall1_5"
