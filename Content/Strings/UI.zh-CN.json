@@ -814,7 +814,7 @@
 		"AGO_Farmhouse": "隨機分配農舍位置",
 		"AGO_Farmhouse_Tooltip": "你的農舍將安置在農場的另一個位置。",
 		"AGO_EasyMode": "簡單模式",
-		"AGO_EasyMode_Tooltip": "使遊戲的某些方面變得更容易，並減少懲罰。"
+		"AGO_EasyMode_Tooltip": "使遊戲的某些方面變得更容易，並減少懲罰。",
         "ParrotPlatform_Question": "要坐鸚鵡快遞到哪裡？",
         "PlayerLimit": "玩家數上限",
         "DisplayAdjustmentText": "按上或下調整視窗大小，以貼合您的螢幕。"
