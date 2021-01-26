@@ -33,7 +33,7 @@
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
-				"Script": "/message \"（潘姆和佩妮正全神貫注地看著！）\"",
+				"Script": "/message \"(潘姆和潘妮正全神貫注地看著！)\"",
 				"Text": ""
 			  },
 			  "AfterMovie": {
@@ -52,11 +52,11 @@
 			  "BeforeMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "我很期待！潔絲和文森一直在不停地討論這件事。"
+				"Text": "我很期待！賈斯和文森特一直在不停地討論這件事。"
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": "sprout_leave",
-				"Script": "/shake Penny 3000/pause 500/message \"佩妮似乎在忍著眼淚……\"",
+				"Script": "/shake Penny 3000/pause 500/message \"潘妮似乎在忍著眼淚……\"",
 				"Text": "哇，離開家人真的很難過……$s"
 			  },
 			  "AfterMovie": {
@@ -86,7 +86,7 @@
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
-				"Script": "/message \"（佩妮在微笑）\"",
+				"Script": "/message \"(潘妮在微笑)\"",
 				"Text": ""
 			  },
 			  "AfterMovie": {
@@ -309,7 +309,7 @@
 			  "BeforeMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "咳……你好！我非常高興能夠來視覺娛樂中心然後吃爆開的玉米……就像你一樣！$8#$b#（耳語）……我怎麼樣？$8"
+				"Text": "咳……你好！我非常高興能夠來視覺娛樂中心然後吃爆開的玉米……就像你一樣！$8#$b#(耳語)……我怎麼樣？$8"
 			  },
 			  "DuringMovie": null,
 			  "AfterMovie": {
@@ -800,7 +800,7 @@
 			  "AfterMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "（呵欠）……太無聊了，是不是？"
+				"Text": "(呵欠)……太無聊了，是不是？"
 			  }
 			},
 			"ID": "reaction_6"
@@ -917,7 +917,7 @@
 			  "BeforeMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "我看這個很緊張……（咽口水）"
+				"Text": "我看這個很緊張……(咽口水)"
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
@@ -1088,7 +1088,7 @@
 			  "BeforeMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "（嗅）（嗅）……我聞到了好吃的東西……"
+				"Text": "(嗅)(嗅)……我聞到了好吃的東西……"
 			  },
 			  "DuringMovie": null,
 			  "AfterMovie": {
@@ -1117,7 +1117,7 @@
 			  "DuringMovie": {
 				"ResponsePoint": "PK_villain",
 				"Script": "/message \"路易斯鎮長似乎在沉思……\"",
-				"Text": "（我很好奇他用什麼樣的鬍子蠟？）"
+				"Text": "(我很好奇他用什麼樣的鬍子蠟？)"
 			  },
 			  "AfterMovie": {
 				"ResponsePoint": null,
@@ -1304,7 +1304,7 @@
 			  "AfterMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "這很好看！我通常不害怕電影，但這部有點嚇到我了……我想我不會帶文森來看這個。"
+				"Text": "這很好看！我通常不害怕電影，但這部有點嚇到我了……我想我不會帶文森特來看這個。"
 			  }
 			},
 			"ID": "reaction_2"
@@ -1323,7 +1323,7 @@
 			  "AfterMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "不錯！我可能得帶文森來看這個。"
+				"Text": "不錯！我可能得帶文森特來看這個。"
 			  }
 			},
 			"ID": "reaction_3"
@@ -1396,7 +1396,7 @@
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
-				"Script": "/jump Vincent/pause 400/playSound reward/message \"文森玩得很開心！\"",
+				"Script": "/jump Vincent/pause 400/playSound reward/message \"文森特玩得很開心！\"",
 				"Text": ""
 			  },
 			  "AfterMovie": {
@@ -1419,7 +1419,7 @@
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
-				"Script": "/shake Vincent 250/pause 500/shake Vincent 250/pause 500/emote Vincent 28/message \"文森在他的座位上煩躁不安。\"",
+				"Script": "/shake Vincent 250/pause 500/shake Vincent 250/pause 500/emote Vincent 28/message \"文森特在他的座位上煩躁不安。\"",
 				"Text": ""
 			  },
 			  "AfterMovie": {
@@ -1529,7 +1529,7 @@
 			  "DuringMovie": {
 				"ResponsePoint": null,
 				"Script": "/message \"克林特從沒有標籤的燒瓶中吸了一口。\"",
-				"Text": "這只是……嗝……Joja 可樂。$h^（輕聲）……如果你……累了……可以把你的頭放在我的……我的肩膀上。嘿……隨便你！$4"
+				"Text": "這只是……嗝……Joja 可樂。$h^(輕聲)……如果你……累了……可以把你的頭放在我的……我的肩膀上。嘿……隨便你！$4"
 			  },
 			  "AfterMovie": {
 				"ResponsePoint": null,
@@ -1716,7 +1716,7 @@
 			  "AfterMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "（呵欠）……什麼？哦……這部電影是關於什麼的來著？$7"
+				"Text": "(呵欠)……什麼？哦……這部電影是關於什麼的來著？$7"
 			  }
 			},
 			"ID": "reaction_5"
@@ -1863,7 +1863,7 @@
 			  "BeforeMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "（聳肩）……電影海報看起來很酷，所以我同意。"
+				"Text": "(聳肩)……電影海報看起來很酷，所以我同意。"
 			  },
 			  "DuringMovie": null,
 			  "AfterMovie": {
@@ -2207,7 +2207,7 @@
 			  "BeforeMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "但……嗯，我覺得這應該還行。（嗅）（嗅）……有吃的就好了。"
+				"Text": "但……嗯，我覺得這應該還行。(嗅)(嗅)……有吃的就好了。"
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": "PK_villain",
@@ -2281,7 +2281,7 @@
 			  "BeforeMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "但……嗯，我覺得這應該還行。（嗅）（嗅）……有吃的就好了。"
+				"Text": "但……嗯，我覺得這應該還行。(嗅)(嗅)……有吃的就好了。"
 			  },
 			  "DuringMovie": null,
 			  "AfterMovie": {
@@ -2353,7 +2353,7 @@
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
-				"Script": "/jump Jas/pause 400/playSound reward/message \"潔絲非常高興！\"",
+				"Script": "/jump Jas/pause 400/playSound reward/message \"賈斯非常高興！\"",
 				"Text": ""
 			  },
 			  "AfterMovie": {
@@ -2376,7 +2376,7 @@
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
-				"Script": "/message \"潔絲在四處張望。\"",
+				"Script": "/message \"賈斯在四處張望。\"",
 				"Text": ""
 			  },
 			  "AfterMovie": {
@@ -2399,13 +2399,13 @@
 			  },
 			  "DuringMovie": {
 				"ResponsePoint": null,
-				"Script": "/shake Jas 250/pause 500/shake Jas 250/pause 500/emote Jas 28/message \"潔絲在發抖。\"",
+				"Script": "/shake Jas 250/pause 500/shake Jas 250/pause 500/emote Jas 28/message \"賈斯在發抖。\"",
 				"Text": "我好害怕……$s"
 			  },
 			  "AfterMovie": {
 				"ResponsePoint": null,
 				"Script": "",
-				"Text": "（吸鼻子）……$s"
+				"Text": "(吸鼻子)……$s"
 			  }
 			},
 			"ID": "reaction_5"
