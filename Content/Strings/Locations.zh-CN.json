@@ -278,7 +278,7 @@
         "ManorHouse_DivorceBook_CancelQuestion_Krobus": "要取消你的驅逐令嗎？",
         "ManorHouse_DivorceBook_Cancelled_Krobus": "你對踢走柯洛布斯一事回心轉意了。",
         "ManorHouse_DivorceBook_Filed_Krobus": "你已決定要把柯洛布斯踢出你家。要是你改變主意，請在天亮前回來。",
-        "Theater_Poster_0": "正在上映：《{0}》",
+        "Theater_Poster_0": "上映中：《{0}》",
         "Theater_Poster_1": "「{0}」",
         "Theater_Poster_Coming_Soon": "即將上映：《{0}》。",
         "Theater_MovieEnd": "今晚的電影已結束。希望你看得滿意！",
@@ -421,7 +421,7 @@
         "AnimalHouse_Incubator_HouseFull": "一隻蛋已經準備好孵化了，但是房子裡已經沒有空間了。",
         "SandDuggy": "挖洞怪",
         "TravelingMerchant": "旅行商人",
-        "ScienceHouse_Carpenter_CommunityUpgrade2": "……什麼？你想讓我在山谷周圍加幾條捷徑？我當然能辦到！^我只需要 300,000 金……",
+        "ScienceHouse_Carpenter_CommunityUpgrade2": "……什麼？你想讓我在山谷周圍加幾條捷徑？我當然能辦到！^我只需要 300,000G……",
         "AnimalHouse_Incubator_Hatch_GoldenEgg": "一隻閃閃發光的金色小雞孵化了！",
         "SummitBoulder": "看來是沒辦法改變主意了……",
         "Hint": "提示"
