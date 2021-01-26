@@ -33,12 +33,12 @@
         "RandomSlightlyPositiveFoodAdjective": "相當好#挺好#可以吃",
         "ChildTerm_Male": "男孩",
         "ChildTerm_Female": "女孩",
+        "Pronoun_Male": "他",
+        "Pronoun_Female": "她",
         "QuestionDialogue_Yes": "是",
         "QuestionDialogue_No": "否",
         "GenericPlayerTerm": "農夫",
-        "Pronoun_Female": "她",
-        "Pronoun_Male": "他",
-		"Possessive_Pronoun_Male": "他的",
-		"Possessive_Pronoun_Female": "她的"
+        "Possessive_Pronoun_Male": "他的",
+        "Possessive_Pronoun_Female": "她的"
     }
 }
