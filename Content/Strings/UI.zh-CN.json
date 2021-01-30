@@ -265,7 +265,7 @@
         "LevelUp_ProfessionDescription_Desperado": "對敵人的暴擊將產生致命效果。",
         "LevelUp_ChooseProfession": "選擇一個職業：",
         "LevelUp_NewRecipe": "新{0}配方：{1}",
-        "LoadGameMenu_LookingForSavedGames": "正在讀取存檔……",
+        "LoadGameMenu_LookingForSavedGames": "讀取存檔中……",
         "LoadGameMenu_Deleting": "正在刪除……",
         "TitleMenu_PressAToStart": "請按 @ 進行開始",
         "TooManyFarmsMenu_TooManyFarms": "你的農場數量已經達到上限。",
