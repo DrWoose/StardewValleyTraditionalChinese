@@ -59,8 +59,8 @@
   {
     "ID": 5,
     "Name": "Nachos",
-    "DisplayName": "墨西哥脆餅",
-    "Description": "將現炸玉米餅塗滿濃稠香辣的起司。",
+    "DisplayName": "辣起司玉米片",
+    "Description": "將現炸玉米片塗滿濃稠香辣的起司。",
     "Price": 100,
     "ItemTags": [
       "Hot",
