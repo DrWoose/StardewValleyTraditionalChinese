@@ -41,7 +41,7 @@
         "Log Cabin": "388 10/5/3/2/1/-1/-1/Cabin/連線小屋/朋友的家！由城鎮農業基金補貼。/Buildings/none/96/96/20/null/Farm/100/false/0",
         "Greenhouse": "/7/6/3/5/-1/-1/null/溫室/可全年種植任何季節作物的地方！/Buildings/none/64/96/-1/null/Farm/-1/false/0/2 6 3 6 4 6 2 7 3 7 4 7",
         "Mine Elevator": "388 30 390 15 334 5/4/2/1/1/-1/-1/null/礦井電梯/快速在你建造的任何礦場升降機之間傳送。每層礦場你只能設一個。/Buildings/none/64/64/-1/MineElevator/UndergroundMine",
-        "Fish Pond": "390 200 152 5 153 5/5/5/-1/-1/-2/-1/null/魚塘/養魚並收穫水產品。魚會隨著時間的推移而繁殖。/Buildings/none/76/78/10/null/Farm/5000/false/2",
+        "Fish Pond": "390 200 152 5 153 5/5/5/-1/-1/-2/-1/null/魚池/養魚並收穫水產品。魚會隨著時間的推移而繁殖。/Buildings/none/76/78/10/null/Farm/5000/false/2",
         "Chicken": "animal/500/64/64/雞/下蛋，美味的蛋。有兩種顏色。/null/Farm",
         "Duck": "animal/1000/64/64/鴨/會下蛋，偶爾會掉落鴨毛。/null/Farm",
         "Rabbit": "animal/1500/64/64/兔子/毛茸茸的兔子！/null/Farm",
