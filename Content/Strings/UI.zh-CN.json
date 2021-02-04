@@ -669,7 +669,7 @@
         "AGO_ProfitMargin_Tooltip": "物品賣出價格倍數。",
         "AGO_MPOptions_Label": "多人遊戲設定：",
         "AGO_StartingCabins_Tooltip": "初始小屋的數目。",
-        "AGO_OtherOptions_Label": "其它設定：",
+        "AGO_OtherOptions_Label": "其他設定：",
         "AGO_CabinLayout_Tooltip": "調整小屋之間的距離。",
         "AGO_RandomSeed": "隨機種子碼：",
         "AGO_RandomSeed_Tooltip": "用於遊戲世界隨機化的種子碼。",
