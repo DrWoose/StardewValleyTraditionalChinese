@@ -110,7 +110,7 @@
         "149": "Octopus/150/-300/Fish -4/章魚/一種神秘聰明的生物。/Day^Summer",
         "150": "Red Snapper/50/10/Fish -4/紅鯛魚/一種身上是漂亮紅色的受歡迎魚類。/Day^Summer Fall Winter",
         "151": "Squid/80/10/Fish -4/魷魚/一種可以長得很大的深海生物。/Day^Winter",
-        "152": "Seaweed/20/5/Fish/海草/它可以被用於烹飪。/Day Night^Spring Summer Fall Winter",
+        "152": "Seaweed/20/5/Fish/海藻/它可以被用於烹飪。/Day Night^Spring Summer Fall Winter",
         "153": "Green Algae/15/5/Fish/綠藻/它黏黏的。/Day Night^Spring Summer Fall Winter",
         "154": "Sea Cucumber/75/-10/Fish -4/海參/一種在海底能找到的黏滑生物。/Day^Fall Winter",
         "155": "Super Cucumber/250/50/Fish -4/大海參/一種稀有紫色品種的海參。/Night^Summer Fall",
