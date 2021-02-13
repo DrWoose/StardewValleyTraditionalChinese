@@ -281,7 +281,7 @@
         "Options_StowingMode_GamepadOnly": "僅手把開啟",
         "Options_StowingMode_On": "開啟",
         "Options_ShowAdvancedCraftingInformation": "顯示進階合成資訊",
-        "Crafting_NumberCrafted": "已打造數目：{0}",
+        "Crafting_NumberCrafted": "已合成數目：{0}",
         "Options_GamepadStyleMenus": "使用手把風格選單",
         "Options_GamepadStyleMenus.ps4": "使用手把風格選單",
         "SaveGameMenu_Saving1.nswitch": "儲存中，此過程可能需要較長時間。",
