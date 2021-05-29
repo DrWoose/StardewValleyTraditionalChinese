@@ -696,7 +696,7 @@
         "LocalJoinPrompt": "按下*加入遊戲",
         "StartLocalMulti": "開始本機多人連線",
         "DropOutLocalMulti": "離開遊戲",
-        "ChooseOne": "請選擇：",
+        "ChooseOne": "請選擇",
         "Carpenter_PaintBuildings": "粉刷建築物",
         "Carpenter_CannotPaint": "這座建築不能粉刷",
         "Carpenter_CannotPaint_Permission": "你沒有粉刷這棟建築的權限",
