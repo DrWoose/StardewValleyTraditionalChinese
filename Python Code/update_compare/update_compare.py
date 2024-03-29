@@ -37,9 +37,105 @@ def addcomma(data):
     for i in data:
         text.append(re.sub('"\n$','",\n', i))
 
+def Convert_To_txt(file_path):
+    new_file_path = file_path.with_suffix('.txt')
+    new_file_path = 'compare_output' / Path(*list(new_file_path.parts)[3:])
+    return new_file_path
+    #Path(*list(file.parts)[3:])
+
+def output_to_txt_file(file,difline,update_simplified_chinese_text,old_english_text):
+
+    output_txt_file_path = Convert_To_txt(file)
+
+    new_english_line = [i for i in line if i not in difline]  # 新句子
+    
+    with open(output_txt_file_path, "w", encoding="utf-8") as output_file:
+        output_file.write(str(file) + '\n')
+        if new_english_line:
+            output_file.write("新句子：\n")
+            for i in new_english_line:
+                has_simplified_chinese_line = False
+                output_file.write(i.strip() + '\n')
+                key = re.sub('\\s+(".*"):.*\n?', '\\g<1>' , i)
+                for j in update_simplified_chinese_text:
+                    if key in j:
+                        output_file.write(j.strip() + '\n')
+                        has_simplified_chinese_line = True
+                if not has_simplified_chinese_line:
+                    output_file.write("簡中沒更新這句\n")
+        
+        keydif = []
+        text_old = []
+        text_oldt = []
+        if difline != [] :
+            output_file.write("\n有更動（上：英 1.5、中：英 1.6、下：簡 1.6）：\n")
+        for i in difline:
+            keydif.append(re.sub('\\s+(".*"):.*\n?', '\\g<1>' , i))
+
+        for i in keydif:
+            for x in old_english_text:
+                if i in x:
+                    text_old.append(x)
+            for x in update_simplified_chinese_text:
+                if i in x:
+                    text_oldt.append(x)
+
+        for i in range(0,len(text_old)):
+            output_file.write(text_old[i].strip() + '\n')
+            output_file.write(difline[i].strip() + '\n')
+            output_file.write(text_oldt[i].strip() + '\n')
+        output_file.write('\n' + '=' * 65 + '\n')
+
+
+def raw_output(flie,difline,update_simplified_chinese_text,old_english_text):
+    
+    print(file)
+    new_english_line = [i for i in line if i not in difline]  # 新句子
+
+
+    if new_english_line:
+        print("新句子：")
+        for i in new_english_line:
+            has_simplified_chinese_line = False
+            print(i.strip())
+            key = re.sub('\\s+(".*"):.*\n?', '\\g<1>' , i)
+            for j in update_simplified_chinese_text:
+                if key in j:
+                    print(j.strip())
+                    has_simplified_chinese_line = True
+            if not has_simplified_chinese_line:
+                print("簡中沒更新這句")
+    
+    keydif = []
+    text_old = []
+    text_oldt = []
+    if difline != [] :
+        print("\n有更動（上：英 1.5、中：英 1.6、下：簡 1.6）：")
+    for i in difline:
+        keydif.append(re.sub('\\s+(".*"):.*\n?', '\\g<1>' , i))
+
+    for i in keydif:
+        for x in old_english_text:
+            if i in x:
+                text_old.append(x)
+        for x in update_simplified_chinese_text:
+            if i in x:
+                text_oldt.append(x)
+
+    for i in range(0,len(text_old)):
+        print(text_old[i].strip())
+        print(difline[i].strip())
+        print(text_oldt[i].strip())
+        print('')
+
+    print('=' * 65)
+
+
+
 for file in origin_updated_version_file_list:
     isnewfile = False
     updated_english_json_file = file
+    
     old_english_json_file = corresponding_path(file, old_version_file_path, english_folder_name, '.json')
     update_simplified_json_file = corresponding_path(file, updated_version_file_path, simplified_chinese_folder_name, '.zh-CN.json')
     #old_simplified_json_file = corresponding_path(file, old_version_file_path, simplified_chinese_folder_name, '.zh-CN.json')
@@ -82,59 +178,9 @@ for file in origin_updated_version_file_list:
             for x in old_key:
                 if x in i:
                     difline.append(i) # 之前就有但有更動
-
-    newline = [i for i in line if i not in difline]  # 新句子
-    print(file.name) # file name
-
-    print("新句子：")
-    for i in newline:
-        print(i.strip())
-
-    keydif = []
-    text_old = []
-    text_oldt = []
-    if difline != [] :
-        print("\n有更動（上：英 1.5、中：英 1.6、下：簡 1.6）：")
-    for i in difline:
-        keydif.append(re.sub('\\s+(".*"):.*\n?', '\\g<1>' , i))
-
-    for i in keydif:
-        for x in old_english_text:
-            if i in x:
-                text_old.append(x)
-        for x in update_simplified_chinese_text:
-            if i in x:
-                text_oldt.append(x)
-
-    for i in range(0,len(text_old)):
-        print(text_old[i].strip())
-        print(difline[i].strip())
-        print(text_oldt[i].strip())
-        print('')
-
-    print('=' * 65)
+    
+    
 
 
-    # for key in updated_english_data:
-    #         try:
-    #             j_6_en_v = updated_english_data[key]
-    #             j_6_cn_v = update_simplified_chinese_data[key]
-    #             j_5_en_v = old_english_data[key]
-    #         except KeyError as e:
-    #             print('Key:',key)
-    #             print('Value:', j_6_en_v)
-    #             print('Value:', j_6_cn_v)
-    #             print('=' * 50)
-    #         else:
-    #             # j_5_cn_v = old_simplified_chinese_data[key]
-    #             # j_5_tw_v = old_traditional_chinese_data[key]
-
-    #             if j_6_en_v != j_5_en_v:
-    #                 print('Key:', key)
-    #                 print('英文v1.6：',j_6_en_v)
-    #                 print('英文v1.5：',j_5_en_v)
-    #                 print('簡中v1.6：',j_6_cn_v)
-    #                 # print('簡中v1.5：',j_5_cn_v)
-    #                 # print('繁中v1.5：',j_5_tw_v)
-    #                 print('=' * 50)
-    break
+    output_to_txt_file(file,difline,update_simplified_chinese_text,old_english_text)
+    #raw_output(file,difline,update_simplified_chinese_text,old_english_text)
