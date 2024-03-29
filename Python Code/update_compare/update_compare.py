@@ -43,14 +43,19 @@ def Convert_To_txt(file_path):
     return new_file_path
     #Path(*list(file.parts)[3:])
 
-def output_to_txt_file(file,difline,update_simplified_chinese_text,old_english_text):
+def output_to_txt_file(file,difline,update_simplified_chinese_text,old_english_text,old_key,updated_key):
 
     output_txt_file_path = Convert_To_txt(file)
 
     new_english_line = [i for i in line if i not in difline]  # 新句子
     
-    with open(output_txt_file_path, "w", encoding="utf-8") as output_file:
+    with open(output_txt_file_path, "w", encoding="utf-8") as output_file:        
         output_file.write(str(file) + '\n')
+        output_file.write('\n')
+        for i in old_key:
+            if i not in updated_key:
+                output_file.write("Missing Key " + i + '\n')
+        output_file.write('\n')
         if new_english_line:
             output_file.write("新句子：\n")
             for i in new_english_line:
@@ -69,6 +74,7 @@ def output_to_txt_file(file,difline,update_simplified_chinese_text,old_english_t
         text_oldt = []
         if difline != [] :
             output_file.write("\n有更動（上：英 1.5、中：英 1.6、下：簡 1.6）：\n")
+            output_file.write('\n')
         for i in difline:
             keydif.append(re.sub('\\s+(".*"):.*\n?', '\\g<1>' , i))
 
@@ -87,8 +93,10 @@ def output_to_txt_file(file,difline,update_simplified_chinese_text,old_english_t
         output_file.write('\n' + '=' * 65 + '\n')
 
 
-def raw_output(flie,difline,update_simplified_chinese_text,old_english_text):
-    
+def raw_output(file,difline,update_simplified_chinese_text,old_english_text,old_key,updated_key):
+    for i in old_key:
+        if old_key not in updated_key:
+            print(f"missing key{old_key}")
     print(file)
     new_english_line = [i for i in line if i not in difline]  # 新句子
 
@@ -180,7 +188,9 @@ for file in origin_updated_version_file_list:
                     difline.append(i) # 之前就有但有更動
     
     
+    
+    
 
 
-    output_to_txt_file(file,difline,update_simplified_chinese_text,old_english_text)
-    #raw_output(file,difline,update_simplified_chinese_text,old_english_text)
+    output_to_txt_file(file,difline,update_simplified_chinese_text,old_english_text,old_key,updated_key)
+    #raw_output(file,difline,update_simplified_chinese_text,old_english_text,old_key,updated_key)
