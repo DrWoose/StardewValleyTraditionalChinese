@@ -14,7 +14,6 @@ traditional_chinese_folder_name = 'TraditionalChinese'
 origin_updated_version_path =  updated_version_file_path / english_folder_name
 # 檔案列表
 origin_updated_version_file_list = [f for f in origin_updated_version_path.glob('**/*.json')]
-is_write_mode = True
 
 # 轉換路徑
 def Corresponding_Path(path, version_folder_name, language, suffix): 
@@ -69,7 +68,6 @@ def simplified_chinese_didnot_update(output_file,modified_key,update_simplified_
 
 for file in origin_updated_version_file_list:
 
-    isnewfile = False
     updated_english_json_file = file    
     old_english_json_file = Corresponding_Path(file, old_version_file_path, english_folder_name, '.json')
     update_simplified_json_file = Corresponding_Path(file, updated_version_file_path, simplified_chinese_folder_name, '.zh-CN.json')
@@ -84,7 +82,6 @@ for file in origin_updated_version_file_list:
         old_simplified_chinese_data = Read_json(old_simplified_json_file)       
     except FileNotFoundError:
         print(f"新檔案：{old_english_json_file}")
-        isnewfile = True
         continue
     #old_traditional_chinese_data = Read_json(old_traditional_chinese_json_file)
     try:
