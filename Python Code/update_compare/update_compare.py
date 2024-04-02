@@ -55,6 +55,17 @@ def Find_New_Key(update_keys,legacy_keys):
     
     return new_key
 
+def simplified_chinese_didnot_update(output_file,modified_key,update_simplified_chinese_data,old_simplified_chinese_data):
+    #英文有更新簡中卻沒變
+    unchange_key = {
+        key: (update_simplified_chinese_data, old_simplified_chinese_data)
+        for key in modified_key 
+        if update_simplified_chinese_data[key].lower() == old_simplified_chinese_data[key].lower()
+    }
+    for key in unchange_key:
+        output_file.write(f'"{key}": "{old_simplified_chinese_data[key]}",\n')
+    
+
 
 for file in origin_updated_version_file_list:
 
@@ -62,18 +73,19 @@ for file in origin_updated_version_file_list:
     updated_english_json_file = file    
     old_english_json_file = Corresponding_Path(file, old_version_file_path, english_folder_name, '.json')
     update_simplified_json_file = Corresponding_Path(file, updated_version_file_path, simplified_chinese_folder_name, '.zh-CN.json')
-    #old_simplified_json_file = Corresponding_Path(file, old_version_file_path, simplified_chinese_folder_name, '.zh-CN.json')
+    old_simplified_json_file = Corresponding_Path(file, old_version_file_path, simplified_chinese_folder_name, '.zh-CN.json')
     #old_traditional_chinese_json_file = Corresponding_Path(file, old_version_file_path, traditional_chinese_folder_name, '.zh-CN.json')
     
     updated_english_data = Read_json(updated_english_json_file)       
-    update_simplified_chinese_data = Read_json(update_simplified_json_file)
-    try:        
+    update_simplified_chinese_data = Read_json(update_simplified_json_file)    
+    
+    try:
         old_english_data = Read_json(old_english_json_file)
+        old_simplified_chinese_data = Read_json(old_simplified_json_file)       
     except FileNotFoundError:
         print(f"新檔案：{old_english_json_file}")
         isnewfile = True
         continue
-    #old_simplified_chinese_data = Read_json(old_simplified_json_file)
     #old_traditional_chinese_data = Read_json(old_traditional_chinese_json_file)
     try:
         update_key = set(updated_english_data.keys())
@@ -88,7 +100,7 @@ for file in origin_updated_version_file_list:
     modified_key = {
         key: (updated_english_data, old_english_data)
         for key in shared_key 
-        if updated_english_data[key] != old_english_data[key]
+        if updated_english_data[key].lower() != old_english_data[key].lower()
     }
 
     #print(file)
@@ -111,3 +123,6 @@ for file in origin_updated_version_file_list:
         output_file.write('\n移除的句子\n')
         for key in removed_key:
             output_file.write(f'"{key}": "{old_english_data[key]}",\n')
+
+        output_file.write('\n簡中沒更新到的句子：\n')
+        simplified_chinese_didnot_update(output_file,modified_key,update_simplified_chinese_data,old_simplified_chinese_data)
