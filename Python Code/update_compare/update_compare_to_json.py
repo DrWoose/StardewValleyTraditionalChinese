@@ -15,7 +15,7 @@ origin_updated_version_path =  updated_version_file_path / english_folder_name
 # 檔案列表
 origin_updated_version_file_list = [f for f in origin_updated_version_path.glob('**/*.json')]
 
-output_line = []
+output_line = {}
 
 
 # 轉換路徑
@@ -45,9 +45,9 @@ def Convert_To_json(file_path):
 
 def is_key_in_simplified_chinese(update_simplified_chinese_data,updated_english_data,key):#cause sometimes they don't have it :(
     try:
-        output_line.append(f'"{key}": "{update_simplified_chinese_data[key]}",\n')
+        output_line.update({key: update_simplified_chinese_data[key]})
     except KeyError:
-        output_line.append(f'"{key}": "{updated_english_data[key]}",\n')
+        output_line.update({key: updated_english_data[key]})
 
 def Find_New_Key(update_keys,legacy_keys):
     new_key = []
@@ -57,7 +57,7 @@ def Find_New_Key(update_keys,legacy_keys):
     
     return new_key
 
-def simplified_chinese_didnot_update(output_file,modified_key,update_simplified_chinese_data,old_simplified_chinese_data):
+def simplified_chinese_didnot_update(modified_key,update_simplified_chinese_data,old_simplified_chinese_data):
     #英文有更新簡中卻沒變
     unchange_key = {
         key: (update_simplified_chinese_data, old_simplified_chinese_data)
@@ -65,12 +65,12 @@ def simplified_chinese_didnot_update(output_file,modified_key,update_simplified_
         if update_simplified_chinese_data[key].lower() == old_simplified_chinese_data[key].lower()
     }
     for key in unchange_key:
-        output_file.write(f'"{key}": "{old_simplified_chinese_data[key]}",\n')
+        output_line.update({key: old_simplified_chinese_data[key]})
     
 
 
 for file in origin_updated_version_file_list:
-
+    output_line = {}
     updated_english_json_file = file    
     old_english_json_file = Corresponding_Path(file, old_version_file_path, english_folder_name, '.json')
     update_simplified_json_file = Corresponding_Path(file, updated_version_file_path, simplified_chinese_folder_name, '.zh-CN.json')
@@ -106,24 +106,14 @@ for file in origin_updated_version_file_list:
     for key in new_key:
         is_key_in_simplified_chinese(update_simplified_chinese_data,updated_english_data,key)
     
+    for key in modified_key:      
+        output_line.update({key: update_simplified_chinese_data[key]})
+    simplified_chinese_didnot_update(modified_key,update_simplified_chinese_data,old_simplified_chinese_data)
+
+    print(output_line)   
+
     output_txt_file_path = Convert_To_json(file)   
-    with open(output_txt_file_path,"w", encoding="utf-8") as output_file:
-        for line in output_line:
-            output_file.write(output_line)
+    with open(output_txt_file_path,"w", encoding='utf8') as output_file:
+        json.dump(output_line,output_file,indent=4,ensure_ascii=False)
 
-        for key in new_key:
-            output_file.write(f'"{key}": "{updated_english_data[key]}",\n')
-            is_key_in_simplified_chinese(update_simplified_chinese_data,key)
-        output_file.write('\n有更動（上：英 1.5、中：英 1.6、下：簡 1.6）：\n')
-
-        for key in modified_key:            
-            output_file.write(f'"{key}": "{old_english_data[key]}",\n')
-            output_file.write(f'"{key}": "{updated_english_data[key]}",\n')            
-            output_file.write(f'"{key}": "{update_simplified_chinese_data[key]}",\n')
-            
-        output_file.write('\n移除的句子\n')
-        for key in removed_key:
-            output_file.write(f'"{key}": "{old_english_data[key]}",\n')
-
-        output_file.write('\n簡中沒更新到的句子：\n')
-        simplified_chinese_didnot_update(output_file,modified_key,update_simplified_chinese_data,old_simplified_chinese_data)
+        
