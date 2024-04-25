@@ -39,6 +39,6 @@ def Read_json(file_path):
         return data
 
 if __name__ == '__main__':
-    zh_cn = '视频 好好看'
+    zh_cn = '德米特里厄斯'
     print(f'原句子：{zh_cn}')
     print(f'台灣化：{zhconvert(zh_cn)}')
