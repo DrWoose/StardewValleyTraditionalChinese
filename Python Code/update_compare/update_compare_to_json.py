@@ -33,6 +33,11 @@ def Read_json(file_path):
         data = json.load(file)
         return data
 
+def write_new_json(file,update_simplified_chinese_data):
+    output_json_file_path = Convert_To_json(file)   
+    with open(output_json_file_path,"w",encoding='utf-8', newline='') as output_file: 
+        json.dump(update_simplified_chinese_data,output_file,indent=4,ensure_ascii=False)
+
 def Find_Key(input_string):
     key =  re.sub('\\s+(".*"):.*\n?', '\\g<1>' , input_string)
     return key
@@ -85,6 +90,7 @@ for file in origin_updated_version_file_list:
         old_simplified_chinese_data = Read_json(old_simplified_json_file)       
     except FileNotFoundError:
         print(f"新檔案：{old_english_json_file}")
+        write_new_json(file,update_simplified_chinese_data)
         continue
     #old_traditional_chinese_data = Read_json(old_traditional_chinese_json_file)
     try:

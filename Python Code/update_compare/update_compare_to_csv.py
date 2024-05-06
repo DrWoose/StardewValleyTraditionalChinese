@@ -16,6 +16,9 @@ origin_updated_version_path =  updated_version_file_path / english_folder_name
 # 檔案列表
 origin_updated_version_file_list = [f for f in origin_updated_version_path.glob('**/*.json')]
 
+
+
+
 # 轉換路徑
 def Corresponding_Path(path, version_folder_name, language, suffix): 
     parted_path = list(path.parts)#split path
@@ -24,6 +27,16 @@ def Corresponding_Path(path, version_folder_name, language, suffix):
     path = Path(*parted_path)
     path = path.with_suffix(suffix)
     return path
+
+def Fanguaji_Corresponding_Path(file : Path):
+    parent_file_path = Path(os.path.dirname(os.path.realpath(__file__))).parent.absolute()
+    splitted_path_list = list(file.parts)
+    for i in range(0,len(splitted_path_list)):
+        if "Content" in splitted_path_list[i]:
+            file_path_in_content = Path(*splitted_path_list[i+1:len(splitted_path_list)])
+            break
+    fanhuaji_path = parent_file_path / 'Fanhuaji' / 'Fanhuaji_output_json' /file_path_in_content
+    return fanhuaji_path
 
 # 讀取 json
 def Read_json(file_path):  
@@ -88,11 +101,18 @@ for file in origin_updated_version_file_list:
     old_english_json_file = Corresponding_Path(file, old_version_file_path, english_folder_name, '.json')
     update_simplified_json_file = Corresponding_Path(file, updated_version_file_path, simplified_chinese_folder_name, '.zh-CN.json')
     old_simplified_json_file = Corresponding_Path(file, old_version_file_path, simplified_chinese_folder_name, '.zh-CN.json')
+    fanhuaji_json_file = Fanguaji_Corresponding_Path(file)
+
     #old_traditional_chinese_json_file = Corresponding_Path(file, old_version_file_path, traditional_chinese_folder_name, '.zh-CN.json')
     
     updated_english_data = Read_json(updated_english_json_file)       
     update_simplified_chinese_data = Read_json(update_simplified_json_file)    
-    
+    try:
+        fanhuaji_data = Read_json(fanhuaji_json_file)   
+    except FileNotFoundError:
+        print(fanhuaji_json_file)
+        continue
+
     try:
         old_english_data = Read_json(old_english_json_file)
         old_simplified_chinese_data = Read_json(old_simplified_json_file)       
@@ -124,10 +144,12 @@ for file in origin_updated_version_file_list:
         #output_file.write('\ufeff') #convert to utf-8 bom
         csv_writer = csv.writer(output_file)
         for key in new_key:#new line
-            write_csv(csv_writer,key,updated_english_data,update_simplified_chinese_data,old_english_data)
+            #write_csv(csv_writer,key,updated_english_data,update_simplified_chinese_data,old_english_data)
+            write_csv(csv_writer,key,updated_english_data,fanhuaji_data,old_english_data)
             
         for key in modified_key:#modified line      
-            write_csv(csv_writer,key,updated_english_data,update_simplified_chinese_data,old_english_data)
+            #write_csv(csv_writer,key,updated_english_data,update_simplified_chinese_data,old_english_data)
+            write_csv(csv_writer,key,updated_english_data,fanhuaji_data,old_english_data)
         
             
     
