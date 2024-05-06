@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": false
+        "compressed": 128
     },
     "readers": [
         {
@@ -13,6 +13,6 @@
     ],
     "content": {
         "format": 0,
-        "export": "MineCart.png"
+        "export": "Xb1ProfileButton.zh-CN.png"
     }
 }

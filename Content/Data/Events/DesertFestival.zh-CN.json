@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": false
+        "compressed": 128
     },
     "readers": [
         {
@@ -16,9 +16,6 @@
         }
     ],
     "content": {
-        "6": "星期六",
-        "name": "週六聚焦",
-        "intro": "0/各位觀眾好。我每週都會周遊全國以認識來自生活百態的人。這樣，我們就可以拓寬自己的視野，瞭解各種特殊的職業、生活方式以及觀點。我是湯姆・萊米納，你正在收看的是「週六聚焦」。",
-        "day": "星期六"
+        "PlayerKilled": "none/-100 -100/farmer -2000 -2000 2/pause 1000/showItemsLost/pause 200/end"
     }
 }

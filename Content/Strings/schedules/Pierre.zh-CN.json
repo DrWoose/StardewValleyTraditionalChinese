@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": false
+        "compressed": 128
     },
     "readers": [
         {
@@ -16,6 +16,6 @@
         }
     ],
     "content": {
-        "Fri.000": "我整週都很賣力。週五晚上放鬆一下有何不可。"
+        "Fri.000": "我整周都很卖力。周五晚上放松一下有何不可。"
     }
 }

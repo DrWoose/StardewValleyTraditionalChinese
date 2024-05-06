@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": false
+        "compressed": 128
     },
     "readers": [
         {
@@ -16,7 +16,7 @@
         }
     ],
     "content": {
-        "spring_25.000": "自以為無所不知的醫生……（碎碎唸）$4",
-        "spring_25.001": "我每天喝了多少酒？這算哪門子問題？$u"
+        "spring_25.000": "*嘟囔*……自以为无所不知的医生……*嘟囔*$4",
+        "spring_25.001": "我每天喝了多少酒？这算哪门子问题？$u"
     }
 }

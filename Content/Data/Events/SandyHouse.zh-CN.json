@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": false
+        "compressed": 128
     },
     "readers": [
         {
@@ -16,6 +16,6 @@
         }
     ],
     "content": {
-        "67/m 10": "none/4 5/farmer 4 9 0 Sandy 2 5 2/skippable/move farmer 0 -2 0/emote Sandy 8/speak Sandy \"有……客人？\"/speed Sandy 4/move Sandy 2 0 2/speed Sandy 4/move Sandy 0 1 2/emote Sandy 16/speak Sandy \"嗨！你好！歡迎光臨「沙蒂的綠洲」！#$b#你看起來很像艾米麗在信中提到的那個新來的農夫嘛！#$b#然後……往返星露谷的巴士路線又開始服務啦！$h#$b#噢，我好高興啊！$h\"/emote Sandy 32/move Sandy 0 -1 0/move Sandy -2 0 2/emote Sandy 32/end dialogue Sandy \"請常常來光顧哦，我在這裡很無聊。\""
+        "67/m 10": "none/4 5/farmer 4 9 0 Sandy 2 5 2/skippable/move farmer 0 -2 0/emote Sandy 8/speak Sandy \"有……顾客？\"/speed Sandy 4/move Sandy 2 0 2/speed Sandy 4/move Sandy 0 1 2/emote Sandy 16/speak Sandy \"嗨！你好！欢迎来到‘桑迪的绿洲’！#$b#你看起来很像艾米丽给我写的信里那个新来的农夫嘛！#$b#那么……前往星露谷的公交线路又开张啦！$h#$b#哦，我好高兴啊！$h\"/emote Sandy 32/move Sandy 0 -1 0/move Sandy -2 0 2/emote Sandy 32/end dialogue Sandy \"请经常来光顾哦，我这里很无聊的。\""
     }
 }
