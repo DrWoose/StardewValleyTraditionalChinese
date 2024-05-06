@@ -1,14 +1,14 @@
 {
     "SummitEvent_Dialogue1B_Spouse": "我們一起經歷了許多，是不是？$h",
-    "SummitEvent_Dialogue1_Spouse": "我在回想過去的 %year 年……",
-    "SummitEvent_Dialogue3_Harvey": "有你在我身邊，我就不會害怕從懸崖上摔下去，落在下面的鋒利的石頭上……$l\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"……$8#$b#我……我非常愛慕，而且崇敬你，@……$l\"",
     "SummitEvent_Dialogue3_Maru": "@，你自從搬到這裡之後，真的做出了不少成就。實在是太了不起了。\"/pause 300/faceDirection Maru 3/pause 400/speak Maru \"我想，你應該生來就是當農場主的料！$h\"",
-    "PurchasedItem_3_QualityHigh_Rude_Willy": "我昨晚去購物，用優惠價買了個{2}，只花了 {3}G。#$e#那東西確實挺{4}。",
-    "SummitEvent_Dialogue3_Alex": "我終於明白了自己想要成為什麼樣的人……我對未來更有把握了。\"/pause 500/speak Alex \"@，如果沒有你，我恐怕做不到這一切。\"",
-    "SummitEvent_Dialogue3_Sebastian": "在遇到你之前，我把自己的人生都耗費在逃避現實上……因為我覺得自己永遠都得不到幸福。#$b#……但你向我證明，世界並不只是一片黑暗。$h\"/faceDirection Sebastian 3/pause 500/speak Sebastian \"……我有許多愛你的理由，這是其中之一……\"",
     "MisterQi_PlayerClubMember": "終於見到你了，孩子，真好啊。歡迎來到我的專屬會所。#$e#你已經得到了“火花”……這就是為什麼我挑中了你。#$e#什麼火花？啊……就是通往神奇彼岸，通往藝術的通道……#$b#像我們這樣的人有責任讓世界保持活力，給鄉親們非凡的味道。#$e#明白嗎，小子……這個世界就像一碗飯。它有食材，但是如果沒有好的、刺激的醬料，便索然無味。這就是為什麼這個地方會存在。#$b#你難道不想知道是誰把那些箱子放在老礦井裡？我喜歡給人們驚喜。#$e#總有一天你會明白的。盡力做到最好，永不放棄。",
-    "SummitEvent_Dialogue3_Shane": "@，要是我沒有遇見你……恐怕我就不會到這裡來了。#$b#那就太可惜了，畢竟這裡是絕無僅有的觀鳥點！$h\"/emote farmer 16/pause 1000/speak Shane \"……我……我經常開玩笑，因為……呃……$s#$b#我覺得，只要把所有事情都一笑置之，我就不用敞開心扉，讓自己變得脆弱了。\"/emote Shane 28/speak Shane \"但與你在一起，每度過一個季節，我都會變得更加安然自在一些。#$b#呃……我想說的大概就是……#$b#和你結婚我無怨無悔！$h\"",
+    "SummitEvent_Dialogue3_Alex": "我終於明白了自己想要成為什麼樣的人……我對未來更有把握了。\"/pause 500/speak Alex \"@，如果沒有你，我恐怕做不到這一切。\"",
+    "SummitEvent_Dialogue3_Harvey": "有你在我身邊，我就不會害怕從懸崖上摔下去，落在下面的鋒利的石頭上……$l\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"……$8#$b#我……我非常愛慕，而且崇敬你，@……$l\"",
     "SummitEvent_Dialogue3_Emily": "這是個特別的時刻……#$b#我一直都知道，我總有一天會和你一起站在這裡。我心底一直有著這樣的預感。#$b#現在，一切終於成為現實。\"/pause 500/speak Emily \"世界真是神秘又特別……$l\"",
+    "SummitEvent_Dialogue3_Haley": "嘻嘻……$h\"/faceDirection farmer 1 true/emote farmer 8/pause 1000/speak Haley \"啊，是這樣的……#$b#我還是個小女孩的時候，就經常會幻想自己有一天會與真愛之人一起爬到山頂，然後接吻。$l\"",
+    "SummitEvent_Dialogue1_Spouse": "我在回想過去的 %year 年……",
     "PurchasedItem_3_QualityHigh_Rude": "我昨晚去購物了，買了廉價出售的{1}{2}，只需要{3}克。#$e#它真是相當{4}。",
-    "SummitEvent_Dialogue3_Haley": "嘻嘻……$h\"/faceDirection farmer 1 true/emote farmer 8/pause 1000/speak Haley \"啊，是這樣的……#$b#我還是個小女孩的時候，就經常會幻想自己有一天會與真愛之人一起爬到山頂，然後接吻。$l\""
+    "SummitEvent_Dialogue3_Shane": "@，要是我沒有遇見你……恐怕我就不會到這裡來了。#$b#那就太可惜了，畢竟這裡是絕無僅有的觀鳥點！$h\"/emote farmer 16/pause 1000/speak Shane \"……我……我經常開玩笑，因為……呃……$s#$b#我覺得，只要把所有事情都一笑置之，我就不用敞開心扉，讓自己變得脆弱了。\"/emote Shane 28/speak Shane \"但與你在一起，每度過一個季節，我都會變得更加安然自在一些。#$b#呃……我想說的大概就是……#$b#和你結婚我無怨無悔！$h\"",
+    "PurchasedItem_3_QualityHigh_Rude_Willy": "我昨晚去購物，用優惠價買了個{2}，只花了 {3}G。#$e#那東西確實挺{4}。",
+    "SummitEvent_Dialogue3_Sebastian": "在遇到你之前，我把自己的人生都耗費在逃避現實上……因為我覺得自己永遠都得不到幸福。#$b#……但你向我證明，世界並不只是一片黑暗。$h\"/faceDirection Sebastian 3/pause 500/speak Sebastian \"……我有許多愛你的理由，這是其中之一……\""
 }
