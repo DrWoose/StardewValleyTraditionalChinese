@@ -62,7 +62,6 @@ def Convert_To_csv(file_path):
     #Path(*list(file.parts)[3:])
 
 def write_csv(csv_writer,key,updated_english_data,update_simplified_chinese_data,old_english_data):
-    #cause sometimes they don't have it :(
     try:
         old_english_value = old_english_data[key]
     except KeyError:
@@ -71,6 +70,8 @@ def write_csv(csv_writer,key,updated_english_data,update_simplified_chinese_data
         update_simplified_chinese_value = update_simplified_chinese_data[key]
     except KeyError:
         update_simplified_chinese_value = "Simplified Chinese didn't update"
+
+    
     
     csv_writer.writerow([key,updated_english_data[key],update_simplified_chinese_value,old_english_value])
     
@@ -150,6 +151,9 @@ for file in origin_updated_version_file_list:
         for key in modified_key:#modified line      
             #write_csv(csv_writer,key,updated_english_data,update_simplified_chinese_data,old_english_data)
             write_csv(csv_writer,key,updated_english_data,fanhuaji_data,old_english_data)
+        
+        for key in removed_key:
+            csv_writer.writerow([key,"Removed","Removed",old_english_data[key]])
         
             
     
