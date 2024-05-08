@@ -165,6 +165,6 @@
 		"GreenRain": "我想去探險，但是我怕我媽會擔心我。我不想增加她的負擔。",
 		"eventSeen_3": "精靈好像有自己的意志……$l",
 		"eventSeen_2_memory_oneday": "賽巴斯汀說他在吃晚餐的時候聽到了奇怪的音樂……#$e#我沒告訴他是我們做的！神神秘秘的也挺好。$h",
-		"Mon8": "$query PLAYER_NPC_RELATIONSHIP current any married roommate#我還記得你剛來鎮上的那天，一開始聽到那些古老的森林要變成農地，讓我有點傷心，但我現在真的很高興你搬進這裡！$h|……哦，@！嗨。$h#$e#想要待一下嗎？來！讓我給你看下手相吧。哈哈$h",
+		"Mon8": "$query PLAYER_NPC_RELATIONSHIP current any married roommate#我還記得你剛來鎮上的那天，一開始聽到那些古老的森林要變成農地，讓我有點傷心，但我現在真的很高興你搬進這裡！$h|……哦，@！嗨。$h#$e#想要待一下嗎？來！讓我給你看下手相吧。哈哈$h"
     }
 }
