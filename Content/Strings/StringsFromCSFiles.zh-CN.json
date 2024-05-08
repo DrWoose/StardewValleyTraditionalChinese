@@ -2164,7 +2164,7 @@
         "MiniObelisk_NeedsPair": "需要兩個迷你圖騰尖塔。",
         "MiniObelisk_NeedsSpace": "傳送點受阻。",
         "FarmComputer_Intro": "{0}農場報告：",
-        "FarmComputer_PiecesHay": "乾草：{0}/{1}",
+        "FarmComputer_PiecesHay": "乾草機器：{0}/{1}",
         "FarmComputer_NumAnimals": "動物數量：{0}",
         "FarmComputer_FarmCave": "山洞可採收：{0}",
         "FarmComputer_TotalCrops": "農作物總量：{0}",
@@ -2257,13 +2257,13 @@
         "EndCredits_SongName": "永遠的星露谷",
         "RenovationBlocked": "從整修區域中取出所有物品。",
         "Quest_FinalDay": "最後一天",
-        "PurchaseAnimalsMenu.ChooseLocation": "Where do you want to manage animals？",
-        "FarmComputer_Intro_NamedLocation": "{0} Analysis:",
-        "Attack_Miss": "Miss",
-        "MultiplePetBowls_watered": "#$e#I also filled the pets' water bowls.",
-        "MapPage.cs.11080_ExtendedHours": "上午9:00至下午5:00開放",
-        "KeyToTheTown_desc": "用它可以隨時進入鎮上的所有建築。",
         "FarmComputer_Intro_Farm": "{0}農場報告：",
-        "FarmComputer_Intro_Generic": "Location Analysis:"
+        "MapPage.cs.11080_ExtendedHours": "上午9:00至下午5:00開放",
+        "PurchaseAnimalsMenu.ChooseLocation": "Where do you want to manage animals？",
+        "FarmComputer_Intro_Generic": "Location Analysis:",
+        "MultiplePetBowls_watered": "#$e#I also filled the pets' water bowls.",
+        "KeyToTheTown_desc": "用它可以隨時進入鎮上的所有建築。",
+        "Attack_Miss": "Miss",
+        "FarmComputer_Intro_NamedLocation": "{0} Analysis:"
     }
 }
