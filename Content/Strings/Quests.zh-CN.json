@@ -16,7 +16,7 @@
         }
     ],
     "content": {
-        "MessageFoundLostItem": "你找到了{0}。最好把它还给{1}。",
+        "MessageFoundLostItem": "你找到了{0}。最好把它還給{1}。",
         "ObjectiveReturnToNPC": "回去找{0}。"
     }
 }
