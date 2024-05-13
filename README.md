@@ -28,18 +28,18 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] Marnie.json
 	- [x] MarriageDialogue.json
 	- [x] MarriageDialogueAbigail.json
-	- [ ] MarriageDialogueAlex.json
-	- [ ] MarriageDialogueElliott.json
-	- [ ] MarriageDialogueEmily.json
-	- [ ] MarriageDialogueHaley.json
-	- [ ] MarriageDialogueHarvey.json
-	- [ ] MarriageDialogueKrobus.json
-	- [ ] MarriageDialogueLeah.json
-	- [ ] MarriageDialogueMaru.json
-	- [ ] MarriageDialoguePenny.json
-	- [ ] MarriageDialogueSam.json
-	- [ ] MarriageDialogueSebastian.json
-	- [ ] MarriageDialogueShane.json
+	- [x] MarriageDialogueAlex.json
+	- [x] MarriageDialogueElliott.json
+	- [x] MarriageDialogueEmily.json
+	- [x] MarriageDialogueHaley.json
+	- [x] MarriageDialogueHarvey.json
+	- [x] MarriageDialogueKrobus.json
+	- [x] MarriageDialogueLeah.json
+	- [x] MarriageDialogueMaru.json
+	- [x] MarriageDialoguePenny.json
+	- [x] MarriageDialogueSam.json
+	- [x] MarriageDialogueSebastian.json
+	- [x] MarriageDialogueShane.json
 	- [ ] Maru.json
 	- [ ] Mister Qi.json
 	- [ ] Pam.json
