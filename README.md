@@ -48,12 +48,12 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] rainy.json
 	- [x] Robin.json
 	- [x] Sam.json
-	- [ ] Sandy.json
-	- [ ] Sebastian.json
-	- [ ] Shane.json
-	- [ ] Vincent.json
-	- [ ] Willy.json
-	- [ ] Wizard.json
+	- [x] Sandy.json
+	- [x] Sebastian.json
+	- [x] Shane.json
+	- [x] Vincent.json
+	- [x] Willy.json
+	- [x] Wizard.json
 - [ ] Data/Events
 	- [ ] AbandonedJojaMart.json
 	- [ ] AnimalShop.json
