@@ -40,14 +40,14 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] MarriageDialogueSam.json
 	- [x] MarriageDialogueSebastian.json
 	- [x] MarriageDialogueShane.json
-	- [ ] Maru.json
-	- [ ] Mister Qi.json
-	- [ ] Pam.json
-	- [ ] Penny.json
-	- [ ] Pierre.json
-	- [ ] rainy.json
-	- [ ] Robin.json
-	- [ ] Sam.json
+	- [x] Maru.json
+	- [x] Mister Qi.json
+	- [x] Pam.json
+	- [x] Penny.json
+	- [x] Pierre.json
+	- [x] rainy.json
+	- [x] Robin.json
+	- [x] Sam.json
 	- [ ] Sandy.json
 	- [ ] Sebastian.json
 	- [ ] Shane.json
