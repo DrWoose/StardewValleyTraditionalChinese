@@ -110,11 +110,11 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [ ] winter25.json
 	- [ ] winter8.json
 - [ ] Data/TV
-	- [ ] CookingChannel.json
-	- [ ] TipChannel.json
+	- [x] CookingChannel.json
+	- [x] TipChannel.json
 - [ ] Data
-	- [ ] Achievements.json
-	- [ ] Boots.json
+	- [x] Achievements.json
+	- [x] Boots.json
 	- [ ] Bundles.json
 	- [ ] EngagementDialogue.json
 	- [ ] ExtraDialogue.json
