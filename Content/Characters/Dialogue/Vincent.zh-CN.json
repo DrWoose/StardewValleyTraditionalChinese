@@ -35,13 +35,13 @@
         "Sat8": "$d kent#爸爸回來之後好像變得怪怪的，不知道發生了什麼事？$s#$b#他都不跟我玩了。$s|不知道爸爸會不會回來……$s",
         "Sun": "你好啊，先生！^你好啊，小姐。",
         "Sun10": "嗨，@哥哥！^嗨，@姐姐！#$e#不要跟我媽媽說哦……你是我最喜歡的大人。$h",
-        "AcceptGift_(TR)FrogEgg": "（捏了兩下）……好噁心！能給我嗎？快給我吧？好耶！$h",
+        "AcceptGift_(TR)FrogEgg": "（捏了一下）……好噁心！可以給我嗎？趕快給我吧？耶！$h",
         "AcceptGift_alcohol_item": "（聞了一下）……這是什麼？好難聞……媽媽！！！$s",
-        "married_Sam": "不許搶走我的山姆哥哥！$s",
-        "AcceptGift_(O)StardropTea": "哇！好甜！唔……",
-        "AcceptBirthdayGift_Negative": "是生日禮物嗎？啊……好像沒什麼意思。$s",
+        "married_Sam": "不要搶走我的山姆哥哥！$s",
+        "AcceptGift_(O)StardropTea": "哇！好甜！嗯～",
+        "AcceptBirthdayGift_Negative": "是生日禮物嗎？啊……這不好玩。$s",
         "GreenRain_2": "%文森全身都是苔蘚。",
         "GreenRain": "媽媽！我想出去玩！%noturn",
-        "AcceptBirthdayGift_Positive": "是給我的生日禮物嗎？我能現在就拆開嗎？#$b#哇！我正好想要這個！好耶！$h"
+        "AcceptBirthdayGift_Positive": "給我的生日禮物嗎？我能現在就拆開嗎？#$b#哇！我正好想要這個！耶耶耶耶！$h"
     }
 }
