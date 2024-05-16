@@ -55,14 +55,14 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] Willy.json
 	- [x] Wizard.json
 - [ ] Data/Events
-	- [ ] AbandonedJojaMart.json
-	- [ ] AnimalShop.json
-	- [ ] ArchaeologyHouse.json
-	- [ ] Backwoods.json
-	- [ ] BathHouse_Pool.json
-	- [ ] Beach.json
-	- [ ] BoatTunnel.json
-	- [ ] BusStop.json
+	- [x] AbandonedJojaMart.json
+	- [x] AnimalShop.json
+	- [x] ArchaeologyHouse.json
+	- [x] Backwoods.json
+	- [x] BathHouse_Pool.json
+	- [x] Beach.json
+	- [x] BoatTunnel.json
+	- [x] BusStop.json
 	- [ ] CommunityCenter.json
 	- [ ] DesertFestival.json
 	- [ ] ElliottHouse.json
