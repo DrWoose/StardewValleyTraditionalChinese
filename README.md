@@ -54,7 +54,7 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] Vincent.json
 	- [x] Willy.json
 	- [x] Wizard.json
-- [ ] Data/Events
+- [x] Data/Events
 	- [x] AbandonedJojaMart.json
 	- [x] AnimalShop.json
 	- [x] ArchaeologyHouse.json
@@ -84,21 +84,21 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] Mountain.json
 	- [x] QiNutRoom.json
 	- [x] Railroad.json
-	- [ ] Saloon.json
-	- [ ] SamHouse.json
-	- [ ] SandyHouse.json
-	- [ ] ScienceHouse.json
-	- [ ] SebastianRoom.json
-	- [ ] SeedShop.json
-	- [ ] Sewer.json
-	- [ ] Sunroom.json
-	- [ ] Temp.json
-	- [ ] Tent.json
-	- [ ] Town.json
-	- [ ] Trailer.json
-	- [ ] Trailer_Big.json
-	- [ ] WizardHouse.json
-	- [ ] Woods.json
+	- [x] Saloon.json
+	- [x] SamHouse.json
+	- [x] SandyHouse.json
+	- [x] ScienceHouse.json
+	- [x] SebastianRoom.json
+	- [x] SeedShop.json
+	- [x] Sewer.json
+	- [x] Sunroom.json
+	- [x] Temp.json
+	- [x] Tent.json
+	- [x] Town.json
+	- [x] Trailer.json
+	- [x] Trailer_Big.json
+	- [x] WizardHouse.json
+	- [x] Woods.json
 - [ ] Data/Festivals
 	- [ ]  fall16.json
 	- [ ] fall27.json
