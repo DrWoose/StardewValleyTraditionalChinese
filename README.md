@@ -63,27 +63,27 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] Beach.json
 	- [x] BoatTunnel.json
 	- [x] BusStop.json
-	- [ ] CommunityCenter.json
-	- [ ] DesertFestival.json
-	- [ ] ElliottHouse.json
-	- [ ] Farm.json
-	- [ ] FarmHouse.json
-	- [ ] FishShop.json
-	- [ ] Forest.json
-	- [ ] HaleyHouse.json
-	- [ ] HarveyRoom.json
-	- [ ] Hospital.json
-	- [ ] IslandHut.json
-	- [ ] IslandNorth.json
-	- [ ] IslandSouth.json
-	- [ ] IslandWest.json
-	- [ ] JoshHouse.json
-	- [ ] LeahHouse.json
-	- [ ] ManorHouse.json
-	- [ ] Mine.json
-	- [ ] Mountain.json
-	- [ ] QiNutRoom.json
-	- [ ] Railroad.json
+	- [x] CommunityCenter.json
+	- [x] DesertFestival.json
+	- [x] ElliottHouse.json
+	- [x] Farm.json
+	- [x] FarmHouse.json
+	- [x] FishShop.json
+	- [x] Forest.json
+	- [x] HaleyHouse.json
+	- [x] HarveyRoom.json
+	- [x] Hospital.json
+	- [x] IslandHut.json
+	- [x] IslandNorth.json
+	- [x] IslandSouth.json
+	- [x] IslandWest.json
+	- [x] JoshHouse.json
+	- [x] LeahHouse.json
+	- [x] ManorHouse.json
+	- [x] Mine.json
+	- [x] Mountain.json
+	- [x] QiNutRoom.json
+	- [x] Railroad.json
 	- [ ] Saloon.json
 	- [ ] SamHouse.json
 	- [ ] SandyHouse.json
