@@ -156,37 +156,37 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [ ] jojacorps.png
 	- [ ] TitleButtons.png
 	- [ ] Xb1ProfileButton.png
-- [ ] Strings/schedules
-	- [ ] Abigail.json
-	- [ ] Alex.json
-	- [ ] Caroline.json
-	- [ ] Clint.json
-	- [ ] Demetrius.json
-	- [ ] Elliott.json
-	- [ ] Emily.json
-	- [ ] Evelyn.json
-	- [ ] George.json
-	- [ ] Gus.json
-	- [ ] Haley.json
-	- [ ] Harvey.json
-	- [ ] Jas.json
-	- [ ] Jodi.json
-	- [ ] Leah.json
-	- [ ] Leo.json
-	- [ ] Lewis.json
-	- [ ] Linus.json
-	- [ ] Marnie.json
-	- [ ] Maru.json
-	- [ ] Pam.json
-	- [ ] Penny.json
-	- [ ] Pierre.json
-	- [ ] Robin.json
-	- [ ] Sam.json
-	- [ ] Sandy.json
-	- [ ] Sebastian.json
-	- [ ] Shane.json
-	- [ ] Vincent.json
-	- [ ] Willy.json
+- [x] Strings/schedules
+	- [x] Abigail.json
+	- [x] Alex.json
+	- [x] Caroline.json
+	- [x] Clint.json
+	- [x] Demetrius.json
+	- [x] Elliott.json
+	- [x] Emily.json
+	- [x] Evelyn.json
+	- [x] George.json
+	- [x] Gus.json
+	- [x] Haley.json
+	- [x] Harvey.json
+	- [x] Jas.json
+	- [x] Jodi.json
+	- [x] Leah.json
+	- [x] Leo.json
+	- [x] Lewis.json
+	- [x] Linus.json
+	- [x] Marnie.json
+	- [x] Maru.json
+	- [x] Pam.json
+	- [x] Penny.json
+	- [x] Pierre.json
+	- [x] Robin.json
+	- [x] Sam.json
+	- [x] Sandy.json
+	- [x] Sebastian.json
+	- [x] Shane.json
+	- [x] Vincent.json
+	- [x] Willy.json
 - [ ] Strings
 	- [ ] 1_6_Strings.json
 	- [ ] animationDescriptions.json
