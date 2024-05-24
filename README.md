@@ -188,7 +188,7 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] Vincent.json
 	- [x] Willy.json
 - [ ] Strings
-	- [ ] 1_6_Strings.json
+	- [x] 1_6_Strings.json
 	- [ ] animationDescriptions.json
 	- [ ] BigCraftables.json
 	- [ ] Buildings.json
