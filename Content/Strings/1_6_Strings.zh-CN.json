@@ -469,7 +469,7 @@
         "SkillName_2": "採集",
         "SkillName_3": "採礦",
         "SkillName_4": "戰鬥",
-        "TextSign_Name": "告示牌",
+        "TextSign_Name": "文字告示牌",
         "TextSign_Description": "你可以在這個告示板上寫一條資訊。",
         "QoS_Cookbook": "你學習了 {0} 個新食譜。",
         "guild_door": "殺死 1000 隻怪物才能進入。（[FarmerStat monstersKilled]/1000）",
