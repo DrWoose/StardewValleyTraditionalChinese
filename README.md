@@ -189,12 +189,12 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] Willy.json
 - [ ] Strings
 	- [x] 1_6_Strings.json
-	- [ ] animationDescriptions.json
-	- [ ] BigCraftables.json
-	- [ ] Buildings.json
-	- [ ] BundleNames.json
-	- [ ] Characters.json
-	- [ ] credits.json
+	- [x] animationDescriptions.json
+	- [x] BigCraftables.json
+	- [x] Buildings.json
+	- [x] BundleNames.json
+	- [x] Characters.json
+	- [x] credits.json
 	- [ ] EnchantmentNames.json
 	- [ ] Events.json
 	- [ ] FarmAnimals.json
