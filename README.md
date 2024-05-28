@@ -195,12 +195,12 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] BundleNames.json
 	- [x] Characters.json
 	- [x] credits.json
-	- [ ] EnchantmentNames.json
-	- [ ] Events.json
-	- [ ] FarmAnimals.json
-	- [ ] Furniture.json
-	- [ ] Lexicon.json
-	- [ ] Locations.json
+	- [x] EnchantmentNames.json
+	- [x] Events.json
+	- [x] FarmAnimals.json
+	- [x] Furniture.json
+	- [x] Lexicon.json
+	- [x] Locations.json
 	- [ ] MovieConcessions.json
 	- [ ] MovieReactions.json
 	- [ ] Movies.json
