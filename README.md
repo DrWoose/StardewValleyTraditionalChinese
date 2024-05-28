@@ -188,19 +188,19 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] Vincent.json
 	- [x] Willy.json
 - [ ] Strings
-	- [ ] 1_6_Strings.json
-	- [ ] animationDescriptions.json
-	- [ ] BigCraftables.json
-	- [ ] Buildings.json
-	- [ ] BundleNames.json
-	- [ ] Characters.json
-	- [ ] credits.json
-	- [ ] EnchantmentNames.json
-	- [ ] Events.json
-	- [ ] FarmAnimals.json
-	- [ ] Furniture.json
-	- [ ] Lexicon.json
-	- [ ] Locations.json
+	- [x] 1_6_Strings.json
+	- [x] animationDescriptions.json
+	- [x] BigCraftables.json
+	- [x] Buildings.json
+	- [x] BundleNames.json
+	- [x] Characters.json
+	- [x] credits.json
+	- [x] EnchantmentNames.json
+	- [x] Events.json
+	- [x] FarmAnimals.json
+	- [x] Furniture.json
+	- [x] Lexicon.json
+	- [x] Locations.json
 	- [ ] MovieConcessions.json
 	- [ ] MovieReactions.json
 	- [ ] Movies.json
