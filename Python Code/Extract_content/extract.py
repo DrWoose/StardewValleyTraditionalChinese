@@ -20,10 +20,22 @@ def Output_json(output_data,file_name):
 
 def Extract_content(data,file_name):
     data_dict : dict = data['content']
-    key_list = list(data_dict.keys())
-    for key in key_list:
-        string : str = data_dict[key]
-        splitted_string = string.split('/')
+    new_key_list = []
+    for key,value in data_dict.items():
+        splitted_string : str = value.split('/')
+        
+        if splitted_string[0].strip() in new_key_list:   
+            counter = new_key_list.count(splitted_string[0].strip()) + 1         
+            temp_dict = {
+                splitted_string[0].strip() + str(counter) +  "_Name": splitted_string[4],
+                splitted_string[0].strip() + str(counter) + "_Description": splitted_string[5]
+            }            
+            new_key_list.append(splitted_string[0].strip())            
+            new_dict.update(temp_dict)
+            continue
+        
+        
+        new_key_list.append(splitted_string[0].strip())
         temp_dict = {
             splitted_string[0].strip() + "_Name": splitted_string[4],
             splitted_string[0].strip() + "_Description": splitted_string[5]
