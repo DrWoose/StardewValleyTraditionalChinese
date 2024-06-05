@@ -201,20 +201,20 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] Furniture.json
 	- [x] Lexicon.json
 	- [x] Locations.json
-	- [ ] MovieConcessions.json
-	- [ ] MovieReactions.json
-	- [ ] Movies.json
-	- [ ] Notes.json
-	- [ ] NPCNames.json
-	- [ ] Objects.json
-	- [ ] Pants.json
-	- [ ] Quests.json
-	- [ ] schedules
-	- [ ] Shirts.json
-	- [ ] SimpleNonVillagerDialogues.json
-	- [ ] SpecialOrderStrings.json
-	- [ ] SpeechBubbles.json
-	- [ ] StringsFromCSFiles.json
+	- [x] MovieConcessions.json
+	- [x] MovieReactions.json
+	- [x] Movies.json
+	- [x] Notes.json
+	- [x] NPCNames.json
+	- [x] Objects.json
+	- [x] Pants.json
+	- [x] Quests.json
+	- [x] schedules
+	- [x] Shirts.json
+	- [x] SimpleNonVillagerDialogues.json
+	- [x] SpecialOrderStrings.json
+	- [x] SpeechBubbles.json
+	- [x] StringsFromCSFiles.json
 	- [ ] StringsFromMaps.json
 	- [ ] UI.json
 	- [ ] Weapons.json
