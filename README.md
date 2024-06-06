@@ -187,7 +187,7 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] Shane.json
 	- [x] Vincent.json
 	- [x] Willy.json
-- [ ] Strings
+- [x] Strings
 	- [x] 1_6_Strings.json
 	- [x] animationDescriptions.json
 	- [x] BigCraftables.json
@@ -215,8 +215,8 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] SpecialOrderStrings.json
 	- [x] SpeechBubbles.json
 	- [x] StringsFromCSFiles.json
-	- [ ] StringsFromMaps.json
-	- [ ] UI.json
-	- [ ] Weapons.json
-	- [ ] WorldMap.json
+	- [x] StringsFromMaps.json
+	- [x] UI.json
+	- [x] Weapons.json
+	- [x] WorldMap.json
 - [ ] TileSheets/furniture.png
