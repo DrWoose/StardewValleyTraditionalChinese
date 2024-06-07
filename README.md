@@ -124,33 +124,33 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [ ] NPCGiftTastes.json
 	- [ ] Quests.json
 	- [ ] SecretNotes.json
-- [ ] LooseSprites
-	- [ ] Billboard.png
-	- [ ] ControllerMaps.png
-	- [ ] Cursors.png
-	- [ ] JojaCDForm.png
-	- [ ] JunimoNote.png
-	- [ ] LanguageButtons.png 
-- [ ] Maps
-	- [ ] bathhouse_tiles.png
-	- [ ] coopTiles.png
-	- [ ] DesertTiles.png
-	- [ ] desert_festival_tilesheet_text.png
-	- [ ] fall_beach.png
-	- [ ] fall_outdoorsTileSheet.png
-	- [ ] fall_outdoorsTileSheet2.png
-	- [ ] fall_town.png
-	- [ ] Festivals.png
-	- [ ] samshowtiles.png
-	- [ ] spring_beach.png
-	- [ ] spring_outdoorsTileSheet.png
-	- [ ] spring_town.png
-	- [ ] summer_beach.png
-	- [ ] summer_outdoorsTileSheet.png
-	- [ ] summer_town.png
-	- [ ] winter_beach.png
-	- [ ] winter_outdoorsTileSheet.png
-	- [ ] winter_town.png
+- [x] LooseSprites
+	- [x] Billboard.png
+	- [x] ControllerMaps.png
+	- [x] Cursors.png
+	- [x] JojaCDForm.png
+	- [x] JunimoNote.png
+	- [x] LanguageButtons.png 
+- [x] Maps
+	- [x] bathhouse_tiles.png
+	- [x] coopTiles.png
+	- [x] DesertTiles.png
+	- [x] desert_festival_tilesheet_text.png
+	- [x] fall_beach.png
+	- [x] fall_outdoorsTileSheet.png
+	- [x] fall_outdoorsTileSheet2.png
+	- [x] fall_town.png
+	- [x] Festivals.png
+	- [x] samshowtiles.png
+	- [x] spring_beach.png
+	- [x] spring_outdoorsTileSheet.png
+	- [x] spring_town.png
+	- [x] summer_beach.png
+	- [x] summer_outdoorsTileSheet.png
+	- [x] summer_town.png
+	- [x] winter_beach.png
+	- [x] winter_outdoorsTileSheet.png
+	- [x] winter_town.png
 - [ ] Minigames
 	- [ ] Intro.png
 	- [ ] jojacorps.png
