@@ -151,11 +151,11 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] winter_beach.png
 	- [x] winter_outdoorsTileSheet.png
 	- [x] winter_town.png
-- [ ] Minigames
-	- [ ] Intro.png
-	- [ ] jojacorps.png
-	- [ ] TitleButtons.png
-	- [ ] Xb1ProfileButton.png
+- [x] Minigames
+	- [x] Intro.png
+	- [x] jojacorps.png
+	- [x] TitleButtons.png
+	- [x] Xb1ProfileButton.png
 - [x] Strings/schedules
 	- [x] Abigail.json
 	- [x] Alex.json
