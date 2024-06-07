@@ -219,4 +219,4 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] UI.json
 	- [x] Weapons.json
 	- [x] WorldMap.json
-- [ ] TileSheets/furniture.png
+- [x] TileSheets/furniture.png
