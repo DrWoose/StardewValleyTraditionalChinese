@@ -100,12 +100,12 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] WizardHouse.json
 	- [x] Woods.json
 - [ ] Data/Festivals
-	- [ ]  fall16.json
-	- [ ] fall27.json
-	- [ ] FestivalDates.json
-	- [ ] spring13.json
-	- [ ] spring24.json
-	- [ ] summer11.json
+	- [x]  fall16.json
+	- [x] fall27.json
+	- [x] FestivalDates.json
+	- [x] spring13.json
+	- [x] spring24.json
+	- [x] summer11.json
 	- [ ] summer28.json
 	- [ ] winter25.json
 	- [ ] winter8.json
