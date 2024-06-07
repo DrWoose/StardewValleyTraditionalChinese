@@ -109,7 +109,7 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [ ] summer28.json
 	- [ ] winter25.json
 	- [ ] winter8.json
-- [ ] Data/TV
+- [x] Data/TV
 	- [x] CookingChannel.json
 	- [x] TipChannel.json
 - [ ] Data
