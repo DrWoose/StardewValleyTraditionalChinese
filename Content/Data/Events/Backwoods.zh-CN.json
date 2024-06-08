@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": true
+        "compressed": 128
     },
     "readers": [
         {

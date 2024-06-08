@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": false
+        "compressed": 128
     },
     "readers": [
         {
@@ -21,10 +21,6 @@
         "RandomPositiveAdjective_AdultMale": "有趣#激動人心#整齊俐落#有趣#太棒了#精彩",
         "RandomPositiveAdjective_AdultFemale": "極好#令人驚異#溫馨感人#神奇#不可思議#可愛#招人喜歡#令人愉快",
         "RandomPositiveAdjective_PlaceOrEvent": "極好#令人驚異#溫馨感人#神奇#不可思議#可愛#招人喜歡#令人愉快",
-        "RandomNegativeAdjective_Child": "愚蠢#十分愚蠢#真差勁#無聊#低能",
-        "RandomNegativeAdjective_AdultMale": "可怕#糟糕#討厭#無聊#令人沮喪#卑鄙#可笑",
-        "RandomNegativeAdjective_AdultFemale": "悲哀#無聊#緊張焦慮#令人沮喪#可憐#幼稚#卑鄙",
-        "RandomNegativeAdjective_PlaceOrEvent": "悲哀#無聊#緊張焦慮#令人沮喪#可憐#幼稚#卑鄙",
         "RandomDeliciousAdjective": "美味#可口#極好#滿意的#酒飽飯足#令人垂涎#開胃#令人愉快",
         "RandomDeliciousAdjective_Child": "好吃",
         "RandomNegativeFoodAdjective_Child": "令人不快",

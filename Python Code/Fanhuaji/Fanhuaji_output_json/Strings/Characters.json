@@ -1,0 +1,23 @@
+{
+    "Relative_Husband": "丈夫",
+    "Relative_HalfBrother": "同母異父的哥哥",
+    "Relative_Niece": "侄女",
+    "Relative_Grandma": "奶奶",
+    "Relative_Wife": "妻子",
+    "Relative_LittleBabyGirl": "小女嬰",
+    "Relative_Mother": "母親",
+    "Relative_Aunt": "阿姨",
+    "Relative_Son": "兒子",
+    "Relative_HalfSister": "同母異父的妹妹",
+    "Relative_YoungestBoy": "最小的男孩",
+    "Relative_Mom": "媽媽",
+    "Relative_EldestSon": "長子",
+    "Relative_Nephew": "外甥",
+    "Relative_LittleBrother": "小弟弟",
+    "Relative_Dad": "爸爸",
+    "Relative_Daughter": "女兒",
+    "Relative_Grandson": "孫子",
+    "Relative_Sister": "姐姐",
+    "Relative_YoungestSon": "老么",
+    "Relative_Grandpa": "爺爺"
+}

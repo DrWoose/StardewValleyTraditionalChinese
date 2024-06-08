@@ -1,0 +1,68 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "AppleSlices_Name": "蘋果切片",
+        "AppleSlices_Description": "香甜爽口的蘋果薄片。",
+        "BlackLicorice_Name": "黑甘草糖",
+        "BlackLicorice_Description": "嗆鼻的重口味軟糖，很耐嚼。",
+        "CappuccinoMousseCake_Name": "卡布奇諾慕斯蛋糕",
+        "CappuccinoMousseCake_Description": "外層裹著卡布奇諾慕斯的小塊巧克力蛋糕。",
+        "ChocolatePopcorn_Name": "巧克力爆米花",
+        "ChocolatePopcorn_Description": "就是普通的爆米花……沾滿一層巧克力。",
+        "CottonCandy_Name": "棉花糖",
+        "CottonCandy_Description": "由砂糖反覆纏繞而成的粉紅雲朵。",
+        "Fries_Name": "薯條",
+        "Fries_Description": "將切成薄片的馬鈴薯高溫油炸，再撒上少許鹽。",
+        "HummusSnackPack_Name": "鷹嘴豆泥零嘴包",
+        "HummusSnackPack_Description": "吃起來酥脆又健康。",
+        "IceCreamSandwich_Name": "霜淇淋夾心餅乾",
+        "IceCreamSandwich_Description": "兩塊巧克力餅乾間夾著香草霜淇淋。",
+        "JasmineTea_Name": "茉莉花茶",
+        "JasmineTea_Description": "散發著茉莉花香的綠茶。",
+        "Jawbreaker_Name": "大糖球",
+        "Jawbreaker_Description": "一顆又大又硬的糖果，夠你舔一整部電影的時間！",
+        "JojaCola_Name": "Joja 可樂",
+        "JojaCola_Description": "特大杯的 Joja 招牌氣泡飲料。",
+        "JojaCorn_Name": "Joja 玉米",
+        "JojaCorn_Description": "Joja 公司的專利玉米食品，塗有大量奶油。",
+        "KaleSmoothie_Name": "甘藍果菜汁",
+        "KaleSmoothie_Description": "富含維生素和纖維素。",
+        "Nachos_Name": "辣起司玉米片",
+        "Nachos_Description": "將現炸玉米片塗滿濃稠香辣的起司。",
+        "PanzanellaSalad_Name": "義式麵包沙拉",
+        "PanzanellaSalad_Description": "用麵包和番茄做的夏季沙拉。",
+        "PersonalPizza_Name": "獨享披薩",
+        "PersonalPizza_Description": "小到可以當零食吃的披薩。",
+        "Popcorn_Name": "爆米花",
+        "Popcorn_Description": "爆開的玉米粒佐以少許鹽，再淋上奶油。",
+        "RockCandy_Name": "冰糖",
+        "RockCandy_Description": "由蔗糖提煉出的糖晶包在一根簡單的竹籤上。",
+        "SalmonBurger_Name": "鮭魚堡",
+        "SalmonBurger_Description": "將芝麻漢堡包稍微烘烤，夾入厚厚的鮭魚塊。",
+        "SaltedPeanuts_Name": "鹽漬花生",
+        "SaltedPeanuts_Description": "經典的鹹味零食。",
+        "SourSlimes_Name": "史萊姆酸糖",
+        "SourSlimes_Description": "五彩繽紛的小型史萊姆軟糖，上面撒著一層酸溜溜的糖粉。",
+        "StarCookie_Name": "星形餅乾",
+        "StarCookie_Description": "撒有五彩巧克力米的星形奶油餅乾。",
+        "StardropSorbet_Name": "星之果實雪酪",
+        "StardropSorbet_Description": "一滴星之果實的精華，為雪酪增添非凡滋味。",
+        "TrufflePopcorn_Name": "松露爆米花",
+        "TrufflePopcorn_Description": "代代相傳的手工製作的爆米花佐以松露鹽。"
+    }
+}

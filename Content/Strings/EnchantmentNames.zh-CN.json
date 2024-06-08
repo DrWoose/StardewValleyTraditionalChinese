@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": false
+        "compressed": 128
     },
     "readers": [
         {
@@ -32,6 +32,7 @@
         "Generous": "富饒",
         "Master": "船長",
         "Auto-Hook": "自動上鉤",
-        "Preserving": "節儉"
+        "Preserving": "節儉",
+        "Fisher": "漁夫"
     }
 }

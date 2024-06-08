@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": false
+        "compressed": 128
     },
     "readers": [
         {
@@ -37,7 +37,7 @@
         "Gunther_NothingToDonate": "你似乎沒有要捐給博物館的物品，最好出去尋寶，嗯？",
         "Gunther_NoArtifactsFound": "你好啊！歡迎來到星露谷考古研究辦公室。#$b#啊……說起來怪丟人的，不過上一任館長把所有的藏品都捲走了。我們什麼可展示的工藝品也沒有了。#$b#不過我希望這一點能很快得到改善！嘿，如果你在外面找到什麼工藝品啊礦石啊之類的，能不能告訴我一聲呢？",
         "Sandy_PlayerClubMember": "發生了什麼事？你是會員？",
-        "MisterQi_PlayerClubMember": "終於見到你了，孩子，真好啊。歡迎來到我的專屬會所。#$e#你已經得到了「火花」……這就是為什麼我挑中了你。#$e#什麼火花？啊……就是通往神奇彼岸，通往藝術的通道……#$b#像我們這樣的人有責任讓世界保持活力，給鄉親們非凡的味道。#$e#明白嗎，小子……這個世界就像一碗飯。它有食材，但是如果沒有好的、刺激的醬料，便索然無味。這就是為什麼這個地方會存在。#$b#你難道不想知道是誰把那些寶箱放在廢棄礦坑裡？我喜歡給人們驚喜。#$e#總有一天你會明白的。盡力做到最好，永不放棄。",
+        "MisterQi_PlayerClubMember": "哎呀哎呀……歡迎來到我的專屬會所。#$e#你已經得到了「火花」……這就是為什麼我挑中了你。#$e#什麼火花？啊……就是通往神奇彼岸，通往藝術的通道……#$b#像我們這樣的人有責任讓世界保持活力，給鄉親們非凡的味道。#$e#明白嗎，小子……這個世界就像一碗飯。它有食材，但是如果沒有好的、刺激的醬料，便索然無味。這就是為什麼這個地方會存在。#$b#你難道不想知道是誰把那些寶箱放在廢棄礦坑裡？我喜歡給人們驚喜。#$e#總有一天你會明白的。盡力做到最好，永不放棄。",
         "Robin_HouseUpgrade_Accepted": "非常感謝！我明天就開始。大約需要三天時間完成。",
         "Robin_PamUpgrade_Accepted": "你真慷慨！我明天就會開始增建，大概需要三天的時間。",
         "Mines_PlayerKilled_Robin": "……我發現你在礦山不省人事。我幾乎把你錯認為是一塊熱帶木！#$b#下次要更加小心一點，好嗎？$s",
@@ -146,24 +146,25 @@
         "SummitEvent_Intro_Spouse": "嗨，@。",
         "SummitEvent_Intro2_Spouse": "這裡真美……",
         "SummitEvent_Intro2_Spouse_Gruff": "風景不錯，對吧？",
-        "SummitEvent_Dialogue1_Spouse": "我在回想過去的 %year 年……\"/pause 1000/speak spouse \"我們一起經歷了許多，是不是？$h",
+        "SummitEvent_Dialogue1_Spouse": "我在回想過去的 %year 年……",
         "SummitEvent_Dialogue2_Spouse": "……想想看，我們居然走了這麼遠。",
-        "SummitEvent_Dialogue3_Alex": "我終於明白了自己想要成為什麼樣的人……我對未來更有把握了。\"/pause 500/speak Alex \"@，如果沒有你，我恐怕做不到這一切。",
-        "SummitEvent_Dialogue3_Sebastian": "在遇到你之前，我把自己的人生都耗費在逃避現實上……因為我覺得自己永遠都得不到幸福。#$b#……但你向我證明，世界並不只是一片黑暗。$h\"/faceDirection Sebastian 3/pause 500/speak Sebastian \"……我有許多愛你的理由，這是其中之一……",
+        "SummitEvent_Dialogue3_Alex": "我終於明白了自己想要成為什麼樣的人……我對未來更有把握了。\"/pause 500/speak Alex \"@，如果沒有你，我恐怕做不到這一切。\"",
+        "SummitEvent_Dialogue3_Sebastian": "在遇到你之前，我把自己的人生都耗費在逃避現實上……因為我覺得自己永遠都得不到幸福。#$b#……但你向我證明，世界並不只是一片黑暗。$h\"/faceDirection Sebastian 3/pause 500/speak Sebastian \"……我有許多愛你的理由，這是其中之一……\"",
         "SummitEvent_Dialogue3_Sam": "自從我們相遇以來，我改變了許多……你感覺到了嗎？#$b#……你可能會說我「變成熟了」……嘿嘿。$10#$b#但是在此時此地，我更加期待我們共同的未來……$l#$b#哪怕只是做些稀鬆平常的事情，像是……呃……採購日用品和換尿布……哈……$10",
-        "SummitEvent_Dialogue3_Shane": "@，要是我沒有遇見你……恐怕我就不會到這裡來了。#$b#那就太可惜了，畢竟這裡是絕無僅有的觀鳥點！$h\"/emote farmer 16/pause 1000/speak Shane \"……我……我經常開玩笑，因為……呃……$s#$b#我覺得，只要把所有事情都一笑置之，我就不用敞開心扉，讓自己變得脆弱了。\"/emote Shane 28/speak Shane \"但與你在一起，每度過一個季節，我都會變得更加安然自在一些。#$b#呃……我想說的大概就是……#$b#和你結婚我無怨無悔！$h",
+        "SummitEvent_Dialogue3_Shane": "@，要是我沒有遇見你……恐怕我就不會到這裡來了。#$b#那就太可惜了，畢竟這裡是絕無僅有的觀鳥點！$h\"/emote farmer 16/pause 1000/speak Shane \"……我……我經常開玩笑，因為……呃……$s#$b#我覺得，只要把所有事情都一笑置之，我就不用敞開心扉，讓自己變得脆弱了。\"/emote Shane 28/speak Shane \"但與你在一起，每度過一個季節，我都會變得更加安然自在一些。#$b#呃……我想說的大概就是……#$b#和你結婚我無怨無悔！$h\"",
         "SummitEvent_Dialogue3_Elliott": "嘿……我突然意識到……$h#$b#現在我們不僅爬到了頂峰……而且在事業層面上也到達了頂峰。#$b#真有詩意！$l",
-        "SummitEvent_Dialogue3_Harvey": "有你在我身邊，我就不會害怕從懸崖上摔下去，落在下面的鋒利的石頭上……$l\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"……$8#$b#我……我非常愛慕，而且崇敬你，@……$l",
+        "SummitEvent_Dialogue3_Harvey": "有你在我身邊，我就不會害怕從懸崖上摔下去，落在下面的鋒利的石頭上……$l\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"……$8#$b#我……我非常愛慕，而且崇拜你，@……$l\"",
         "SummitEvent_Dialogue3_Abigail": "站在這裡，眺望地平線……我能感受到無窮無盡的可能性。#$b#我很高興，能有機會和你一起探索這個世界……$l",
-        "SummitEvent_Dialogue3_Emily": "這是個特別的時刻……#$b#我一直都知道，我總有一天會和你一起站在這裡。我心底一直有著這樣的預感。#$b#現在，一切終於成為現實。\"/pause 500/speak Emily \"世界真是神秘又特別……$l",
-        "SummitEvent_Dialogue3_Haley": "嘻嘻……$h\"/faceDirection farmer 1 true/emote farmer 8/pause 1000/speak Haley \"啊，是這樣的……#$b#我還是個小女孩的時候，就經常會幻想自己有一天會與真愛之人一起爬到山頂，然後接吻。$l",
+        "SummitEvent_Dialogue3_Emily": "這是個特別的時刻……#$b#我一直都知道，我總有一天會和你一起站在這裡。我心底一直有著這樣的預感。#$b#現在，一切終於成為現實。\"/pause 500/speak Emily \"世界真是神秘又特別……$l\"",
+        "SummitEvent_Dialogue3_Haley": "嘻嘻……$h\"/faceDirection farmer 1 true/emote farmer 8/pause 1000/speak Haley \"啊，是這樣的……#$b#我還是個小女孩的時候，就經常會幻想自己有一天會與真愛之人一起爬到山頂，然後接吻。$l\"",
         "SummitEvent_Dialogue3_Leah": "我覺得，我們都在這裡找到了自己想要的東西。#$b#除了於此時此地和你待在一起，我別無所求。$l",
         "SummitEvent_Dialogue3_Penny": "我們有漂亮的房子，有欣欣向榮的家……這已經超出我所夢想的一切了。$l",
-        "SummitEvent_Dialogue3_Maru": "@，你自從搬到這裡之後，真的做出了不少成就。實在是太了不起了。\"/pause 300/faceDirection Maru 3/pause 400/speak Maru \"我想，你應該生來就是當農場主的料！$h",
+        "SummitEvent_Dialogue3_Maru": "@，你自從搬到這裡之後，真的做出了不少成就。實在是太了不起了。\"/pause 300/faceDirection Maru 3/pause 400/speak Maru \"我想，你應該生來就是當農夫的料！$h\"",
         "SummitEvent_closingmessage": "這是一條漫漫長路……",
         "SummitEvent_closingmessage2": "你挑戰自己，登上了頂峰。",
         "SummitEvent_closingmessage3": "多麼了不起的成就！",
         "SummitEvent_closingmessage4": "我們見證了你征途中的每一步……",
-        "SummitEvent_closingmessage5": "我們為你感到無比自豪！"
+        "SummitEvent_closingmessage5": "我們為你感到無比自豪！",
+        "SummitEvent_Dialogue1B_Spouse": "我們一起經歷了許多，是不是？$h"
     }
 }

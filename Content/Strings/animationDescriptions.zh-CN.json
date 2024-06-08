@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": false
+        "compressed": 128
     },
     "readers": [
         {
@@ -16,7 +16,7 @@
         }
     ],
     "content": {
-        "abigail_videogames": "呃啊……我還是打不過《草原之王的冒險之旅》第一關！$u",
+        "abigail_videogames": "呃啊……這遊戲好難！$u",
         "haley_photo": "%海莉的注意力全在相機上，沒有注意到你。",
         "harvey_radio": "%哈維好像沒空。",
         "harvey_examine_left": "待著別動……我要你深吸一口氣。$u",

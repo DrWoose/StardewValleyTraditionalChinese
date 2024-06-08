@@ -1,0 +1,37 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": false
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Starburst": "星爆",
+        "Artful": "巧妙",
+        "Haymaker": "乾草機器",
+        "Bug Killer": "蟲蟲剋星",
+        "Vampiric": "吸血",
+        "Crusader": "聖戰士",
+        "Powerful": "強化",
+        "Efficient": "輕量化",
+        "Swift": "迅捷",
+        "Expansive": "範圍",
+        "Bottomless": "無底洞",
+        "Shaving": "刨木",
+        "Archaeologist": "考古學家",
+        "Generous": "富饒",
+        "Master": "船長",
+        "Auto-Hook": "自動上鉤",
+        "Preserving": "節儉"
+    }
+}

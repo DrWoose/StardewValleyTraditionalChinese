@@ -1,0 +1,34 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "GingerIsland_East_JungleHut": "叢林樹屋",
+        "GingerIsland_North_DigSite": "礦場",
+        "GingerIsland_North_FieldOffice": "辦事處",
+        "GingerIsland_North_Trader": "薑之島商人",
+        "GingerIsland_North_Volcano": "火山",
+        "GingerIsland_South_Dock": "威利的船",
+        "GingerIsland_South_Resort": "度假村",
+        "GingerIsland_SouthEast_PirateCove": "海盜灣",
+        "GingerIsland_West_BirdieShack": "柏蒂的小屋",
+        "GingerIsland_West_GourmandCave": "饕餮蛙",
+        "GingerIsland_West_House": "薑之島農舍",
+        "GingerIsland_West_QiWalnutRoom": "Mr. Qi 的核桃屋",
+        "GingerIsland_West_Shipwreck": "沉船",
+        "GingerIsland_West_TigerSlimeGrove": "老虎史萊姆樹林"
+    }
+}

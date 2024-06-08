@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": false
+        "compressed": 128
     },
     "readers": [
         {
@@ -28,10 +28,12 @@
         "Home Cook's": "居家廚師",
         "Wild Medicine": "野生補藥",
         "Sticky": "黏黏的",
-        "Engineer's": "工程師",
-        "Slime Farmer's": "史莱姆農夫",
-        "Beekeeper's": "蜂農",
-        "Prospector's": "礦工",
-        "Archaeologist's": "考古學家"
+        "Engineer's": "工程師",     
+        "Helper's": "熱心居民",
+        "Aquatic Jelly": "水生膠凍",
+        "Bookworm's": "書迷",
+        "Spirit's Eve": "萬靈節",
+        "Forest": "森林",
+        "Winter Star": "冬日之星"
     }
 }

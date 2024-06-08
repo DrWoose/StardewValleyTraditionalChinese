@@ -3,7 +3,7 @@
         "target": "w",
         "formatVersion": 5,
         "hidef": true,
-        "compressed": false
+        "compressed": 128
     },
     "readers": [
         {
@@ -21,7 +21,7 @@
         "winter.000": "天氣冷得我不想起床。",
         "marriage_Mon.000": "嗨，寶貝！我來這裡是為了探望艾米麗。",
         "rain.000": "天氣遭得我不想起床。",
-        "winter_16.001": "唔唔唔……我並非為此才穿衣打扮……$s",
+        "winter_16.001": "只要你穿得暖一點，冷天氣對你來說根本就沒什麼！$h",
         "winter_16.000": "天氣冷得我不想起床。"
     }
 }
