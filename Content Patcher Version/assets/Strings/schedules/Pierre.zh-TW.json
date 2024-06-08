@@ -1,0 +1,12 @@
+{
+	"Changes": [
+		{
+			"LogName": "Pierre",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Pierre",
+			"Entries": {
+				"Fri.000": "我整週都很賣力。週五晚上放鬆一下有何不可。"
+			}
+		}
+	]
+}

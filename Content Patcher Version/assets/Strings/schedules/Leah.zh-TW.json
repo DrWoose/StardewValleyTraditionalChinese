@@ -1,0 +1,15 @@
+{
+	"Changes": [
+		{
+			"LogName": "Leah",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Leah",
+			"Entries": {
+				"spring_16.001": "我看起來健康嗎？哈維醫生。",
+				"marriage_Mon.000": "你好，@。我只是在享受一下新鮮空氣而已。待在家裡讓我覺得煩燥不安。",
+				"winter_15.000": "嗯……盧皮尼的原作？不錯……",
+				"spring_16.000": "嗨，來看醫生嗎？"
+			}
+		}
+	]
+}

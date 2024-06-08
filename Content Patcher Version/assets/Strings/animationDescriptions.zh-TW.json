@@ -1,0 +1,32 @@
+{
+	"Changes": [
+		{
+			"LogName": "animationDescriptions",
+			"Action": "EditData",
+			"Target": "Strings/animationDescriptions",
+			"Entries": {
+				"abigail_videogames": "呃啊……我還是打不過《草原之王的冒險之旅》第一關！$u",
+				"haley_photo": "%海莉的注意力全在相機上，沒有注意到你。",
+				"harvey_radio": "%哈維好像沒空。",
+				"harvey_examine_left": "待著別動……我要你深吸一口氣。$u",
+				"alex_lift_weights": "啊……沒辦法說話。",
+				"robin_dance": "%羅賓沒空。",
+				"demetrius_dance": "%迪馬崔斯沒空。",
+				"demetrius_read": "我們星露谷這裡可算是與世隔絕。說不定這是一件好事。",
+				"emily_exercise": "鍛鍊很有趣的！",
+				"robin_exercise": "我的手臂很強壯……呼呼……但是我的腿還需要再鍛鍊……哈哈……",
+				"caroline_exercise": "別盯著我！我滿身是汗，紅通通的。$s",
+				"shane_work": "%謝恩正在努力工作，似乎沒心情聊天。",
+				"marnie_exercise": "%瑪妮透過一層薄汗朝你微笑。",
+				"jodi_exercise": "呃……吸氣……呃……呼氣。$4",
+				"vincent_read_right": "佩妮老師說我必須先讀完這本書才能去玩。$s",
+				"penny_wave_left": "鎮上很安全，不過我還是會陪孩子們回家。",
+				"sam_guitar": "%山姆正忙著練吉他。",
+				"sam_gameboy": "等一下……我能過這關。$7",
+				"sam_skateboarding": "%山姆在嘗試腳尖翻板。",
+				"sam_pool": "$c .5#嗯……如果用推桿，說不定可以……$7#$e#唉……我沒打好。$s",
+				"sam_work": "%山姆在上班……最好不要給他添麻煩。"
+			}
+		}
+	]
+}

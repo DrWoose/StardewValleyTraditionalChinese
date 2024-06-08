@@ -1,0 +1,17 @@
+{
+  "Name": "StardewValley CHT",
+  "Author": "DrWoose, Voico, Seacucu",
+  "Version": "0.9.2",
+  "Description": "Traditional Chinese Translation v0.9.2",
+  "UniqueID": "DrWoose.StardewValley_CHT",
+  "UpdateKeys": [ "Nexus:8007" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+     {
+        "UniqueID": "spacechase0.GenericModConfigMenu",
+        "IsRequired": false
+     }
+  ]
+}

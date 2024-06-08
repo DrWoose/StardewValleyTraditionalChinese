@@ -1,0 +1,2055 @@
+{
+	"Format": "1.20.0",
+	"ConfigSchema": {
+		"Font": {
+			"AllowValues": "SourceHanSans, SweiGothic, NaikaiFont, JasonHandwriting1, Zpix",
+			"Default": "SourceHanSans"
+		},
+		"Movie-only": {
+			"AllowValues": "true, false",
+			"Default": "false"
+		}
+	},
+	"Changes": [
+		{
+			"LogName": "SourceHanSans",
+			"Action": "Load",
+			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
+			"FromFile": "assets/Fonts/SourceHanSans/{{Target}}.xnb",
+			"When": {
+				"Font": "SourceHanSans",
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "SourceHanSans",
+			"Action": "Load",
+			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
+			"FromFile": "assets/Fonts/SourceHanSans/{{Target}}.xnb",
+			"When": {
+				"Font": "SourceHanSans",
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "SweiGothic",
+			"Action": "Load",
+			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
+			"FromFile": "assets/Fonts/SweiGothic/{{Target}}.xnb",
+			"When": {
+				"Font": "SweiGothic",
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "SweiGothic",
+			"Action": "Load",
+			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
+			"FromFile": "assets/Fonts/SweiGothic/{{Target}}.xnb",
+			"When": {
+				"Font": "SweiGothic",
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "NaikaiFont",
+			"Action": "Load",
+			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
+			"FromFile": "assets/Fonts/NaikaiFont/{{Target}}.xnb",
+			"When": {
+				"Font": "NaikaiFont",
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "NaikaiFont",
+			"Action": "Load",
+			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
+			"FromFile": "assets/Fonts/NaikaiFont/{{Target}}.xnb",
+			"When": {
+				"Font": "NaikaiFont",
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "JasonHandwriting1",
+			"Action": "Load",
+			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
+			"FromFile": "assets/Fonts/JasonHandwriting1/{{Target}}.xnb",
+			"When": {
+				"Font": "JasonHandwriting1",
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "JasonHandwriting1",
+			"Action": "Load",
+			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
+			"FromFile": "assets/Fonts/JasonHandwriting1/{{Target}}.xnb",
+			"When": {
+				"Font": "JasonHandwriting1",
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "Zpix",
+			"Action": "Load",
+			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
+			"FromFile": "assets/Fonts/Zpix/{{Target}}.xnb",
+			"When": {
+				"Font": "Zpix",
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "Zpix",
+			"Action": "Load",
+			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
+			"FromFile": "assets/Fonts/Zpix/{{Target}}.xnb",
+			"When": {
+				"Font": "Zpix",
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "Abigail",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Abigail.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Alex",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Alex.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Caroline",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Caroline.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Clint",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Clint.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Demetrius",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Demetrius.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Dwarf",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Dwarf.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Elliott",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Elliott.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Emily",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Emily.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Evelyn",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Evelyn.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "George",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/George.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Gil",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Gil.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Gus",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Gus.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Haley",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Haley.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Harvey",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Harvey.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Jas",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Jas.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Jodi",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Jodi.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Kent",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Kent.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Krobus",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Krobus.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Leah",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Leah.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Leo",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Leo.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "LeoMainland",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/LeoMainland.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Lewis",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Lewis.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Linus",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Linus.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Marnie",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Marnie.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogue.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueAbigail",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueAbigail.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueAlex",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueAlex.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueElliott",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueElliott.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueEmily",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueEmily.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueHaley",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueHaley.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueHarvey",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueHarvey.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueKrobus",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueKrobus.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueLeah",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueLeah.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueMaru",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueMaru.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialoguePenny",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialoguePenny.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueSam",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueSam.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueSebastian",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueSebastian.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MarriageDialogueShane",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueShane.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Maru",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Maru.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Mister Qi",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Mister Qi.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Pam",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Pam.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Penny",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Penny.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Pierre",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Pierre.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "rainy",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/rainy.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Robin",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Robin.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Sam",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Sam.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Sandy",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Sandy.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Sebastian",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Sebastian.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Shane",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Shane.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Vincent",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Vincent.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Willy",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Willy.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Wizard",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dialogue/Wizard.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Achievements",
+			"Action": "Include",
+			"FromFile": "assets/Data/Achievements.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "BigCraftablesInformation",
+			"Action": "Include",
+			"FromFile": "assets/Data/BigCraftablesInformation.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Blueprints",
+			"Action": "Include",
+			"FromFile": "assets/Data/Blueprints.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Boots",
+			"Action": "Include",
+			"FromFile": "assets/Data/Boots.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Bundles",
+			"Action": "Include",
+			"FromFile": "assets/Data/Bundles.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "ClothingInformation",
+			"Action": "Include",
+			"FromFile": "assets/Data/ClothingInformation.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "CookingRecipes",
+			"Action": "Include",
+			"FromFile": "assets/Data/CookingRecipes.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "CraftingRecipes",
+			"Action": "Include",
+			"FromFile": "assets/Data/CraftingRecipes.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "EngagementDialogue",
+			"Action": "Include",
+			"FromFile": "assets/Data/EngagementDialogue.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "ExtraDialogue",
+			"Action": "Include",
+			"FromFile": "assets/Data/ExtraDialogue.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "FarmAnimals",
+			"Action": "Include",
+			"FromFile": "assets/Data/FarmAnimals.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Fish",
+			"Action": "Include",
+			"FromFile": "assets/Data/Fish.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Furniture",
+			"Action": "Include",
+			"FromFile": "assets/Data/Furniture.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "hats",
+			"Action": "Include",
+			"FromFile": "assets/Data/hats.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "mail",
+			"Action": "Include",
+			"FromFile": "assets/Data/mail.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Monsters",
+			"Action": "Include",
+			"FromFile": "assets/Data/Monsters.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "NPCDispositions",
+			"Action": "Include",
+			"FromFile": "assets/Data/NPCDispositions.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "NPCGiftTastes",
+			"Action": "Include",
+			"FromFile": "assets/Data/NPCGiftTastes.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "ObjectInformation",
+			"Action": "Include",
+			"FromFile": "assets/Data/ObjectInformation.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Quests",
+			"Action": "Include",
+			"FromFile": "assets/Data/Quests.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "SecretNotes",
+			"Action": "Include",
+			"FromFile": "assets/Data/SecretNotes.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "weapons",
+			"Action": "Include",
+			"FromFile": "assets/Data/weapons.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "AbandonedJojaMart",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/AbandonedJojaMart.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "AnimalShop",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/AnimalShop.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "ArchaeologyHouse",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/ArchaeologyHouse.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Backwoods",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Backwoods.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "BathHouse_Pool",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/BathHouse_Pool.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Beach",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Beach.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "BoatTunnel",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/BoatTunnel.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "BusStop",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/BusStop.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "CommunityCenter",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/CommunityCenter.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "ElliottHouse",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/ElliottHouse.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Farm",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Farm.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "FarmHouse",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/FarmHouse.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "FishShop",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/FishShop.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Forest",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Forest.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "HaleyHouse",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/HaleyHouse.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "HarveyRoom",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/HarveyRoom.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Hospital",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Hospital.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "IslandHut",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/IslandHut.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "IslandNorth",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/IslandNorth.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "IslandSouth",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/IslandSouth.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "IslandWest",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/IslandWest.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "JoshHouse",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/JoshHouse.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "LeahHouse",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/LeahHouse.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "ManorHouse",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/ManorHouse.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Mine",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Mine.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Mountain",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Mountain.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "QiNutRoom",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/QiNutRoom.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Railroad",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Railroad.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Saloon",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Saloon.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "SamHouse",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/SamHouse.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "SandyHouse",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/SandyHouse.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "ScienceHouse",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/ScienceHouse.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "SebastianRoom",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/SebastianRoom.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "SeedShop",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/SeedShop.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Sewer",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Sewer.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Sunroom",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Sunroom.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Temp",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Temp.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+/*
+		{
+			"LogName": "Tent",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Tent.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+*/
+		{
+			"LogName": "Town",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Town.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Trailer",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Trailer.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Trailer_big",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Trailer_big.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "WizardHouse",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/WizardHouse.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Woods",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Woods.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "fall16",
+			"Action": "Include",
+			"FromFile": "assets/Data/Festivals/fall16.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "fall27",
+			"Action": "Include",
+			"FromFile": "assets/Data/Festivals/fall27.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "FestivalDates",
+			"Action": "Include",
+			"FromFile": "assets/Data/Festivals/FestivalDates.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "spring13",
+			"Action": "Include",
+			"FromFile": "assets/Data/Festivals/spring13.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "spring24",
+			"Action": "Include",
+			"FromFile": "assets/Data/Festivals/spring24.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "summer11",
+			"Action": "Include",
+			"FromFile": "assets/Data/Festivals/summer11.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "summer28",
+			"Action": "Include",
+			"FromFile": "assets/Data/Festivals/summer28.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "winter25",
+			"Action": "Include",
+			"FromFile": "assets/Data/Festivals/winter25.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "winter8",
+			"Action": "Include",
+			"FromFile": "assets/Data/Festivals/winter8.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "CookingChannel",
+			"Action": "Include",
+			"FromFile": "assets/Data/TV/CookingChannel.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "InterviewShow",
+			"Action": "Include",
+			"FromFile": "assets/Data/TV/InterviewShow.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "TipChannel",
+			"Action": "Include",
+			"FromFile": "assets/Data/TV/TipChannel.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "animationDescriptions",
+			"Action": "Include",
+			"FromFile": "assets/Strings/animationDescriptions.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Buildings",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Buildings.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "BundleNames",
+			"Action": "Include",
+			"FromFile": "assets/Strings/BundleNames.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Characters",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Characters.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "EnchantmentNames",
+			"Action": "Include",
+			"FromFile": "assets/Strings/EnchantmentNames.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Events",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Events.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "FarmAnimals",
+			"Action": "Include",
+			"FromFile": "assets/Strings/FarmAnimals.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Lexicon",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Lexicon.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Locations",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Locations.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Notes",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Notes.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "NPCNames",
+			"Action": "Include",
+			"FromFile": "assets/Strings/NPCNames.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Objects",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Objects.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Quests",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Quests.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "SpecialOrderStrings",
+			"Action": "Include",
+			"FromFile": "assets/Strings/SpecialOrderStrings.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "SpeechBubbles",
+			"Action": "Include",
+			"FromFile": "assets/Strings/SpeechBubbles.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "StringsFromCSFiles",
+			"Action": "Include",
+			"FromFile": "assets/Strings/StringsFromCSFiles.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "StringsFromMaps",
+			"Action": "Include",
+			"FromFile": "assets/Strings/StringsFromMaps.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "UI",
+			"Action": "Include",
+			"FromFile": "assets/Strings/UI.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Abigail",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Abigail.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Alex",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Alex.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Caroline",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Caroline.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Clint",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Clint.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Demetrius",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Demetrius.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Elliott",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Elliott.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Emily",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Emily.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Evelyn",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Evelyn.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "George",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/George.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Gus",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Gus.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Haley",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Haley.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Harvey",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Harvey.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Jas",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Jas.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Jodi",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Jodi.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Leah",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Leah.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Leo",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Leo.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Lewis",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Lewis.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Linus",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Linus.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Marnie",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Marnie.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Maru",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Maru.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Pam",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Pam.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Penny",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Penny.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Pierre",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Pierre.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Robin",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Robin.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Sam",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Sam.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Sandy",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Sandy.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Sebastian",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Sebastian.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Shane",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Shane.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Vincent",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Vincent.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Willy",
+			"Action": "Include",
+			"FromFile": "assets/Strings/schedules/Willy.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Billboard",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Billboard",
+			"FromFile": "assets/LooseSprites/Billboard.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "ControllerMaps",
+			"Action": "EditImage",
+			"Target": "LooseSprites/ControllerMaps",
+			"FromFile": "assets/LooseSprites/ControllerMaps.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Cursors",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/LooseSprites/Cursors.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "JojaCDForm",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JojaCDForm",
+			"FromFile": "assets/LooseSprites/JojaCDForm.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "JunimoNote",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/LooseSprites/JunimoNote.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "LanguageButtons",
+			"Action": "EditImage",
+			"Target": "LooseSprites/LanguageButtons",
+			"FromFile": "assets/LooseSprites/LanguageButtons.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "bathhouse_tiles",
+			"Action": "EditImage",
+			"Target": "Maps/bathhouse_tiles",
+			"FromFile": "assets/Maps/bathhouse_tiles.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "coopTiles",
+			"Action": "EditImage",
+			"Target": "Maps/coopTiles",
+			"FromFile": "assets/Maps/coopTiles.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "DesertTiles",
+			"Action": "EditImage",
+			"Target": "Maps/DesertTiles",
+			"FromFile": "assets/Maps/DesertTiles.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "fall_beach",
+			"Action": "EditImage",
+			"Target": "Maps/fall_beach",
+			"FromFile": "assets/Maps/fall_beach.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "fall_outdoorsTileSheet",
+			"Action": "EditImage",
+			"Target": "Maps/fall_outdoorsTileSheet",
+			"FromFile": "assets/Maps/fall_outdoorsTileSheet.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "fall_town",
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "assets/Maps/fall_town.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Festivals",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Maps/Festivals.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MovieTheaterJoja_TileSheet",
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheaterJoja_TileSheet",
+			"FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "samshowtiles",
+			"Action": "EditImage",
+			"Target": "Maps/samshowtiles",
+			"FromFile": "assets/Maps/samshowtiles.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "spring_beach",
+			"Action": "EditImage",
+			"Target": "Maps/spring_beach",
+			"FromFile": "assets/Maps/spring_beach.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "spring_outdoorsTileSheet",
+			"Action": "EditImage",
+			"Target": "Maps/spring_outdoorsTileSheet",
+			"FromFile": "assets/Maps/spring_outdoorsTileSheet.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "spring_town",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/Maps/spring_town.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "stadium_tiles",
+			"Action": "EditImage",
+			"Target": "Maps/stadium_tiles",
+			"FromFile": "assets/Maps/stadium_tiles.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "summer_beach",
+			"Action": "EditImage",
+			"Target": "Maps/summer_beach",
+			"FromFile": "assets/Maps/summer_beach.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "summer_outdoorsTileSheet",
+			"Action": "EditImage",
+			"Target": "Maps/summer_outdoorsTileSheet",
+			"FromFile": "assets/Maps/summer_outdoorsTileSheet.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "summer_town",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/Maps/summer_town.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "townInterior",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Maps/townInterior.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "winter_beach",
+			"Action": "EditImage",
+			"Target": "Maps/winter_beach",
+			"FromFile": "assets/Maps/winter_beach.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "winter_outdoorsTileSheet",
+			"Action": "EditImage",
+			"Target": "Maps/winter_outdoorsTileSheet",
+			"FromFile": "assets/Maps/winter_outdoorsTileSheet.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "winter_town",
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "assets/Maps/winter_town.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Intro",
+			"Action": "EditImage",
+			"Target": "Minigames/Intro",
+			"FromFile": "assets/Minigames/Intro.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "jojacorps",
+			"Action": "EditImage",
+			"Target": "Minigames/jojacorps",
+			"FromFile": "assets/Minigames/jojacorps.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "MineCart",
+			"Action": "EditImage",
+			"Target": "Minigames/MineCart",
+			"FromFile": "assets/Minigames/MineCart.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "TitleButtons",
+			"Action": "EditImage",
+			"Target": "Minigames/TitleButtons",
+			"FromFile": "assets/Minigames/TitleButtons.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "furniture",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/TileSheets/furniture.zh-TW.png",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		},
+		{
+			"LogName": "Concessions",
+			"Action": "Load",
+			"Target": "Data/Concessions",
+			"FromFile": "assets/Data/Concessions.zh-TW.json",
+			"When": {
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "Movies",
+			"Action": "Include",
+			"FromFile": "assets/Data/Movies.zh-TW.json",
+			"When": {
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "MoviesReactions",
+			"Action": "Include",
+			"FromFile": "assets/Data/MoviesReactions.zh-TW.json",
+			"When": {
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "credits",
+			"Action": "Load",
+			"Target": "Strings/credits",
+			"FromFile": "assets/Strings/credits.zh-TW.json",
+			"When": {
+				"Language": "zh",
+				"Movie-only": "false"
+			}
+		}
+	]
+}

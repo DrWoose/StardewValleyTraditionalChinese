@@ -1,0 +1,2719 @@
+{
+	"Changes": [
+		{
+			"LogName": "MoviesReactions",
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries": {
+				"Penny": {
+					"NPCName": "Penny",
+					"Reactions": [
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": [
+								"Pam"
+							],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "和媽媽一起看電影肯定能讓我恢復！"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"（潘姆和佩妮正全神貫注地看著！）\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "能再次一家人一起做事真是太好了！"
+								}
+							},
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "spring_movie_0",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我很期待！潔絲和文森一直在不停地討論這件事。"
+								},
+								"DuringMovie": {
+									"ResponsePoint": "sprout_leave",
+									"Script": "/shake Penny 3000/pause 500/message \"佩妮似乎在忍著眼淚……\"",
+									"Text": "哇，離開家人真的很難過……$s"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "謝謝你帶我看這個，我等不及想告訴孩子們它有多好看！"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "spring_movie_0",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "family",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "哦，《{0}》！看起來健康又有趣！"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"（佩妮在微笑）\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我完全應該帶孩子們去看這個！"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "comedy",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我很興奮，我真的想大笑一場！"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "他們剛剛是不是……？！哈哈哈哈！"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "呼，我笑到抽筋……！"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "horror",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我有點緊張……我一般不看恐怖電影。$s"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/shake Penny 3000/pause 500/emote Penny 28",
+									"Text": "我不敢看……$s"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "希望我今晚不要做惡夢！$s"
+								}
+							},
+							"ID": "reaction_5"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "哦哦，我一直渴望能看這個！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "真棒！希望他們再出一部！"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿，我聽說這部評價很好！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "太棒了！謝謝你和我一起看這個！"
+								}
+							},
+							"ID": "reaction_7"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我不敢說我自己看電影會選這個，不過我會嘗試看看……"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "……"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "如果我毀了你的電影，對不起，我真的不喜歡……"
+								}
+							},
+							"ID": "reaction_8"
+						},
+						{
+							"Tag": "seen_love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "哦，《{0}》！我已經和{2}看過這個了！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": null
+							},
+							"ID": "reaction_9"
+						},
+						{
+							"Tag": "seen_like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我已經和{2}看過了，相當不錯！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": null
+							},
+							"ID": "reaction_10"
+						},
+						{
+							"Tag": "seen_dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "唔，我想{2}已經帶我去看過這個了……"
+								},
+								"DuringMovie": null,
+								"AfterMovie": null
+							},
+							"ID": "reaction_11"
+						}
+					]
+				},
+				"Pam": {
+					"NPCName": "Pam",
+					"Reactions": [
+						{
+							"Tag": "*",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿，孩子。謝謝你邀請我。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿，那還不算太差！"
+								}
+							},
+							"ID": "reaction_0"
+						}
+					]
+				},
+				"Krobus": {
+					"NPCName": "Krobus",
+					"Reactions": [
+						{
+							"Tag": "fall_movie_0",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "噓……嘿，是我，克羅布斯，你能認出我嗎？$8#$b#如果有人找上我們，你來跟他說話，好嗎？$8"
+								},
+								"DuringMovie": {
+									"ResponsePoint": "mysterium_shadow",
+									"Script": "/message \"克羅布斯坐立不安……\"",
+									"Text": "不是所有的暗影人都是那樣的！$8"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我不習慣穿衣服……這很不舒服！$8"
+								}
+							},
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "*",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "咳……你好！我非常高興能夠來視覺娛樂中心然後吃爆開的玉米……就像你一樣！$8#$b#（耳語）……我怎麼樣？$8"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "所以，你們這種生物喜歡連續盯著閃爍的燈光看幾個小時？真有趣……$8"
+								}
+							},
+							"ID": "reaction_1"
+						}
+					]
+				},
+				"Wizard": {
+					"NPCName": "Wizard",
+					"Reactions": [
+						{
+							"Tag": "fall_movie_0",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "今晚我感覺到這座建築裡瀰漫著一種神秘力量……"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"巫師的眼睛裡閃爍著光芒……\"",
+									"Text": "仔細想想……這外行人根本不知道這都是原本的、真實的鏡頭！"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "對於那些意識到這艱深的奧秘的人來說，它有著深遠的意義……"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "*",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "……"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "你把我從我的研究中拉出來就是為了【這個】？"
+								}
+							},
+							"ID": "reaction_0"
+						}
+					]
+				},
+				"George": {
+					"NPCName": "George",
+					"Reactions": [
+						{
+							"Tag": "family",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "classic",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "*",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "報紙給這部評了「五星」，所以我願意試試看。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿！這電影真的相當不錯！謝謝你邀請我。"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "呣……電影院跟以前不太一樣了啊……不過電影應該相當好。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿。跟現在的大多數電影相比，這還不賴。$h"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "呣……看這個的時候我要睡個覺。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "真是可憐！他們現在都是把什麼垃圾當成「電影」的啊……"
+								}
+							},
+							"ID": "reaction_5"
+						}
+					]
+				},
+				"Alex": {
+					"NPCName": "Alex",
+					"Reactions": [
+						{
+							"Tag": "fall_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "documentary",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "summer_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這片子應該挺好玩的，我很期待。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "哈！我真的喜歡這片子！不過我不知道如果我像那樣光吃麵餅能不能活下來。"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我最近一直想看這個。謝謝你的票，@！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "真的好看！我的腿還在興奮地發抖。"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿，我很高興能看電影！不過，我需要一點吃的……"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿，電影挺好看的。謝謝你邀請我，@。"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這部電影看起來有點無聊，不過我還是試一試吧。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我不知道是電影太無聊，還是我太笨了沒辦法理解……$s"
+								}
+							},
+							"ID": "reaction_5"
+						}
+					]
+				},
+				"Evelyn": {
+					"NPCName": "Evelyn",
+					"Reactions": [
+						{
+							"Tag": "classic",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "horror",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "要不是這個電影院來我們小鎮，我都要超過二十年沒看過電影了！$h"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "真好看……現在你該知道為什麼《{2}》算是經典了吧。"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "你能邀請我這樣的老太太去看電影真是太善良了。$h"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "很高興他們還在拍像樣的電影……我看的很開心！"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我一向不喜歡恐怖片，不過我會嘗試看看。"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/shake Evelyn 3000/pause 500/message \"伊芙琳捂住了眼睛。\"",
+									"Text": "結束了嗎？$s"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我不得不大半場電影都閉著眼睛……$s"
+								}
+							},
+							"ID": "reaction_4"
+						}
+					]
+				},
+				"Pierre": {
+					"NPCName": "Pierre",
+					"Reactions": [
+						{
+							"Tag": "summer_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我從小就看那些舊的科幻電影，所以我對看一個現代的演繹版很有興趣。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "哈！這跟我期待的不太一樣，但我還是很喜歡！我真的很認同溫布斯。$h"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我通常一直在工作，所以做這樣的事真的很不錯。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "不錯！我想知道他們是否有我可以收藏的周邊產品……"
+								}
+							},
+							"ID": "reaction_2"
+						}
+					]
+				},
+				"Abigail": {
+					"NPCName": "Abigail",
+					"Reactions": [
+						{
+							"Tag": "horror",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "classic",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "summer_movie_0",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "真不敢相信他們拍了一部草原之王的電影……我希望它拍得夠好！"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "聽……是那熟悉的老音樂。$h"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "唔，演技很糟糕，但我還是看得很開心。$h"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "spring_movie_1",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我很高興能「探索充滿活力的世界」……你呢？$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我之前都不知道這個！"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這真的很有意思。我最喜歡那些浣熊……它們真可愛！$h"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我喜歡恐怖電影……希望這片子能拍得很可怕！$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/shake Abigail 3000/pause 500/message \"阿比蓋爾在笑！\"",
+									"Text": "哈哈！並不可怕，但我喜歡。$h"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "比較裝腔作勢，但我喜歡。$h"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿！謝謝你邀請我，我喜歡看電影。$h"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "很有趣……我很好奇如果碰到同樣的情況，我會怎麼做？"
+								}
+							},
+							"ID": "reaction_5"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "從預告片來看，這部真的適合睡覺……"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "如果發生有趣的事情，把我叫醒。"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "（呵欠）……太無聊了，是不是？"
+								}
+							},
+							"ID": "reaction_6"
+						}
+					]
+				},
+				"Caroline": {
+					"NPCName": "Caroline",
+					"Reactions": [
+						{
+							"Tag": "spring_movie_0",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "summer_movie_1",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "summer_movie_0",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我一直很喜歡西部片，所以看這個我真的很興奮！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "太棒了！感覺很真實，服裝和其他部分都是。"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這部電影看起來真可愛，我一直希望有人邀請我！"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我希望這個可憐的小傢伙會沒事……$s"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "真可愛。非常感謝邀請我來！"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "《{0}》……我不知道這到底是什麼！我希望它不是暴力主題。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "不錯！我回家後得問問阿比蓋爾，她肯定看過了。$h"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我總感覺這會令人失望的……但我還是有興趣試一試。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "太笨了……我敢打賭皮耶爾會喜歡的。$s"
+								}
+							},
+							"ID": "reaction_5"
+						}
+					]
+				},
+				"Harvey": {
+					"NPCName": "Harvey",
+					"Reactions": [
+						{
+							"Tag": "spring_movie_1",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我看這個很緊張……（咽口水）"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/shake Harvey 3000/pause 500/message \"哈維在發抖！\"",
+									"Text": "我很害怕！$8"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我懼高，所以那些空中飛翔的鏡頭真的讓我害怕……不過，總體來說，我看得挺愉快。$h"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "classic",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "action",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "horror",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我在《祖祖城時報》上讀到過這部電影的好評……"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這真的引人深思，是不是？"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "太出色了！我真的很高興你帶我來看，@。$h"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我不常看電影，但是這個評價很不錯，是吧？"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "太有趣了！我會仔細思考{0}一段時間的。"
+								}
+							},
+							"ID": "reaction_5"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這部電影對我來說似乎有點激烈……$s"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/shake Harvey 3000/pause 500/message \"哈維的血壓飆高！\"",
+									"Text": "我頭好暈……$8"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "看了這電影後，我感覺身體都紅腫了……$s"
+								}
+							},
+							"ID": "reaction_6"
+						}
+					]
+				},
+				"Gus": {
+					"NPCName": "Gus",
+					"Reactions": [
+						{
+							"Tag": "summer_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我在電視上看到過它的廣告。看起來真有趣！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "作為一名業餘鑑賞家，我覺得對麵食的怪異癡迷很搞笑。$h"
+								}
+							},
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "winter_movie_0",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "你看了《{0}》，才會有放假的感覺！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "真令人心動……不知何故，他們讓傳說中的水果看起來如此美味。我希望有一天能嚐嚐。"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "fall_movie_0",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "他們說這部電影「不落俗套」……意思是不是說它不好？$s"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "那有什麼意義？我不明白。也許我太老了。$s"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "（嗅嗅）……我聞到了好吃的東西……"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "一點也不糟糕。我真的很高興我來了！"
+								}
+							},
+							"ID": "reaction_2"
+						}
+					]
+				},
+				"Lewis": {
+					"NPCName": "Lewis",
+					"Reactions": [
+						{
+							"Tag": "summer_movie_0",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我小時候就經常看牛仔電影……我很高興看到藝術還有活力！"
+								},
+								"DuringMovie": {
+									"ResponsePoint": "PK_villain",
+									"Script": "/message \"路易斯鎮長似乎在沉思……\"",
+									"Text": "（我很好奇他用什麼樣的鬍子蠟？）"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿，這太好看了！真的把我帶回到了過去……$h"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "spring_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "州長親自向我推薦了這部電影！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "棒極了！他們真的讓星露谷看起來很漂亮，是不是？要是他們也把鵜鶘鎮也加進來就好了……$h"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "family",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "classic",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "*",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "作為鎮長，我需要知道我們的社區裡在放什麼樣的電影。我們要關心下一代的幼小心靈！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "哈！這一點都不糟糕啊……我覺得這個可以「鎮長推薦」。$h"
+								}
+							},
+							"ID": "reaction_5"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "唔……我想看看這些年輕人現在看什麼會很有趣……"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嗯……我好奇這部電影中的資訊是否對我們的社區有好處？"
+								}
+							},
+							"ID": "reaction_6"
+						}
+					]
+				},
+				"Jodi": {
+					"NPCName": "Jodi",
+					"Reactions": [
+						{
+							"Tag": "winter_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "很久以前我看過這部電影。太浪漫了！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "那真可愛……這部電影的主題真的引起了我的共鳴。謝謝你帶我來！"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我希望座位夠軟，我一整天都在工作！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我不太喜歡電影……但我看得很愉快！謝謝，@。"
+								}
+							},
+							"ID": "reaction_2"
+						}
+					]
+				},
+				"Sam": {
+					"NPCName": "Sam",
+					"Reactions": [
+						{
+							"Tag": "summer_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "哦天啊，我太激動了！我聽說它的配樂很棒。"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/playSound reward/emote Sam 32/message Sam \"山姆控制不了自己的笑聲！\"",
+									"Text": "這部電影很搞笑！他們是怎麼想出這種東西的？$h"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "噓……不要告訴別人，我穿的襪子和溫布斯一樣。"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "classic",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "horror",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "你喜歡恐怖電影嗎？我有點驚訝！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這很好看！我通常不害怕電影，但這部有點嚇到我了……我想我不會帶文森來看這個。"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿，謝謝你邀請我，@……現在在鎮裡有一家電影院真是太好了。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "不錯！我可能得帶文森來看這個。"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這是一部有很多對話的老電影，對吧？唔……$s"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message Sam \"山姆正在玩他的遊戲機。\"",
+									"Text": "嗯？哦！對……電影……挺有趣……$10"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "是的……呃……那個角色很有趣……還有……呃……$10"
+								}
+							},
+							"ID": "reaction_4"
+						}
+					]
+				},
+				"Vincent": {
+					"NPCName": "Vincent",
+					"Reactions": [
+						{
+							"Tag": "horror",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "documentary",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "classic",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我太激動了！媽媽說我也可以吃糖果！$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/jump Vincent/pause 400/playSound reward/message \"文森玩得很開心！\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "太有趣了！我想再看一遍！$h"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "但……但……這部電影是給大人看的，不是嗎？$s"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/shake Vincent 250/pause 500/shake Vincent 250/pause 500/emote Vincent 28/message \"文森在他的座位上煩躁不安。\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "很無聊……我什麼都看不懂。$s"
+								}
+							},
+							"ID": "reaction_5"
+						}
+					]
+				},
+				"Kent": {
+					"NPCName": "Kent",
+					"Reactions": [
+						{
+							"Tag": "horror",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "謝謝你邀請我去看電影，@。適應平民的生活方式並不容易，但你幫助我感受到了真正的歡迎。"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/emote Kent 32/message \"肯特臉上露出了難得的微笑。\"",
+									"Text": "這真是太棒了……它讓我想起那單純的時光……$h"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這很有趣。當你全神貫注於一部電影時，你所有的憂慮和煩惱都會消失。"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我不確定這部電影要不要看……"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/emote Kent 28/message \"肯特出了一身冷汗……\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這對我來說很有挑戰性。不過，我很感謝你邀請我來看。"
+								}
+							},
+							"ID": "reaction_2"
+						}
+					]
+				},
+				"Clint": {
+					"NPCName": "Clint",
+					"Reactions": [
+						{
+							"Tag": "winter_movie_1",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這部電影應該是一部愛情片，對吧？唉……$s"
+								},
+								"DuringMovie": {
+									"ResponsePoint": "guyEnters",
+									"Script": "/emote Clint 12/message \"克林特皺著眉頭。\"",
+									"Text": "她為什麼喜歡【那個傢伙】？要我說這完全不現實……$3"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "那部電影很令人沮喪……$s"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我猜是「男生之夜」吧？是不是說我必須自己買零食？^哦……那麼，我們是在約會嗎？$4"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"克林特從沒有標籤的燒瓶中吸了一口。\"",
+									"Text": "這只是……嗝……Joja 可樂。$h^（輕聲）……如果你……累了……可以把你的頭放在我的……我的肩膀上。嘿……隨便你！$4"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿……挺有意思的……是吧？$h"
+								}
+							},
+							"ID": "reaction_0"
+						}
+					]
+				},
+				"Emily": {
+					"NPCName": "Emily",
+					"Reactions": [
+						{
+							"Tag": "winter_movie_0",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "horror",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "spring_movie_1",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "為了準備看這部電影，我還吃了一把堅果……那可是補腦食品！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我感覺比以前聰明了一點……你覺得呢？"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "當我看到這部電影的海報時，我莫名地產生了一種很不錯的感覺。$h"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "那部電影感覺很有能量……你同意嗎？我很喜歡！$h"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我很高興和你一起看電影！我總會完全迷失在螢幕中。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "在那之後我感覺很不錯……也就是說這是一部好電影！$h"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我通常看比較積極向上的電影，這部應該有點意思。"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"艾米莉在低聲自言自語……\"",
+									"Text": "由巴，請保護我免受這部電影的黑暗能量的影響。$7"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "看完之後我的能量水準就很低……$3"
+								}
+							},
+							"ID": "reaction_5"
+						}
+					]
+				},
+				"Haley": {
+					"NPCName": "Haley",
+					"Reactions": [
+						{
+							"Tag": "winter_movie_1",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嗯……這裡很好、很暖和。冬天是我最喜歡的看電影的時候。$h"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這真浪漫。"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "winter_movie_0",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嗯……這裡很好、很暖和。冬天是我最喜歡的看電影的時候。$h"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "有個好結局我很高興！"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "classic",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "summer_movie_1",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "summer_movie_0",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "哦，這是不是那種「奇幻」電影？"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "（呵欠）……什麼？哦……這部電影是關於什麼的來著？$7"
+								}
+							},
+							"ID": "reaction_5"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "大家都在談論這部電影，所以我一直想看。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "最後一幕……那是什麼意思？"
+								}
+							},
+							"ID": "reaction_6"
+						}
+					]
+				},
+				"Maru": {
+					"NPCName": "Maru",
+					"Reactions": [
+						{
+							"Tag": "spring_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "你好啊，@！我很期待這部……我希望我們能學到很多東西！$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/emote Maru 32/playSound reward/message \"瑪魯在記筆記！\"",
+									"Text": "我明白了……很有趣！"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "真有意思！我不知道大城市原來這麼有活力。"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "summer_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這是一部科幻電影，對吧？我喜歡科幻小說的一點就是能看到他們想出的各種奇怪技術。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我從來沒有從望遠鏡裡看到過【那樣的東西】……但這真的很棒！$h"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我真的很喜歡去電影院，即使電影不好看！$h"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "最後一幕這樣拍是挺有趣的選擇。你覺得那是什麼意思？"
+								}
+							},
+							"ID": "reaction_4"
+						}
+					]
+				},
+				"Sebastian": {
+					"NPCName": "Sebastian",
+					"Reactions": [
+						{
+							"Tag": "horror",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "classic",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "spring_movie_0",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿。我聽說這部電影挺沉重的……我很期待。$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/emote Sebastian 32/message \"賽巴斯汀臉上露出了笑容。\"",
+									"Text": "這部電影的攝影技術一流。"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這是我最近看過的最好的電影……我想知道他們是怎麼做出這些特效的？$h"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "（聳肩）……電影海報看起來很酷，所以我同意。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這不是最好看的，但我過得很愉快……謝謝你邀請我。"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我希望電影不要太長……"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "對於那些目標觀眾來說，這也許是一部好電影，但不適合我。"
+								}
+							},
+							"ID": "reaction_5"
+						}
+					]
+				},
+				"Robin": {
+					"NPCName": "Robin",
+					"Reactions": [
+						{
+							"Tag": "action",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我最近感覺有點悶，所以一部動感十足的電影正是我需要的。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我好興奮！太好看了。$h"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我不確定這部電影是關於什麼的，但我不在乎！出門逛逛就很好了。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "電影很有意思，@。我很高興我們能一起來。"
+								}
+							},
+							"ID": "reaction_2"
+						}
+					]
+				},
+				"Demetrius": {
+					"NPCName": "Demetrius",
+					"Reactions": [
+						{
+							"Tag": "winter_movie_1",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "在雪地裡遊蕩真能促進血液流動呢。"
+								},
+								"DuringMovie": {
+									"ResponsePoint": "zuzucityexpress_mind_heart",
+									"Script": "/message \"迪馬崔斯皺起眉頭。\"",
+									"Text": "心靈的渴望……？哦！你是說「邊緣系統中催產素含量增加高」吧。"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "電影藝術從那個時代開始走過了很漫長的道路，是吧？"
+								}
+							},
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "summer_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這部電影據說發生在一「未來」的社會……能看看那是什麼樣子肯定很有趣！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "很棒的電影……但我很好奇這個星球上之外是否真的有生命？"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "spring_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這個正是我的菜……你知道我會喜歡的。$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/emote Demetrius 8/message Demetrius \"迪馬崔斯抓著他的下巴……\"",
+									"Text": "從技術上講，這是不對的……"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嗯，他們肯定誇大了一些東西，但大體上還是正確的！不管怎樣，我看得很開心。"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "winter_movie_0",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我在報紙上讀到過這部……看起來不像我喜歡的類型。但我會試試。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "胡扯！這完全是不科學的！"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "即使一部電影不好，分析一下也很有趣。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嗯……我想知道這部影片的敘事滿足了人類動機的哪些方面？$3"
+								}
+							},
+							"ID": "reaction_3"
+						}
+					]
+				},
+				"Linus": {
+					"NPCName": "Linus",
+					"Reactions": [
+						{
+							"Tag": "spring_movie_1",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我在這裡感覺格格不入……希望我沒有打擾到任何人。$s"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/emote Linus 28/message \"萊納斯正在看地板……\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "當你自己能體驗這些東西時，為什麼要看別人做呢？$s"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "*",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我在這裡感覺格格不入……希望我沒有打擾任何人。$s"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/emote Linus 28/message \"萊納斯正在看地板……\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我不習慣那麼多的刺激……如果我讓你失望了，@，對不起。我還是感謝你邀請我！"
+								}
+							},
+							"ID": "reaction_2"
+						}
+					]
+				},
+				"Dwarf": {
+					"NPCName": "Dwarf",
+					"Reactions": [
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "哇！專為娛樂而建造的宮殿！"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"矮人似乎完全入迷了……\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我什麼也沒看懂，但閃爍的燈光令我著迷！"
+								}
+							},
+							"ID": "reaction_1"
+						}
+					]
+				},
+				"Marnie": {
+					"NPCName": "Marnie",
+					"Reactions": [
+						{
+							"Tag": "winter_movie_0",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我知道我會喜歡這部電影的！你能邀請我真是太好了，@。$h"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "哦，我很高興全家人最後都沒事了。還有乳牛也是！$h"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "在電影這方面我很隨意的……我什麼都喜歡！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我看得很開心，@！謝謝你能想到我。"
+								}
+							},
+							"ID": "reaction_2"
+						}
+					]
+				},
+				"Shane": {
+					"NPCName": "Shane",
+					"Reactions": [
+						{
+							"Tag": "summer_movie_0",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "但……嗯，我覺得這應該還行。（嗅嗅）……有吃的就好了。"
+								},
+								"DuringMovie": {
+									"ResponsePoint": "PK_villain",
+									"Script": "",
+									"Text": "我支持那個反派……嗝……"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "好吧，我承認……我覺得很不錯。"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "spring_movie_0",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "classic",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "summer_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "fall_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿。我對這部還真挺有興趣的……"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"謝恩正在努力忍笑。\"",
+									"Text": "不錯，很好看……$h"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "當你看一部好電影時，會把所有其他東西都拋在腦後……這是天賦。"
+								}
+							},
+							"ID": "reaction_5"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "但……嗯，我覺得這應該還行。（嗅嗅）……有吃的就好了。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "好吧，我承認……我覺得很不錯。"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嗯……大概會很痛苦。"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/emote Shane 28/message \"謝恩昏倒了……\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我感到很沮喪……$s"
+								}
+							},
+							"ID": "reaction_7"
+						}
+					]
+				},
+				"Jas": {
+					"NPCName": "Jas",
+					"Reactions": [
+						{
+							"Tag": "horror",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "classic",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我很高興能去看電影！"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/jump Jas/pause 400/playSound reward/message \"潔絲非常高興！\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "太有趣了！謝謝你帶我來！$h"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這電影是給成年人看的，對吧？我不要緊的！"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"潔絲在四處張望。\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我覺得很好看！這電影……呃……「對、花」很不錯！……我沒說錯吧？"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "horror",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我……我家裡人大概不讓我看這個……$s"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/shake Jas 250/pause 500/shake Jas 250/pause 500/emote Jas 28/message \"潔絲在發抖。\"",
+									"Text": "我好害怕……$s"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "（吸鼻子）……$s"
+								}
+							},
+							"ID": "reaction_5"
+						}
+					]
+				},
+				"Leah": {
+					"NPCName": "Leah",
+					"Reactions": [
+						{
+							"Tag": "spring_movie_1",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我聽說電影裡有一些非常美的大自然鏡頭……我真的很期待！$h"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "太好看了。我敢肯定我在那些星露谷航拍鏡頭裡有看到我的小屋！$h"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "art",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "classic",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "family",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "*",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我對這部電影很感興趣……我對神秘事件無法抗拒。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "太棒了！敘事很鬆散，但我認為這部電影的目的是表達情感，而不是智慧。"
+								}
+							},
+							"ID": "reaction_5"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我不知道這部電影會有什麼，但我會避免抱有什麼期待！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "故事挺簡單的，但很好看……就像電影院裡吃了很療癒的菜一樣。"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "從電影海報上看，這部電影好像挺俗的。"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這電影有點淺薄，對吧？"
+								}
+							},
+							"ID": "reaction_7"
+						}
+					]
+				},
+				"Sandy": {
+					"NPCName": "Sandy",
+					"Reactions": [
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我很高興能找到藉口來鵜鶘鎮！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "真的很有趣，謝謝你邀請我！我最好還是馬上回家……"
+								}
+							},
+							"ID": "reaction_1"
+						}
+					]
+				},
+				"Elliott": {
+					"NPCName": "Elliott",
+					"Reactions": [
+						{
+							"Tag": "art",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "fall_movie_1",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "summer_movie_0",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我已經猜到今晚肯定很美妙！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我覺得我的靈魂好像充了能……就好像是電影的能量轉移到了我身上。不可思議！"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我有意避開了所有關於這部電影的資訊……我喜歡完全「盲看」！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "很有趣……我會好好思考一陣的。"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "要說我很期待這部電影那我自己都不信……$s"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "這片子很平庸，你不覺得嗎？"
+								}
+							},
+							"ID": "reaction_5"
+						}
+					]
+				},
+				"Willy": {
+					"NPCName": "Willy",
+					"Reactions": [
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "嘿嘿……我從不拒絕免費電影！"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "啊，這讓我想起了老波普斯經常講的一個故事……"
+								}
+							},
+							"ID": "reaction_0"
+						}
+					]
+				},
+				"Leo": {
+					"NPCName": "Leo",
+					"Reactions": [
+						{
+							"Tag": "documentary",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "*",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我很期待這部電影……我想了解世界上的一切！"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/jump Leo/pause 400/playSound reward/message \"里歐被銀幕深深吸引了！\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "你看到了嗎？他們拍到了芬恩島……我就是從那裡來的！$h"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "我真的很高興能來到這裡。一切都太有趣了！"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/pause 500/emote Leo 32/message \"里歐似乎對電影很感興趣。\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "哇……感覺像是魔法一樣！"
+								}
+							},
+							"ID": "reaction_4"
+						}
+					]
+				}
+			}
+		}
+	]
+}

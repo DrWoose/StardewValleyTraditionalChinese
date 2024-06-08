@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Pam",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Pam",
+			"Entries": {
+				"spring_25.000": "自以為無所不知的醫生……（碎碎唸）$4",
+				"spring_25.001": "我每天喝了多少酒？這算哪門子問題？$u"
+			}
+		}
+	]
+}

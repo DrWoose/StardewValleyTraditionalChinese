@@ -1,0 +1,26 @@
+{
+	"Changes": [
+		{
+			"LogName": "Buildings",
+			"Action": "EditData",
+			"Target": "Strings/Buildings",
+			"Entries": {
+				"UnderConstruction": "建造中。",
+				"DismountBeforeEntering": "進入前先下馬。",
+				"PiecesOfHay": "乾草堆：{0}/{1}",
+				"AddedHay": "在筒倉裡加了 {0} 片乾草。",
+				"MillFull": "沒有剩餘的空間。",
+				"CantMill": "無法研磨。",
+				"NeedSilo": "需要筒倉。",
+				"CantEnter": "現在無法進入。",
+				"WrongFishType": "你的{0}不想生活在{1}魚池中。",
+				"WrongFishTypeCoral": "{0}只能放在{0}魚池中。",
+				"CantPutInPonds": "{0}在那裡不會高興的。",
+				"NoFish": "可以把魚放入這個魚池。",
+				"PondFull": "這個魚池已經滿了。",
+				"Paint_Region_Roof": "屋頂",
+				"Paint_Region_Building": "屋頂"
+			}
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"Changes": [
+		{
+			"LogName": "EnchantmentNames",
+			"Action": "EditData",
+			"Target": "Strings/EnchantmentNames",
+			"Entries": {
+				"Starburst": "星爆",
+				"Artful": "巧妙",
+				"Haymaker": "乾草機器",
+				"Bug Killer": "蟲蟲剋星",
+				"Vampiric": "吸血",
+				"Crusader": "聖戰士",
+				"Powerful": "強化",
+				"Efficient": "輕量化",
+				"Swift": "迅捷",
+				"Expansive": "範圍",
+				"Bottomless": "無底洞",
+				"Shaving": "刨木",
+				"Archaeologist": "考古學家",
+				"Generous": "富饒",
+				"Master": "船長",
+				"Auto-Hook": "自動上鉤",
+				"Preserving": "節儉"
+			}
+		}
+	]
+}
