@@ -1,7 +1,7 @@
 # About
 This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently slowly updating to 1.6 version
 
-- [ ] Characters/Dialogue
+- [x] Characters/Dialogue
 	- [x] Abigail.json 
 	- [x] Alex.json
 	- [x] Caroline.json
@@ -99,16 +99,16 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 	- [x] Trailer_Big.json
 	- [x] WizardHouse.json
 	- [x] Woods.json
-- [ ] Data/Festivals
+- [x] Data/Festivals
 	- [x]  fall16.json
 	- [x] fall27.json
 	- [x] FestivalDates.json
 	- [x] spring13.json
 	- [x] spring24.json
 	- [x] summer11.json
-	- [ ] summer28.json
-	- [ ] winter25.json
-	- [ ] winter8.json
+	- [x] summer28.json
+	- [x] winter25.json
+	- [x] winter8.json
 - [x] Data/TV
 	- [x] CookingChannel.json
 	- [x] TipChannel.json
