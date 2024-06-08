@@ -112,18 +112,18 @@ This is a StardewValley Vanilla Traditional Chinese Tranlation mod, currently sl
 - [x] Data/TV
 	- [x] CookingChannel.json
 	- [x] TipChannel.json
-- [ ] Data
+- [x] Data
 	- [x] Achievements.json
 	- [x] Boots.json
-	- [ ] Bundles.json
-	- [ ] EngagementDialogue.json
-	- [ ] ExtraDialogue.json
-	- [ ] hats.json
-	- [ ] mail.json
-	- [ ] Monsters.json
-	- [ ] NPCGiftTastes.json
-	- [ ] Quests.json
-	- [ ] SecretNotes.json
+	- [x] Bundles.json
+	- [x] EngagementDialogue.json
+	- [x] ExtraDialogue.json
+	- [x] hats.json
+	- [x] mail.json
+	- [x] Monsters.json
+	- [x] NPCGiftTastes.json
+	- [x] Quests.json
+	- [x] SecretNotes.json
 - [x] LooseSprites
 	- [x] Billboard.png
 	- [x] ControllerMaps.png
