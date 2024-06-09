@@ -1,10 +1,6 @@
 {
 	"Format": "2.0.0",
-	"ConfigSchema": {
-		"Font": {
-			"AllowValues": "SourceHanSans, SweiGothic, NaikaiFont, JasonHandwriting1",
-			"Default": "JasonHandwriting1"
-		},
+	"ConfigSchema": {		
 		"TimeFormat":{
 			"AllowValues": "12H, 24H",
 			"Default": "12H"
@@ -15,16 +11,13 @@
             "Action": "EditData",
             "Target": "Data/AdditionalLanguages",
 			"When": {
-				"TimeFormat": "12H",
-				"Font": "JasonHandwriting1"
+				"TimeFormat": "12H"
 			},
             "Entries": {
                 "DrWoose.StardewValleyTraditionalChineseTranslation": { 
                     "ID": "DrWoose.StardewValleyTraditionalChineseTranslation",
                     "LanguageCode": "tw",
 					"ButtonTexture": "Mods/DrWoose.StardewValleyTraditionalChineseTranslation/Button",
-					"UseLatinFont": false,
-                    "FontFile": "Fonts/JasonHandwriting1",
                     "TimeFormat": "[AM_PM] [HOURS_12_0]:[MINUTES]",
                     "ClockTimeFormat": "[AM_PM] [HOURS_12_0]:[MINUTES]",
                     "ClockDateFormat": "[DAY_OF_WEEK] [DAY_OF_MONTH]日",
@@ -37,24 +30,6 @@
 			"FromFile": "assets/LooseSprites/TraditionalChineseButtons.png",
 			"Target": "Mods/DrWoose.StardewValleyTraditionalChineseTranslation/Button"
     	},
-		{
-			"LogName": "JasonHandwriting1",
-			"Action": "Load",
-			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
-			"FromFile": "assets/Fonts/JasonHandwriting1/{{Target}}.xnb",
-			"When": {
-				"Font": "JasonHandwriting1"
-			}
-		},
-		{
-			"LogName": "JasonHandwriting1",
-			"Action": "Load",
-			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
-			"FromFile": "assets/Fonts/JasonHandwriting1/{{Target}}.xnb",
-			"When": {
-				"Font": "JasonHandwriting1"
-			}
-		},
 		{
 			"LogName": "Abigail",
 			"Action": "Include",
@@ -1504,15 +1479,6 @@
 			"Action": "EditImage",
 			"Target": "LooseSprites/JunimoNote",
 			"FromFile": "assets/LooseSprites/JunimoNote.zh-TW.png",
-			"When": {
-				"Language": "tw"
-			}
-		},
-		{
-			"LogName": "LanguageButtons",
-			"Action": "EditImage",
-			"Target": "LooseSprites/LanguageButtons",
-			"FromFile": "assets/LooseSprites/LanguageButtons.png",
 			"When": {
 				"Language": "tw"
 			}
