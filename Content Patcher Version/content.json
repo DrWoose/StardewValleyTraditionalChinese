@@ -39,7 +39,7 @@
     	},
 		{
 			"Action": "Load",
-			"FromFile": "assets/Fonts/JasonHandwriting1.fnt",
+			"FromFile": "assets/Fonts/Chinese.fnt",
 			"Target": "Fonts/JasonHandwriting1",
 			"when": {
 				"Font": "JasonHandwriting1"
@@ -47,7 +47,7 @@
 		},
 		{
 			"Action": "Load",
-			"FromFile": "assets/Fonts/JasonHandwriting1_0.png",
+			"FromFile": "assets/Fonts/Chinese_0.png",
 			"Target": "Fonts/JasonHandwriting1_0",
 			"when": {
 				"Font": "JasonHandwriting1"
@@ -55,7 +55,7 @@
 		},		
 		{
 			"Action": "Load",
-			"FromFile": "assets/Fonts/JasonHandwriting1_1.png",
+			"FromFile": "assets/Fonts/Chinese_1.png",
 			"Target": "Fonts/JasonHandwriting1_1",
 			"when": {
 				"Font": "JasonHandwriting1"
@@ -64,7 +64,7 @@
 		{
 			"Action": "Load",
 			"FromFile": "assets/{{Target}}.xnb",
-			"Target": "Fonts/JasonHandwriting1_SmallFont, Fonts/JasonHandwriting1_SpriteFont1",
+			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
 			"when": {
 				"Font": "JasonHandwriting1"
 			}
