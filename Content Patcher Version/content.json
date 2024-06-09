@@ -38,38 +38,23 @@
 			"Target": "Mods/DrWoose.StardewValleyTraditionalChineseTranslation/Button"
     	},
 		{
+			"LogName": "JasonHandwriting1",
 			"Action": "Load",
-			"FromFile": "assets/Fonts/Chinese.fnt",
-			"Target": "Fonts/JasonHandwriting1",
-			"when": {
+			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
+			"FromFile": "assets/Fonts/JasonHandwriting1/{{Target}}.xnb",
+			"When": {
 				"Font": "JasonHandwriting1"
 			}
 		},
 		{
+			"LogName": "JasonHandwriting1",
 			"Action": "Load",
-			"FromFile": "assets/Fonts/Chinese_0.png",
-			"Target": "Fonts/JasonHandwriting1_0",
-			"when": {
-				"Font": "JasonHandwriting1"
-			}
-		},		
-		{
-			"Action": "Load",
-			"FromFile": "assets/Fonts/Chinese_1.png",
-			"Target": "Fonts/JasonHandwriting1_1",
-			"when": {
-				"Font": "JasonHandwriting1"
-			}
-		},
-		{
-			"Action": "Load",
-			"FromFile": "assets/{{Target}}.xnb",
 			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
-			"when": {
+			"FromFile": "assets/Fonts/JasonHandwriting1/{{Target}}.xnb",
+			"When": {
 				"Font": "JasonHandwriting1"
 			}
 		},
-		
 		{
 			"LogName": "Abigail",
 			"Action": "Include",
