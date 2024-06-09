@@ -3,7 +3,7 @@
 	"ConfigSchema": {
 		"Font": {
 			"AllowValues": "SourceHanSans, SweiGothic, NaikaiFont, JasonHandwriting1",
-			"Default": "SourceHanSans"
+			"Default": "JasonHandwriting1"
 		},
 		"TimeFormat":{
 			"AllowValues": "12H, 24H",
@@ -15,8 +15,8 @@
             "Action": "EditData",
             "Target": "Data/AdditionalLanguages",
 			"When": {
-				"Language": "tw",
-				"TimeFormat": "12H"
+				"TimeFormat": "12H",
+				"Font": "JasonHandwriting1"
 			},
             "Entries": {
                 "DrWoose.StardewValleyTraditionalChineseTranslation": { 
@@ -24,95 +24,52 @@
                     "LanguageCode": "tw",
 					"ButtonTexture": "Mods/DrWoose.StardewValleyTraditionalChineseTranslation/Button",
 					"UseLatinFont": false,
-                    "FontFile": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
+                    "FontFile": "Fonts/JasonHandwriting1",
                     "TimeFormat": "[AM_PM] [HOURS_12_0]:[MINUTES]",
                     "ClockTimeFormat": "[AM_PM] [HOURS_12_0]:[MINUTES]",
                     "ClockDateFormat": "[DAY_OF_WEEK] [DAY_OF_MONTH]日",
 					"UseGenderedCharacterTranslations": true
                 }
-            }
-			
-        },
+            }			
+        },		
 		{
-			"LogName": "SourceHanSans",
 			"Action": "Load",
-			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
-			"FromFile": "assets/Fonts/SourceHanSans/{{Target}}.xnb",
-			"When": {
-				"Font": "SourceHanSans",
-				"Language": "tw"
+			"FromFile": "assets/LooseSprites/TraditionalChineseButtons.png",
+			"Target": "Mods/DrWoose.StardewValleyTraditionalChineseTranslation/Button"
+    	},
+		{
+			"Action": "Load",
+			"FromFile": "assets/Fonts/JasonHandwriting1.fnt",
+			"Target": "Fonts/JasonHandwriting1",
+			"when": {
+				"Font": "JasonHandwriting1"
 			}
 		},
 		{
-			"LogName": "SourceHanSans",
 			"Action": "Load",
-			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
-			"FromFile": "assets/Fonts/SourceHanSans/{{Target}}.xnb",
-			"When": {
-				"Font": "SourceHanSans",
-				"Language": "tw"
-			}
-		},
-		{
-			"LogName": "SweiGothic",
-			"Action": "Load",
-			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
-			"FromFile": "assets/Fonts/SweiGothic/{{Target}}.xnb",
-			"When": {
-				"Font": "SweiGothic",
-				"Language": "tw"
-			}
-		},
-		{
-			"LogName": "SweiGothic",
-			"Action": "Load",
-			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
-			"FromFile": "assets/Fonts/SweiGothic/{{Target}}.xnb",
-			"When": {
-				"Font": "SweiGothic",
-				"Language": "tw"
-			}
-		},
-		{
-			"LogName": "NaikaiFont",
-			"Action": "Load",
-			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
-			"FromFile": "assets/Fonts/NaikaiFont/{{Target}}.xnb",
-			"When": {
-				"Font": "NaikaiFont",
-				"Language": "tw"
-			}
-		},
-		{
-			"LogName": "NaikaiFont",
-			"Action": "Load",
-			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
-			"FromFile": "assets/Fonts/NaikaiFont/{{Target}}.xnb",
-			"When": {
-				"Font": "NaikaiFont",
-				"Language": "tw"
-			}
-		},
-		{
-			"LogName": "JasonHandwriting1",
-			"Action": "Load",
-			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
-			"FromFile": "assets/Fonts/JasonHandwriting1/{{Target}}.xnb",
-			"When": {
-				"Font": "JasonHandwriting1",
-				"Language": "tw"
-			}
-		},
-		{
-			"LogName": "JasonHandwriting1",
-			"Action": "Load",
-			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
-			"FromFile": "assets/Fonts/JasonHandwriting1/{{Target}}.xnb",
-			"When": {
-				"Font": "JasonHandwriting1",
-				"Language": "tw"
+			"FromFile": "assets/Fonts/JasonHandwriting1_0.png",
+			"Target": "Fonts/JasonHandwriting1_0",
+			"when": {
+				"Font": "JasonHandwriting1"
 			}
 		},		
+		{
+			"Action": "Load",
+			"FromFile": "assets/Fonts/JasonHandwriting1_1.png",
+			"Target": "Fonts/JasonHandwriting1_1",
+			"when": {
+				"Font": "JasonHandwriting1"
+			}
+		},
+		{
+			"Action": "Load",
+			"FromFile": "assets/{{Target}}.xnb",
+			"Target": "Fonts/JasonHandwriting1_SmallFont, Fonts/JasonHandwriting1_SpriteFont1",
+			"when": {
+				"Font": "JasonHandwriting1"
+			}
+		},
+		
 		{
 			"LogName": "Abigail",
 			"Action": "Include",
