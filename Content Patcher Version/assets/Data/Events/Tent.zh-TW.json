@@ -1,10 +1,10 @@
 {
-	"Changes": [
-		{
-			"LogName": "Tent",
-			"Action": "EditData",
-			"Target": "Data/Events/Tent",
-			"Entries": {}
-		}
-	]
+    "Changes": [
+        {
+            "LogName": "Tent",
+            "Action": "EditData",
+            "Target": "Data/Events/Tent",
+            "Entries": {}
+        }
+    ]
 }

@@ -1,25 +1,60 @@
 {
-	"Changes": [
-		{
-			"LogName": "NPCNames",
-			"Action": "EditData",
-			"Target": "Strings/NPCNames",
-			"Entries": {
-				"Gunther": "岡瑟",
-				"Gil": "吉爾",
-				"Morris": "莫里斯",
-				"Marlon": "馬龍",
-				"Kel": "凱爾",
-				"OldMariner": "老水手",
-				"MisterQi": "Mr. Qi",
-				"Bouncer": "保鑣",
-				"Henchman": "哥布林手下",
-				"Welwick": "薇薇可",
-				"Governor": "州長",
-				"Grandpa": "爺爺",
-				"Bear": "熊",
-				"Birdie": "柏蒂"
-			}
-		}
-	]
+    "Changes": [
+        {
+            "LogName": "NPCNames",
+            "Action": "EditData",
+            "Target": "Strings/NPCNames",
+            "Entries": {
+                "Gunther": "岡瑟",
+                "Gil": "吉爾",
+                "Morris": "莫里斯",
+                "Marlon": "馬龍",
+                "Kel": "凱爾",
+                "OldMariner": "老水手",
+                "MisterQi": "Mr. Qi",
+                "Bouncer": "保鑣",
+                "Henchman": "哥布林手下",
+                "Welwick": "薇薇可",
+                "Governor": "州長",
+                "Grandpa": "爺爺",
+                "Bear": "熊",
+                "Birdie": "柏蒂",
+                "Haley": "海莉",
+                "Dwarf": "矮人",
+                "Harvey": "哈維",
+                "Linus": "萊納斯",
+                "Willy": "威利",
+                "Penny": "佩妮",
+                "Kent": "肯特",
+                "Pam": "潘姆",
+                "Demetrius": "迪馬崔斯",
+                "Jas": "潔絲",
+                "ProfessorSnail": "蝸牛教授",
+                "Lewis": "路易斯",
+                "Wizard": "巫師",
+                "Gus": "格斯",
+                "Sandy": "沙蒂",
+                "Abigail": "阿比蓋爾",
+                "Robin": "羅賓",
+                "Jodi": "喬蒂",
+                "George": "喬治",
+                "Emily": "艾米麗",
+                "Krobus": "柯洛布斯",
+                "Leo": "里歐",
+                "Marnie": "瑪妮",
+                "Sam": "山姆",
+                "Shane": "謝恩",
+                "Pierre": "皮耶爾",
+                "Alex": "艾力克斯",
+                "Leah": "莉亞",
+                "Maru": "瑪魯",
+                "Sebastian": "賽巴斯汀",
+                "Clint": "克林",
+                "Elliott": "艾略特",
+                "Evelyn": "伊芙琳",
+                "Vincent": "文森",
+                "Caroline": "卡洛琳"
+            }
+        }
+    ]
 }

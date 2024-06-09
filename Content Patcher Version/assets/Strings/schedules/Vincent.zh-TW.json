@@ -1,15 +1,15 @@
 {
-	"Changes": [
-		{
-			"LogName": "Vincent",
-			"Action": "EditData",
-			"Target": "Strings/schedules/Vincent",
-			"Entries": {
-				"winter_16.000": "我想坐那艘船！",
-				"spring_11.001": "（深呼吸）……媽咪，別逼我。$s",
-				"spring_11.002": "我這麼勇敢，能不能得到棒棒糖？",
-				"spring_11.000": "嗚嗚……我今天要打針。$s"
-			}
-		}
-	]
+    "Changes": [
+        {
+            "LogName": "Vincent",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Vincent",
+            "Entries": {
+                "winter_16.000": "我想坐那艘船！",
+                "spring_11.001": "（深呼吸）……媽咪，別逼我。$s",
+                "spring_11.002": "我這麼勇敢，能不能得到棒棒糖？",
+                "spring_11.000": "嗚嗚……我今天要打針。$s"
+            }
+        }
+    ]
 }

@@ -1,17 +1,17 @@
 {
-	"Changes": [
-		{
-			"LogName": "Sandy",
-			"Action": "EditData",
-			"Target": "Strings/schedules/Sandy",
-			"Entries": {
-				"Sandy_Birthday_Greeting": "哦，艾米麗！我正等著你來呢！$h#$b#早上我真的覺得有點寂寞呢。#$e#還好你來了！$h",
-				"Sandy_Birthday_Hangout": "星露谷現在天氣怎麼樣？#$e#那裡的花聞起來很香。$h",
-				"Sandy_Birthday_Lake": "湖邊似乎總是比較涼快。#$e#偶爾出來外面晃晃真的很棒！$h",
-				"Sandy_Birthday_Bones": "很神奇，是吧？",
-				"Sandy_Birthday_Camel": "她好像在賣一些少見的東西。",
-				"Sandy_Birthday_Bye": "我玩得很開心。$h#$b#謝謝你做我的朋友。$h#$e#隨時歡迎你再來！$h"
-			}
-		}
-	]
+    "Changes": [
+        {
+            "LogName": "Sandy",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Sandy",
+            "Entries": {
+                "Sandy_Birthday_Greeting": "喔，艾米麗！我正想著你什麼時候來呢！$h#$b#我今天早上還有點寂寞呢！#$e#你能來真是太好了！$h",
+                "Sandy_Birthday_Hangout": "星露谷的天氣怎麼樣？#$e#那裡的花聞起來挺香的。$h",
+                "Sandy_Birthday_Lake": "湖邊總是會涼爽一點。#$e#偶爾出去走走也挺好的！$h",
+                "Sandy_Birthday_Bones": "很奇怪，對吧？",
+                "Sandy_Birthday_Camel": "她好像在賣一些稀有商品。",
+                "Sandy_Birthday_Bye": "我玩得很開心。$h#$b#謝謝你願意跟我交朋友。$h#$e#歡迎你隨時過來！$h"
+            }
+        }
+    ]
 }

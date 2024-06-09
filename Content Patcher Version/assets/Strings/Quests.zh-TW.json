@@ -1,13 +1,13 @@
 {
-	"Changes": [
-		{
-			"LogName": "Quests",
-			"Action": "EditData",
-			"Target": "Strings/Quests",
-			"Entries": {
-				"MessageFoundLostItem": "你找到了{0}。最好把它還給{1}。",
-				"ObjectiveReturnToNPC": "回去找{0}。"
-			}
-		}
-	]
+    "Changes": [
+        {
+            "LogName": "Quests",
+            "Action": "EditData",
+            "Target": "Strings/Quests",
+            "Entries": {
+                "MessageFoundLostItem": "你找到了{0}。最好把它還給{1}。",
+                "ObjectiveReturnToNPC": "回去找{0}。"
+            }
+        }
+    ]
 }

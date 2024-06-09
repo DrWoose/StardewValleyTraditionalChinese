@@ -1,18 +1,18 @@
 {
-	"Changes": [
-		{
-			"LogName": "Haley",
-			"Action": "EditData",
-			"Target": "Strings/schedules/Haley",
-			"Entries": {
-				"winter_9.000": "沒什麼……我只是來做年度體檢的！",
-				"winter_9.001": "嗯……醫生，只是有點流鼻涕。除此以外都很好！",
-				"winter.000": "天氣冷得我不想起床。",
-				"marriage_Mon.000": "嗨，寶貝！我來這裡是為了探望艾米麗。",
-				"rain.000": "天氣遭得我不想起床。",
-				"winter_16.001": "唔唔唔……我並非為此才穿衣打扮……$s",
-				"winter_16.000": "天氣冷得我不想起床。"
-			}
-		}
-	]
+    "Changes": [
+        {
+            "LogName": "Haley",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Haley",
+            "Entries": {
+                "winter_9.000": "沒什麼……我只是來做年度體檢的！",
+                "winter_9.001": "嗯……醫生，只是有點流鼻涕。除此以外都很好！",
+                "winter.000": "天氣冷得我不想起床。",
+                "marriage_Mon.000": "嗨，寶貝！我來這裡是為了探望艾米麗。",
+                "rain.000": "天氣遭得我不想起床。",
+                "winter_16.001": "只要你穿得暖一點，冷天氣對你來說根本就沒什麼！$h",
+                "winter_16.000": "天氣冷得我不想起床。"
+            }
+        }
+    ]
 }

@@ -1,15 +1,15 @@
 {
-	"Changes": [
-		{
-			"LogName": "Robin",
-			"Action": "EditData",
-			"Target": "Strings/schedules/Robin",
-			"Entries": {
-				"summer_18.001": "沒什麼大礙，醫生。我感覺跟以前一樣好。",
-				"summer_18.000": "你這麼健康的年輕人來這幹嘛？",
-				"Tue.000": "我們每週都會見面，鼓勵對方保持健康。",
-				"winter_16.000": "我喜歡做的事，就是看到這些船。木頭吱吱作響，會奇怪地令人感到舒心。"
-			}
-		}
-	]
+    "Changes": [
+        {
+            "LogName": "Robin",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Robin",
+            "Entries": {
+                "summer_18.001": "沒什麼大礙，醫生。我感覺跟以前一樣好。",
+                "summer_18.000": "你這麼健康的年輕人來這幹嘛？",
+                "Tue.000": "我們每週都會見面，鼓勵對方保持健康。",
+                "winter_16.000": "我喜歡做的事，就是看到這些船。木頭吱吱作響，會奇怪地令人感到舒心。"
+            }
+        }
+    ]
 }

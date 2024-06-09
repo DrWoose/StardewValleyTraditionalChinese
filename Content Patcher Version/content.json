@@ -1,13 +1,9 @@
 {
-	"Format": "1.20.0",
+	"Format": "2.2.0",
 	"ConfigSchema": {
 		"Font": {
 			"AllowValues": "SourceHanSans, SweiGothic, NaikaiFont, JasonHandwriting1, Zpix",
 			"Default": "SourceHanSans"
-		},
-		"Movie-only": {
-			"AllowValues": "true, false",
-			"Default": "false"
 		}
 	},
 	"Changes": [
@@ -116,8 +112,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Abigail.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -125,8 +120,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Alex.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -134,8 +128,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Caroline.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -143,8 +136,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Clint.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -152,8 +144,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Demetrius.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -161,8 +152,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Dwarf.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -170,8 +160,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Elliott.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -179,8 +168,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Emily.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -188,8 +176,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Evelyn.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -197,8 +184,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/George.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -206,8 +192,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Gil.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -215,8 +200,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Gus.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -224,8 +208,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Haley.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -233,8 +216,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Harvey.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -242,8 +224,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Jas.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -251,8 +232,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Jodi.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -260,8 +240,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Kent.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -269,8 +248,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Krobus.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -278,8 +256,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Leah.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -287,8 +264,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Leo.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -296,8 +272,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/LeoMainland.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -305,8 +280,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Lewis.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -314,8 +288,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Linus.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -323,8 +296,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Marnie.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -332,8 +304,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogue.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -341,8 +312,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueAbigail.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -350,8 +320,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueAlex.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -359,8 +328,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueElliott.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -368,8 +336,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueEmily.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -377,8 +344,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueHaley.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -386,8 +352,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueHarvey.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -395,8 +360,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueKrobus.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -404,8 +368,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueLeah.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -413,8 +376,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueMaru.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -422,8 +384,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialoguePenny.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -431,8 +392,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueSam.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -440,8 +400,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueSebastian.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -449,8 +408,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueShane.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -458,8 +416,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Maru.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -467,8 +424,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Mister Qi.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -476,8 +432,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Pam.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -485,8 +440,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Penny.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -494,8 +448,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Pierre.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -503,8 +456,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/rainy.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -512,8 +464,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Robin.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -521,8 +472,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Sam.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -530,8 +480,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Sandy.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -539,8 +488,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Sebastian.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -548,8 +496,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Shane.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -557,8 +504,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Vincent.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -566,8 +512,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Willy.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -575,8 +520,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Wizard.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -584,8 +528,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Achievements.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -593,8 +536,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/BigCraftablesInformation.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -602,8 +544,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Blueprints.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -611,8 +552,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Boots.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -620,8 +560,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Bundles.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -629,8 +568,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/ClothingInformation.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -638,8 +576,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/CookingRecipes.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -647,8 +584,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/CraftingRecipes.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -656,8 +592,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/EngagementDialogue.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -665,8 +600,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/ExtraDialogue.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -674,8 +608,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/FarmAnimals.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -683,8 +616,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Fish.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -692,8 +624,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Furniture.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -701,8 +632,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/hats.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -710,8 +640,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/mail.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -719,8 +648,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Monsters.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -728,8 +656,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/NPCDispositions.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -737,8 +664,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/NPCGiftTastes.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -746,8 +672,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/ObjectInformation.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -755,8 +680,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Quests.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -764,8 +688,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/SecretNotes.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -773,8 +696,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/weapons.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -782,8 +704,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/AbandonedJojaMart.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -791,8 +712,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/AnimalShop.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -800,8 +720,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/ArchaeologyHouse.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -809,8 +728,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Backwoods.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -818,8 +736,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/BathHouse_Pool.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -827,8 +744,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Beach.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -836,8 +752,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/BoatTunnel.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -845,8 +760,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/BusStop.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -854,8 +768,15 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/CommunityCenter.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "DesertFestival",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/DesertFestival.zh-TW.json",
+			"When": {
+				"Language": "zh"
 			}
 		},
 		{
@@ -863,8 +784,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/ElliottHouse.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -872,8 +792,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Farm.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -881,8 +800,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/FarmHouse.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -890,8 +808,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/FishShop.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -899,8 +816,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Forest.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -908,8 +824,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/HaleyHouse.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -917,8 +832,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/HarveyRoom.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -926,8 +840,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Hospital.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -935,8 +848,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/IslandHut.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -944,8 +856,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/IslandNorth.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -953,8 +864,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/IslandSouth.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -962,8 +872,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/IslandWest.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -971,8 +880,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/JoshHouse.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -980,8 +888,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/LeahHouse.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -989,8 +896,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/ManorHouse.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -998,8 +904,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Mine.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1007,8 +912,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Mountain.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1016,8 +920,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/QiNutRoom.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1025,8 +928,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Railroad.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1034,8 +936,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Saloon.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1043,8 +944,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/SamHouse.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1052,8 +952,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/SandyHouse.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1061,8 +960,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/ScienceHouse.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1070,8 +968,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/SebastianRoom.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1079,8 +976,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/SeedShop.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1088,8 +984,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Sewer.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1097,8 +992,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Sunroom.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1106,28 +1000,23 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Temp.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
-/*
 		{
 			"LogName": "Tent",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Tent.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
-*/
 		{
 			"LogName": "Town",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Town.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1135,8 +1024,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Trailer.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1144,8 +1032,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Trailer_big.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1153,8 +1040,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/WizardHouse.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1162,8 +1048,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Woods.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1171,8 +1056,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/fall16.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1180,8 +1064,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/fall27.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1189,8 +1072,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/FestivalDates.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1198,8 +1080,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/spring13.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1207,8 +1088,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/spring24.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1216,8 +1096,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/summer11.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1225,8 +1104,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/summer28.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1234,8 +1112,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/winter25.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1243,8 +1120,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/winter8.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1252,8 +1128,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/TV/CookingChannel.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1261,8 +1136,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/TV/InterviewShow.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1270,8 +1144,15 @@
 			"Action": "Include",
 			"FromFile": "assets/Data/TV/TipChannel.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "1_6_Strings",
+			"Action": "Include",
+			"FromFile": "assets/Strings/1_6_Strings.zh-TW.json",
+			"When": {
+				"Language": "zh"
 			}
 		},
 		{
@@ -1279,8 +1160,15 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/animationDescriptions.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "BigCraftables",
+			"Action": "Include",
+			"FromFile": "assets/Strings/BigCraftables.zh-TW.json",
+			"When": {
+				"Language": "zh"
 			}
 		},
 		{
@@ -1288,8 +1176,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/Buildings.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1297,8 +1184,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/BundleNames.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1306,8 +1192,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/Characters.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1315,8 +1200,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/EnchantmentNames.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1324,8 +1208,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/Events.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1333,8 +1216,15 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/FarmAnimals.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "Furniture",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Furniture.zh-TW.json",
+			"When": {
+				"Language": "zh"
 			}
 		},
 		{
@@ -1342,8 +1232,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/Lexicon.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1351,8 +1240,31 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/Locations.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "MovieConcessions",
+			"Action": "Include",
+			"FromFile": "assets/Strings/MovieConcessions.zh-TW.json",
+			"When": {
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "MovieReactions",
+			"Action": "Include",
+			"FromFile": "assets/Strings/MovieReactions.zh-TW.json",
+			"When": {
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "Movies",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Movies.zh-TW.json",
+			"When": {
+				"Language": "zh"
 			}
 		},
 		{
@@ -1360,8 +1272,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/Notes.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1369,8 +1280,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/NPCNames.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1378,8 +1288,15 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/Objects.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "Pants",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Pants.zh-TW.json",
+			"When": {
+				"Language": "zh"
 			}
 		},
 		{
@@ -1387,8 +1304,23 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/Quests.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "Shirts",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Shirts.zh-TW.json",
+			"When": {
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "SimpleNonVillagerDialogues",
+			"Action": "Include",
+			"FromFile": "assets/Strings/SimpleNonVillagerDialogues.zh-TW.json",
+			"When": {
+				"Language": "zh"
 			}
 		},
 		{
@@ -1396,8 +1328,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/SpecialOrderStrings.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1405,8 +1336,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/SpeechBubbles.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1414,8 +1344,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/StringsFromCSFiles.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1423,8 +1352,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/StringsFromMaps.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1432,8 +1360,23 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/UI.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "Weapons",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Weapons.zh-TW.json",
+			"When": {
+				"Language": "zh"
+			}
+		},
+		{
+			"LogName": "WorldMap",
+			"Action": "Include",
+			"FromFile": "assets/Strings/WorldMap.zh-TW.json",
+			"When": {
+				"Language": "zh"
 			}
 		},
 		{
@@ -1441,8 +1384,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Abigail.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1450,8 +1392,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Alex.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1459,8 +1400,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Caroline.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1468,8 +1408,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Clint.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1477,8 +1416,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Demetrius.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1486,8 +1424,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Elliott.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1495,8 +1432,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Emily.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1504,8 +1440,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Evelyn.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1513,8 +1448,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/George.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1522,8 +1456,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Gus.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1531,8 +1464,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Haley.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1540,8 +1472,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Harvey.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1549,8 +1480,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Jas.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1558,8 +1488,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Jodi.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1567,8 +1496,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Leah.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1576,8 +1504,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Leo.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1585,8 +1512,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Lewis.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1594,8 +1520,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Linus.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1603,8 +1528,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Marnie.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1612,8 +1536,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Maru.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1621,8 +1544,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Pam.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1630,8 +1552,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Penny.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1639,8 +1560,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Pierre.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1648,8 +1568,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Robin.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1657,8 +1576,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Sam.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1666,8 +1584,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Sandy.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1675,8 +1592,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Sebastian.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1684,8 +1600,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Shane.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1693,8 +1608,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Vincent.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1702,8 +1616,7 @@
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Willy.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1712,8 +1625,7 @@
 			"Target": "LooseSprites/Billboard",
 			"FromFile": "assets/LooseSprites/Billboard.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1722,8 +1634,7 @@
 			"Target": "LooseSprites/ControllerMaps",
 			"FromFile": "assets/LooseSprites/ControllerMaps.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1732,8 +1643,7 @@
 			"Target": "LooseSprites/Cursors",
 			"FromFile": "assets/LooseSprites/Cursors.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1742,8 +1652,7 @@
 			"Target": "LooseSprites/JojaCDForm",
 			"FromFile": "assets/LooseSprites/JojaCDForm.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1752,8 +1661,7 @@
 			"Target": "LooseSprites/JunimoNote",
 			"FromFile": "assets/LooseSprites/JunimoNote.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1762,8 +1670,7 @@
 			"Target": "LooseSprites/LanguageButtons",
 			"FromFile": "assets/LooseSprites/LanguageButtons.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1772,8 +1679,7 @@
 			"Target": "Maps/bathhouse_tiles",
 			"FromFile": "assets/Maps/bathhouse_tiles.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1782,8 +1688,7 @@
 			"Target": "Maps/coopTiles",
 			"FromFile": "assets/Maps/coopTiles.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1792,8 +1697,7 @@
 			"Target": "Maps/DesertTiles",
 			"FromFile": "assets/Maps/DesertTiles.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1802,8 +1706,7 @@
 			"Target": "Maps/fall_beach",
 			"FromFile": "assets/Maps/fall_beach.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1812,8 +1715,7 @@
 			"Target": "Maps/fall_outdoorsTileSheet",
 			"FromFile": "assets/Maps/fall_outdoorsTileSheet.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1822,8 +1724,7 @@
 			"Target": "Maps/fall_town",
 			"FromFile": "assets/Maps/fall_town.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1832,8 +1733,7 @@
 			"Target": "Maps/Festivals",
 			"FromFile": "assets/Maps/Festivals.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1842,8 +1742,7 @@
 			"Target": "Maps/MovieTheaterJoja_TileSheet",
 			"FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1852,8 +1751,7 @@
 			"Target": "Maps/samshowtiles",
 			"FromFile": "assets/Maps/samshowtiles.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1862,8 +1760,7 @@
 			"Target": "Maps/spring_beach",
 			"FromFile": "assets/Maps/spring_beach.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1872,8 +1769,7 @@
 			"Target": "Maps/spring_outdoorsTileSheet",
 			"FromFile": "assets/Maps/spring_outdoorsTileSheet.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1882,8 +1778,7 @@
 			"Target": "Maps/spring_town",
 			"FromFile": "assets/Maps/spring_town.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1892,8 +1787,7 @@
 			"Target": "Maps/stadium_tiles",
 			"FromFile": "assets/Maps/stadium_tiles.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1902,8 +1796,7 @@
 			"Target": "Maps/summer_beach",
 			"FromFile": "assets/Maps/summer_beach.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1912,8 +1805,7 @@
 			"Target": "Maps/summer_outdoorsTileSheet",
 			"FromFile": "assets/Maps/summer_outdoorsTileSheet.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1922,8 +1814,7 @@
 			"Target": "Maps/summer_town",
 			"FromFile": "assets/Maps/summer_town.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1932,8 +1823,7 @@
 			"Target": "Maps/townInterior",
 			"FromFile": "assets/Maps/townInterior.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1942,8 +1832,7 @@
 			"Target": "Maps/winter_beach",
 			"FromFile": "assets/Maps/winter_beach.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1952,8 +1841,7 @@
 			"Target": "Maps/winter_outdoorsTileSheet",
 			"FromFile": "assets/Maps/winter_outdoorsTileSheet.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1962,8 +1850,7 @@
 			"Target": "Maps/winter_town",
 			"FromFile": "assets/Maps/winter_town.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1972,8 +1859,7 @@
 			"Target": "Minigames/Intro",
 			"FromFile": "assets/Minigames/Intro.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1982,8 +1868,7 @@
 			"Target": "Minigames/jojacorps",
 			"FromFile": "assets/Minigames/jojacorps.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -1992,8 +1877,7 @@
 			"Target": "Minigames/MineCart",
 			"FromFile": "assets/Minigames/MineCart.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -2002,8 +1886,7 @@
 			"Target": "Minigames/TitleButtons",
 			"FromFile": "assets/Minigames/TitleButtons.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -2012,8 +1895,7 @@
 			"Target": "TileSheets/furniture",
 			"FromFile": "assets/TileSheets/furniture.zh-TW.png",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		},
 		{
@@ -2047,8 +1929,7 @@
 			"Target": "Strings/credits",
 			"FromFile": "assets/Strings/credits.zh-TW.json",
 			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
+				"Language": "zh"
 			}
 		}
 	]
