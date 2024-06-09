@@ -530,23 +530,7 @@
 			"When": {
 				"Language": "zh"
 			}
-		},
-		{
-			"LogName": "BigCraftablesInformation",
-			"Action": "Include",
-			"FromFile": "assets/Data/BigCraftablesInformation.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "Blueprints",
-			"Action": "Include",
-			"FromFile": "assets/Data/Blueprints.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
+		},		
 		{
 			"LogName": "Boots",
 			"Action": "Include",
@@ -564,30 +548,6 @@
 			}
 		},
 		{
-			"LogName": "ClothingInformation",
-			"Action": "Include",
-			"FromFile": "assets/Data/ClothingInformation.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "CookingRecipes",
-			"Action": "Include",
-			"FromFile": "assets/Data/CookingRecipes.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "CraftingRecipes",
-			"Action": "Include",
-			"FromFile": "assets/Data/CraftingRecipes.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
 			"LogName": "EngagementDialogue",
 			"Action": "Include",
 			"FromFile": "assets/Data/EngagementDialogue.zh-TW.json",
@@ -599,30 +559,6 @@
 			"LogName": "ExtraDialogue",
 			"Action": "Include",
 			"FromFile": "assets/Data/ExtraDialogue.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "FarmAnimals",
-			"Action": "Include",
-			"FromFile": "assets/Data/FarmAnimals.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "Fish",
-			"Action": "Include",
-			"FromFile": "assets/Data/Fish.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "Furniture",
-			"Action": "Include",
-			"FromFile": "assets/Data/Furniture.zh-TW.json",
 			"When": {
 				"Language": "zh"
 			}
@@ -652,25 +588,9 @@
 			}
 		},
 		{
-			"LogName": "NPCDispositions",
-			"Action": "Include",
-			"FromFile": "assets/Data/NPCDispositions.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
 			"LogName": "NPCGiftTastes",
 			"Action": "Include",
 			"FromFile": "assets/Data/NPCGiftTastes.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "ObjectInformation",
-			"Action": "Include",
-			"FromFile": "assets/Data/ObjectInformation.zh-TW.json",
 			"When": {
 				"Language": "zh"
 			}
@@ -687,14 +607,6 @@
 			"LogName": "SecretNotes",
 			"Action": "Include",
 			"FromFile": "assets/Data/SecretNotes.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "weapons",
-			"Action": "Include",
-			"FromFile": "assets/Data/weapons.zh-TW.json",
 			"When": {
 				"Language": "zh"
 			}
@@ -999,14 +911,6 @@
 			"LogName": "Temp",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Temp.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "Tent",
-			"Action": "Include",
-			"FromFile": "assets/Data/Events/Tent.zh-TW.json",
 			"When": {
 				"Language": "zh"
 			}
@@ -1894,31 +1798,6 @@
 			"Action": "EditImage",
 			"Target": "TileSheets/furniture",
 			"FromFile": "assets/TileSheets/furniture.zh-TW.png",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "Concessions",
-			"Action": "Load",
-			"Target": "Data/Concessions",
-			"FromFile": "assets/Data/Concessions.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "Movies",
-			"Action": "Include",
-			"FromFile": "assets/Data/Movies.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "MoviesReactions",
-			"Action": "Include",
-			"FromFile": "assets/Data/MoviesReactions.zh-TW.json",
 			"When": {
 				"Language": "zh"
 			}
