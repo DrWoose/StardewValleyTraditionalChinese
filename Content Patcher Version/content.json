@@ -1544,11 +1544,7 @@
 			"LogName": "LanguageButtons",
 			"Action": "EditImage",
 			"Target": "LooseSprites/LanguageButtons",
-			"FromFile": "assets/LooseSprites/LanguageButtons.png",
-			"When": {
-				"Language": "zh",
-				"Movie-only": "false"
-			}
+			"FromFile": "assets/LooseSprites/LanguageButtons.png"
 		},
 		{
 			"LogName": "bathhouse_tiles",
