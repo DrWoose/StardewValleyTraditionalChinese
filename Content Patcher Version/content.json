@@ -1,5 +1,5 @@
 {
-	"Format": "2.2.0",
+	"Format": "2.0.0",
 	"ConfigSchema": {
 		"Font": {
 			"AllowValues": "SourceHanSans, SweiGothic, NaikaiFont, JasonHandwriting1, Zpix",
@@ -1031,14 +1031,6 @@
 			"LogName": "CookingChannel",
 			"Action": "Include",
 			"FromFile": "assets/Data/TV/CookingChannel.zh-TW.json",
-			"When": {
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "InterviewShow",
-			"Action": "Include",
-			"FromFile": "assets/Data/TV/InterviewShow.zh-TW.json",
 			"When": {
 				"Language": "zh"
 			}
