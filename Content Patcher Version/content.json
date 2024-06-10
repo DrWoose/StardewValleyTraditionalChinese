@@ -1,26 +1,16 @@
 {
 	"Format": "2.0.0",
-	"ConfigSchema": {		
+	"ConfigSchema": {
 		"Font": {
 			"AllowValues": "SourceHanSans, SweiGothic, NaikaiFont, JasonHandwriting1",
-			"Default": "JasonHandwriting1"
+			"Default": "SourceHanSans"
 		}
 	},
 	"Changes": [	
 		{
 			"LogName": "SourceHanSans",
 			"Action": "Load",
-			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
-			"FromFile": "assets/Fonts/SourceHanSans/{{Target}}.xnb",
-			"When": {
-				"Font": "SourceHanSans",
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "SourceHanSans",
-			"Action": "Load",
-			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
+			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1, Fonts/SmallFont, Fonts/SpriteFont1",
 			"FromFile": "assets/Fonts/SourceHanSans/{{Target}}.xnb",
 			"When": {
 				"Font": "SourceHanSans",
@@ -30,17 +20,7 @@
 		{
 			"LogName": "SweiGothic",
 			"Action": "Load",
-			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
-			"FromFile": "assets/Fonts/SweiGothic/{{Target}}.xnb",
-			"When": {
-				"Font": "SweiGothic",
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "SweiGothic",
-			"Action": "Load",
-			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
+			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1, Fonts/SmallFont, Fonts/SpriteFont1",
 			"FromFile": "assets/Fonts/SweiGothic/{{Target}}.xnb",
 			"When": {
 				"Font": "SweiGothic",
@@ -50,17 +30,7 @@
 		{
 			"LogName": "NaikaiFont",
 			"Action": "Load",
-			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
-			"FromFile": "assets/Fonts/NaikaiFont/{{Target}}.xnb",
-			"When": {
-				"Font": "NaikaiFont",
-				"Language": "zh"
-			}
-		},
-		{
-			"LogName": "NaikaiFont",
-			"Action": "Load",
-			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
+			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1, Fonts/SmallFont, Fonts/SpriteFont1",
 			"FromFile": "assets/Fonts/NaikaiFont/{{Target}}.xnb",
 			"When": {
 				"Font": "NaikaiFont",
@@ -70,23 +40,13 @@
 		{
 			"LogName": "JasonHandwriting1",
 			"Action": "Load",
-			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1",
+			"Target": "Fonts/Chinese, Fonts/Chinese_0, Fonts/Chinese_1, Fonts/SmallFont, Fonts/SpriteFont1",
 			"FromFile": "assets/Fonts/JasonHandwriting1/{{Target}}.xnb",
 			"When": {
 				"Font": "JasonHandwriting1",
 				"Language": "zh"
 			}
 		},
-		{
-			"LogName": "JasonHandwriting1",
-			"Action": "Load",
-			"Target": "Fonts/SmallFont, Fonts/SpriteFont1",
-			"FromFile": "assets/Fonts/JasonHandwriting1/{{Target}}.xnb",
-			"When": {
-				"Font": "JasonHandwriting1",
-				"Language": "zh"
-			}
-		},		
 		{
 			"LogName": "Abigail",
 			"Action": "Include",
