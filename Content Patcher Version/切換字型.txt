@@ -1,4 +1,5 @@
-點擊遊戲主畫面左下角的齒輪，修改「Font」選項後重新啟動遊戲即可。（須安裝 Generic Mod Config Menu）
+點擊遊戲主畫面左下角的齒輪（須安裝 Generic Mod Config Menu），修改「Font」選項。
+切換後若遇亂碼請重啟遊戲，或切換至其他語言再切回中文。
 
 手動切換：
 開啟模組資料夾內的 config 設定檔，將「"Font": "SourceHanSans"」的「SourceHanSans」改為下列對應值即可。（config 設定檔須啟動遊戲才會建立）

@@ -7,7 +7,7 @@
     "config.EnableFont.description": "開啟或關閉字型，若與其他字型模組衝突可關閉。",
 
     "config.Font.name": "字型",
-    "config.Font.description": "切換遊戲字型，若遇亂碼請重啟遊戲，或切換至其他語言再切回中文。",
+    "config.Font.description": "切換遊戲字型。切換後若遇亂碼請重啟遊戲，或切換至其他語言再切回中文。",
     "config.Font.values.SourceHanSans": "思源黑體",
     "config.Font.values.SweiGothic": "獅尾圓體",
     "config.Font.values.NaikaiFont": "內海字體",
