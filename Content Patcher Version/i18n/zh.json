@@ -1,0 +1,15 @@
+{
+    "config.EnableMod.name": "啟用模組",
+    "config.EnableMod.description": "開啟或關閉模組，關閉後會停用模組所有功能。",
+    "config.EnableTexture.name": "啟用貼圖",
+    "config.EnableTexture.description": "開啟或關閉貼圖，若與其他美化模組衝突可關閉。",
+    "config.EnableFont.name": "啟用字型",
+    "config.EnableFont.description": "開啟或關閉字型，若與其他字型模組衝突可關閉。",
+
+    "config.Font.name": "字型",
+    "config.Font.description": "切換遊戲字型，若遇亂碼請重啟遊戲，或切換至其他語言再切回中文。",
+    "config.Font.values.SourceHanSans": "思源黑體",
+    "config.Font.values.SweiGothic": "獅尾圓體",
+    "config.Font.values.NaikaiFont": "內海字體",
+    "config.Font.values.JasonHandwriting1": "清松手寫體"
+}

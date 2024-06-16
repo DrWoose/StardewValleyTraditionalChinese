@@ -1,3 +1,6 @@
 {
-  "Font": "SourceHanSans"
+  "EnableMod": "true",
+  "EnableTexture": "true",
+  "EnableFont": "true",
+  "Font": "NaikaiFont"
 }

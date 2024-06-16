@@ -1,0 +1,15 @@
+{
+    "config.EnableMod.name": "EnableMod",
+    "config.EnableMod.description": "Enable or disable the mod; disabling it will deactivate all of its features.",
+    "config.EnableTexture.name": "EnableTexture",
+    "config.EnableTexture.description": "Enable or disable textures; if there is a conflict with other visual enhancement mods, you can disable them.",
+    "config.EnableFont.name": "EnableFont",
+    "config.EnableFont.description": "Enable or disable fonts; if there is a conflict with other font mods, you can disable them.",
+
+    "config.Font.name": "Font",
+    "config.Font.description": "To change the font, if you encounter garbled text, please restart the game or switch to another language and then back to Chinese.",
+    "config.Font.values.SourceHanSans": "SourceHanSans",
+    "config.Font.values.SweiGothic": "SweiGothic",
+    "config.Font.values.NaikaiFont": "NaikaiFont",
+    "config.Font.values.JasonHandwriting1": "JasonHandwriting1"
+}
