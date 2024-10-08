@@ -79,7 +79,7 @@
 			"LogName": "Abigail",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Abigail.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -89,7 +89,7 @@
 			"LogName": "Alex",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Alex.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -99,7 +99,7 @@
 			"LogName": "Caroline",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Caroline.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -109,7 +109,7 @@
 			"LogName": "Clint",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Clint.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -119,7 +119,7 @@
 			"LogName": "Demetrius",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Demetrius.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -129,7 +129,7 @@
 			"LogName": "Dwarf",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Dwarf.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -139,7 +139,7 @@
 			"LogName": "Elliott",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Elliott.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -149,7 +149,7 @@
 			"LogName": "Emily",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Emily.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -159,7 +159,7 @@
 			"LogName": "Evelyn",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Evelyn.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -169,7 +169,7 @@
 			"LogName": "George",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/George.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -179,7 +179,7 @@
 			"LogName": "Gil",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Gil.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -189,7 +189,7 @@
 			"LogName": "Gus",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Gus.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -199,7 +199,7 @@
 			"LogName": "Haley",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Haley.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -209,7 +209,7 @@
 			"LogName": "Harvey",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Harvey.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -219,7 +219,7 @@
 			"LogName": "Jas",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Jas.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -229,7 +229,7 @@
 			"LogName": "Jodi",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Jodi.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -239,7 +239,7 @@
 			"LogName": "Kent",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Kent.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -249,7 +249,7 @@
 			"LogName": "Krobus",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Krobus.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -259,7 +259,7 @@
 			"LogName": "Leah",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Leah.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -269,7 +269,7 @@
 			"LogName": "Leo",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Leo.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -279,7 +279,7 @@
 			"LogName": "LeoMainland",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/LeoMainland.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -289,7 +289,7 @@
 			"LogName": "Lewis",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Lewis.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -299,7 +299,7 @@
 			"LogName": "Linus",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Linus.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -309,7 +309,7 @@
 			"LogName": "Marnie",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Marnie.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -319,7 +319,7 @@
 			"LogName": "MarriageDialogue",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogue.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -329,7 +329,7 @@
 			"LogName": "MarriageDialogueAbigail",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueAbigail.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -339,7 +339,7 @@
 			"LogName": "MarriageDialogueAlex",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueAlex.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -349,7 +349,7 @@
 			"LogName": "MarriageDialogueElliott",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueElliott.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -359,7 +359,7 @@
 			"LogName": "MarriageDialogueEmily",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueEmily.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -369,7 +369,7 @@
 			"LogName": "MarriageDialogueHaley",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueHaley.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -379,7 +379,7 @@
 			"LogName": "MarriageDialogueHarvey",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueHarvey.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -389,7 +389,7 @@
 			"LogName": "MarriageDialogueKrobus",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueKrobus.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -399,7 +399,7 @@
 			"LogName": "MarriageDialogueLeah",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueLeah.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -409,7 +409,7 @@
 			"LogName": "MarriageDialogueMaru",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueMaru.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -419,7 +419,7 @@
 			"LogName": "MarriageDialoguePenny",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialoguePenny.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -429,7 +429,7 @@
 			"LogName": "MarriageDialogueSam",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueSam.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -439,7 +439,7 @@
 			"LogName": "MarriageDialogueSebastian",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueSebastian.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -449,7 +449,7 @@
 			"LogName": "MarriageDialogueShane",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/MarriageDialogueShane.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -459,7 +459,7 @@
 			"LogName": "Maru",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Maru.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -469,7 +469,7 @@
 			"LogName": "Mister Qi",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Mister Qi.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -479,7 +479,7 @@
 			"LogName": "Pam",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Pam.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -489,7 +489,7 @@
 			"LogName": "Penny",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Penny.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -499,7 +499,7 @@
 			"LogName": "Pierre",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Pierre.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -509,7 +509,7 @@
 			"LogName": "rainy",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/rainy.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -519,7 +519,7 @@
 			"LogName": "Robin",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Robin.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -529,7 +529,7 @@
 			"LogName": "Sam",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Sam.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -539,7 +539,7 @@
 			"LogName": "Sandy",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Sandy.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -549,7 +549,7 @@
 			"LogName": "Sebastian",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Sebastian.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -559,7 +559,7 @@
 			"LogName": "Shane",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Shane.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -569,7 +569,7 @@
 			"LogName": "Vincent",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Vincent.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -579,7 +579,7 @@
 			"LogName": "Willy",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Willy.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -589,7 +589,7 @@
 			"LogName": "Wizard",
 			"Action": "Include",
 			"FromFile": "assets/Characters/Dialogue/Wizard.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -599,7 +599,7 @@
 			"LogName": "Achievements",
 			"Action": "Include",
 			"FromFile": "assets/Data/Achievements.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -609,7 +609,7 @@
 			"LogName": "Boots",
 			"Action": "Include",
 			"FromFile": "assets/Data/Boots.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -619,7 +619,7 @@
 			"LogName": "Bundles",
 			"Action": "Include",
 			"FromFile": "assets/Data/Bundles.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -629,7 +629,7 @@
 			"LogName": "EngagementDialogue",
 			"Action": "Include",
 			"FromFile": "assets/Data/EngagementDialogue.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -639,7 +639,7 @@
 			"LogName": "ExtraDialogue",
 			"Action": "Include",
 			"FromFile": "assets/Data/ExtraDialogue.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -649,7 +649,7 @@
 			"LogName": "hats",
 			"Action": "Include",
 			"FromFile": "assets/Data/hats.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -659,7 +659,7 @@
 			"LogName": "mail",
 			"Action": "Include",
 			"FromFile": "assets/Data/mail.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -669,7 +669,7 @@
 			"LogName": "Monsters",
 			"Action": "Include",
 			"FromFile": "assets/Data/Monsters.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -679,7 +679,7 @@
 			"LogName": "NPCGiftTastes",
 			"Action": "Include",
 			"FromFile": "assets/Data/NPCGiftTastes.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -689,7 +689,7 @@
 			"LogName": "Quests",
 			"Action": "Include",
 			"FromFile": "assets/Data/Quests.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -699,7 +699,7 @@
 			"LogName": "SecretNotes",
 			"Action": "Include",
 			"FromFile": "assets/Data/SecretNotes.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -709,7 +709,7 @@
 			"LogName": "AbandonedJojaMart",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/AbandonedJojaMart.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -719,7 +719,7 @@
 			"LogName": "AnimalShop",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/AnimalShop.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -729,7 +729,7 @@
 			"LogName": "ArchaeologyHouse",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/ArchaeologyHouse.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -739,7 +739,7 @@
 			"LogName": "Backwoods",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Backwoods.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -749,7 +749,7 @@
 			"LogName": "BathHouse_Pool",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/BathHouse_Pool.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -759,7 +759,7 @@
 			"LogName": "Beach",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Beach.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -769,7 +769,7 @@
 			"LogName": "BoatTunnel",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/BoatTunnel.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -779,7 +779,7 @@
 			"LogName": "BusStop",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/BusStop.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -789,7 +789,7 @@
 			"LogName": "CommunityCenter",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/CommunityCenter.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -799,7 +799,7 @@
 			"LogName": "DesertFestival",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/DesertFestival.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -809,7 +809,7 @@
 			"LogName": "ElliottHouse",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/ElliottHouse.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -819,7 +819,7 @@
 			"LogName": "Farm",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Farm.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -829,7 +829,7 @@
 			"LogName": "FarmHouse",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/FarmHouse.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -839,7 +839,7 @@
 			"LogName": "FishShop",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/FishShop.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -849,7 +849,7 @@
 			"LogName": "Forest",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Forest.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -859,7 +859,7 @@
 			"LogName": "HaleyHouse",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/HaleyHouse.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -869,7 +869,7 @@
 			"LogName": "HarveyRoom",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/HarveyRoom.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -879,7 +879,7 @@
 			"LogName": "Hospital",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Hospital.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -889,7 +889,7 @@
 			"LogName": "IslandHut",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/IslandHut.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -899,7 +899,7 @@
 			"LogName": "IslandNorth",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/IslandNorth.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -909,7 +909,7 @@
 			"LogName": "IslandSouth",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/IslandSouth.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -919,7 +919,7 @@
 			"LogName": "IslandWest",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/IslandWest.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -929,7 +929,7 @@
 			"LogName": "JoshHouse",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/JoshHouse.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -939,7 +939,7 @@
 			"LogName": "LeahHouse",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/LeahHouse.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -949,7 +949,7 @@
 			"LogName": "ManorHouse",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/ManorHouse.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -959,7 +959,7 @@
 			"LogName": "Mine",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Mine.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -969,7 +969,7 @@
 			"LogName": "Mountain",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Mountain.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -979,7 +979,7 @@
 			"LogName": "QiNutRoom",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/QiNutRoom.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -989,7 +989,7 @@
 			"LogName": "Railroad",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Railroad.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -999,7 +999,7 @@
 			"LogName": "Saloon",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Saloon.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1009,7 +1009,7 @@
 			"LogName": "SamHouse",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/SamHouse.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1019,7 +1019,7 @@
 			"LogName": "SandyHouse",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/SandyHouse.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1029,7 +1029,7 @@
 			"LogName": "ScienceHouse",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/ScienceHouse.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1039,7 +1039,7 @@
 			"LogName": "SebastianRoom",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/SebastianRoom.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1049,7 +1049,7 @@
 			"LogName": "SeedShop",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/SeedShop.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1059,7 +1059,7 @@
 			"LogName": "Sewer",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Sewer.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1069,7 +1069,7 @@
 			"LogName": "Sunroom",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Sunroom.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1079,7 +1079,7 @@
 			"LogName": "Temp",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Temp.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1089,7 +1089,7 @@
 			"LogName": "Town",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Town.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1099,7 +1099,7 @@
 			"LogName": "Trailer",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Trailer.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1109,7 +1109,7 @@
 			"LogName": "Trailer_big",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Trailer_big.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1119,7 +1119,7 @@
 			"LogName": "WizardHouse",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/WizardHouse.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1129,7 +1129,7 @@
 			"LogName": "Woods",
 			"Action": "Include",
 			"FromFile": "assets/Data/Events/Woods.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1139,7 +1139,7 @@
 			"LogName": "fall16",
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/fall16.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1149,7 +1149,7 @@
 			"LogName": "fall27",
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/fall27.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1159,7 +1159,7 @@
 			"LogName": "FestivalDates",
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/FestivalDates.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1169,7 +1169,7 @@
 			"LogName": "spring13",
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/spring13.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1179,7 +1179,7 @@
 			"LogName": "spring24",
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/spring24.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1189,7 +1189,7 @@
 			"LogName": "summer11",
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/summer11.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1199,7 +1199,7 @@
 			"LogName": "summer28",
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/summer28.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1209,7 +1209,7 @@
 			"LogName": "winter25",
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/winter25.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1219,7 +1219,7 @@
 			"LogName": "winter8",
 			"Action": "Include",
 			"FromFile": "assets/Data/Festivals/winter8.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1229,7 +1229,7 @@
 			"LogName": "CookingChannel",
 			"Action": "Include",
 			"FromFile": "assets/Data/TV/CookingChannel.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1239,7 +1239,7 @@
 			"LogName": "TipChannel",
 			"Action": "Include",
 			"FromFile": "assets/Data/TV/TipChannel.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1249,7 +1249,7 @@
 			"LogName": "1_6_Strings",
 			"Action": "Include",
 			"FromFile": "assets/Strings/1_6_Strings.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1259,7 +1259,7 @@
 			"LogName": "animationDescriptions",
 			"Action": "Include",
 			"FromFile": "assets/Strings/animationDescriptions.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1269,7 +1269,7 @@
 			"LogName": "BigCraftables",
 			"Action": "Include",
 			"FromFile": "assets/Strings/BigCraftables.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1279,7 +1279,7 @@
 			"LogName": "Buildings",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Buildings.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1289,7 +1289,7 @@
 			"LogName": "BundleNames",
 			"Action": "Include",
 			"FromFile": "assets/Strings/BundleNames.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1299,7 +1299,7 @@
 			"LogName": "Characters",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Characters.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1309,7 +1309,7 @@
 			"LogName": "EnchantmentNames",
 			"Action": "Include",
 			"FromFile": "assets/Strings/EnchantmentNames.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1319,7 +1319,7 @@
 			"LogName": "Events",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Events.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1329,7 +1329,7 @@
 			"LogName": "FarmAnimals",
 			"Action": "Include",
 			"FromFile": "assets/Strings/FarmAnimals.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1339,7 +1339,7 @@
 			"LogName": "Furniture",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Furniture.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1349,7 +1349,7 @@
 			"LogName": "Lexicon",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Lexicon.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1359,7 +1359,7 @@
 			"LogName": "Locations",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Locations.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1369,7 +1369,7 @@
 			"LogName": "MovieConcessions",
 			"Action": "Include",
 			"FromFile": "assets/Strings/MovieConcessions.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1379,7 +1379,7 @@
 			"LogName": "MovieReactions",
 			"Action": "Include",
 			"FromFile": "assets/Strings/MovieReactions.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1389,7 +1389,7 @@
 			"LogName": "Movies",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Movies.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1399,7 +1399,7 @@
 			"LogName": "Notes",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Notes.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1409,7 +1409,7 @@
 			"LogName": "NPCNames",
 			"Action": "Include",
 			"FromFile": "assets/Strings/NPCNames.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1419,7 +1419,7 @@
 			"LogName": "Objects",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Objects.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1429,7 +1429,7 @@
 			"LogName": "Pants",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Pants.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1439,7 +1439,7 @@
 			"LogName": "Quests",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Quests.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1449,7 +1449,7 @@
 			"LogName": "Shirts",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Shirts.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1459,7 +1459,7 @@
 			"LogName": "SimpleNonVillagerDialogues",
 			"Action": "Include",
 			"FromFile": "assets/Strings/SimpleNonVillagerDialogues.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1469,7 +1469,7 @@
 			"LogName": "SpecialOrderStrings",
 			"Action": "Include",
 			"FromFile": "assets/Strings/SpecialOrderStrings.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1479,7 +1479,7 @@
 			"LogName": "SpeechBubbles",
 			"Action": "Include",
 			"FromFile": "assets/Strings/SpeechBubbles.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1489,7 +1489,7 @@
 			"LogName": "StringsFromCSFiles",
 			"Action": "Include",
 			"FromFile": "assets/Strings/StringsFromCSFiles.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1499,7 +1499,7 @@
 			"LogName": "StringsFromMaps",
 			"Action": "Include",
 			"FromFile": "assets/Strings/StringsFromMaps.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1509,7 +1509,7 @@
 			"LogName": "UI",
 			"Action": "Include",
 			"FromFile": "assets/Strings/UI.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1519,7 +1519,7 @@
 			"LogName": "Weapons",
 			"Action": "Include",
 			"FromFile": "assets/Strings/Weapons.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1529,7 +1529,7 @@
 			"LogName": "WorldMap",
 			"Action": "Include",
 			"FromFile": "assets/Strings/WorldMap.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1539,7 +1539,7 @@
 			"LogName": "Abigail",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Abigail.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1549,7 +1549,7 @@
 			"LogName": "Alex",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Alex.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1559,7 +1559,7 @@
 			"LogName": "Caroline",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Caroline.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1569,7 +1569,7 @@
 			"LogName": "Clint",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Clint.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1579,7 +1579,7 @@
 			"LogName": "Demetrius",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Demetrius.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1589,7 +1589,7 @@
 			"LogName": "Elliott",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Elliott.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1599,7 +1599,7 @@
 			"LogName": "Emily",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Emily.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1609,7 +1609,7 @@
 			"LogName": "Evelyn",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Evelyn.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1619,7 +1619,7 @@
 			"LogName": "George",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/George.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1629,7 +1629,7 @@
 			"LogName": "Gus",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Gus.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1639,7 +1639,7 @@
 			"LogName": "Haley",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Haley.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1649,7 +1649,7 @@
 			"LogName": "Harvey",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Harvey.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1659,7 +1659,7 @@
 			"LogName": "Jas",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Jas.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1669,7 +1669,7 @@
 			"LogName": "Jodi",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Jodi.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1679,7 +1679,7 @@
 			"LogName": "Leah",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Leah.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1689,7 +1689,7 @@
 			"LogName": "Leo",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Leo.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1699,7 +1699,7 @@
 			"LogName": "Lewis",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Lewis.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1709,7 +1709,7 @@
 			"LogName": "Linus",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Linus.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1719,7 +1719,7 @@
 			"LogName": "Marnie",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Marnie.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1729,7 +1729,7 @@
 			"LogName": "Maru",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Maru.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1739,7 +1739,7 @@
 			"LogName": "Pam",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Pam.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1749,7 +1749,7 @@
 			"LogName": "Penny",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Penny.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1759,7 +1759,7 @@
 			"LogName": "Pierre",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Pierre.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1769,7 +1769,7 @@
 			"LogName": "Robin",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Robin.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1779,7 +1779,7 @@
 			"LogName": "Sam",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Sam.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1789,7 +1789,7 @@
 			"LogName": "Sandy",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Sandy.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1799,7 +1799,7 @@
 			"LogName": "Sebastian",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Sebastian.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1809,7 +1809,7 @@
 			"LogName": "Shane",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Shane.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1819,7 +1819,7 @@
 			"LogName": "Vincent",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Vincent.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1829,7 +1829,7 @@
 			"LogName": "Willy",
 			"Action": "Include",
 			"FromFile": "assets/Strings/schedules/Willy.zh-TW.json",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"Language": "zh"
@@ -1840,7 +1840,7 @@
 			"Action": "EditImage",
 			"Target": "LooseSprites/Billboard",
 			"FromFile": "assets/LooseSprites/Billboard.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1852,7 +1852,7 @@
 			"Action": "EditImage",
 			"Target": "LooseSprites/ControllerMaps",
 			"FromFile": "assets/LooseSprites/ControllerMaps.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1864,7 +1864,7 @@
 			"Action": "EditImage",
 			"Target": "LooseSprites/Cursors",
 			"FromFile": "assets/LooseSprites/Cursors.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1876,7 +1876,7 @@
 			"Action": "EditImage",
 			"Target": "LooseSprites/JojaCDForm",
 			"FromFile": "assets/LooseSprites/JojaCDForm.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1888,7 +1888,7 @@
 			"Action": "EditImage",
 			"Target": "LooseSprites/JunimoNote",
 			"FromFile": "assets/LooseSprites/JunimoNote.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1907,7 +1907,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/bathhouse_tiles",
 			"FromFile": "assets/Maps/bathhouse_tiles.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1919,7 +1919,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/coopTiles",
 			"FromFile": "assets/Maps/coopTiles.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1931,7 +1931,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/DesertTiles",
 			"FromFile": "assets/Maps/DesertTiles.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1943,7 +1943,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/fall_beach",
 			"FromFile": "assets/Maps/fall_beach.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1955,7 +1955,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/fall_outdoorsTileSheet",
 			"FromFile": "assets/Maps/fall_outdoorsTileSheet.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1967,7 +1967,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/fall_town",
 			"FromFile": "assets/Maps/fall_town.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1979,7 +1979,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/Festivals",
 			"FromFile": "assets/Maps/Festivals.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -1991,7 +1991,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/MovieTheaterJoja_TileSheet",
 			"FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2003,7 +2003,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/samshowtiles",
 			"FromFile": "assets/Maps/samshowtiles.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2015,7 +2015,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/spring_beach",
 			"FromFile": "assets/Maps/spring_beach.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2027,7 +2027,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/spring_outdoorsTileSheet",
 			"FromFile": "assets/Maps/spring_outdoorsTileSheet.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2039,7 +2039,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/spring_town",
 			"FromFile": "assets/Maps/spring_town.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2051,7 +2051,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/stadium_tiles",
 			"FromFile": "assets/Maps/stadium_tiles.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2063,7 +2063,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/summer_beach",
 			"FromFile": "assets/Maps/summer_beach.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2075,7 +2075,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/summer_outdoorsTileSheet",
 			"FromFile": "assets/Maps/summer_outdoorsTileSheet.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2087,7 +2087,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/summer_town",
 			"FromFile": "assets/Maps/summer_town.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2099,7 +2099,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/townInterior",
 			"FromFile": "assets/Maps/townInterior.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2111,7 +2111,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/winter_beach",
 			"FromFile": "assets/Maps/winter_beach.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2123,7 +2123,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/winter_outdoorsTileSheet",
 			"FromFile": "assets/Maps/winter_outdoorsTileSheet.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2135,7 +2135,7 @@
 			"Action": "EditImage",
 			"Target": "Maps/winter_town",
 			"FromFile": "assets/Maps/winter_town.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2147,7 +2147,7 @@
 			"Action": "EditImage",
 			"Target": "Minigames/Intro",
 			"FromFile": "assets/Minigames/Intro.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2159,7 +2159,7 @@
 			"Action": "EditImage",
 			"Target": "Minigames/jojacorps",
 			"FromFile": "assets/Minigames/jojacorps.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2171,7 +2171,7 @@
 			"Action": "EditImage",
 			"Target": "Minigames/MineCart",
 			"FromFile": "assets/Minigames/MineCart.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2183,7 +2183,7 @@
 			"Action": "EditImage",
 			"Target": "Minigames/TitleButtons",
 			"FromFile": "assets/Minigames/TitleButtons.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
@@ -2195,7 +2195,7 @@
 			"Action": "EditImage",
 			"Target": "TileSheets/furniture",
 			"FromFile": "assets/TileSheets/furniture.zh-TW.png",
-			"Priority": "Early",
+			"Priority": "Early - 10",
 			"When": {
 				"EnableMod": true,
 				"EnableTexture": true,
