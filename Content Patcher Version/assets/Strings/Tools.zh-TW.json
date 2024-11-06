@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "LogName": "Tools",
+            "Action": "EditData",
+            "Target": "Strings/Tools.zh-TW",
+            "Entries": {                
+                "AdvancedIridiumRod": "高級銥釣竿",
+                "AdvancedIridiumRodDescription": "可以在水中釣魚。最多同時安裝兩個浮標。",
+                "IridiumScythe": "銥鐮刀",
+                "IridiumScytheDescription": "可以收割所有作物，收集乾草的效果極佳。",
+                "SpecificBait_DisplayName": "{0}魚餌",
+                "DriedFruit_DisplayName": "{0}乾",
+                "SmokedFish_DisplayName": "煙燻{0}",
+            }
+        }
+    ]
+}
