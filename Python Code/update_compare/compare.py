@@ -6,7 +6,7 @@ from pathlib import Path
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))#set working path to where .py file at
 
-folder_path = Path(fr'.\StardewValleyv1.6')
+folder_path = Path(fr'.\StardewValleyv1.6.9')
 file_list = [f for f in folder_path.glob('**/*.json')]
 output_path = Path(fr'.\compare_output')
 suffix = ".json"
