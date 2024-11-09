@@ -3,7 +3,7 @@
         {
             "LogName": "Tools",
             "Action": "EditData",
-            "Target": "Strings/Tools.zh-TW",
+            "Target": "Strings/Tools",
             "Entries": {                
                 "WateringCan_Description": "用於灌溉作物。可以在任意水源重新裝滿。",
                 "TrashCan_Gold_Name": "金垃圾桶",

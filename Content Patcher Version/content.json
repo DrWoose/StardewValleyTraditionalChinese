@@ -1506,6 +1506,16 @@
 			}
 		},
 		{
+			"LogName": "Tools",
+			"Action": "Include",
+			"FromFile": "assets/Strings/Tools.zh-TW.json",
+			"Priority": "Early - 10",
+			"When": {
+				"EnableMod": true,
+				"Language": "zh"
+			}
+		},
+		{
 			"LogName": "UI",
 			"Action": "Include",
 			"FromFile": "assets/Strings/UI.zh-TW.json",
