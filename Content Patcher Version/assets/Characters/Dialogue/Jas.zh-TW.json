@@ -41,7 +41,7 @@
                 "AcceptBirthdayGift_Positive": "哇，是生日禮物！我很喜歡！$h",
                 "AcceptGift_(O)StardropTea": "確定要給我嗎？好香啊！那我每天喝一點點就好。$h",
                 "AcceptBirthdayGift_Negative": "是生日禮物嗎？呃……我不喜歡這個。$s",
-                "AcceptGift_doll_item": "啊，這個好好玩！跟我的朋友們放在一起肯定很適合。$h",
+                "AcceptGift_Positive_doll_item": "啊，這個好好玩！跟我的朋友們放在一起肯定很適合。$h",
                 "AcceptGift_(O)103": "啊，是個娃娃！有點髒，我要給它洗個澡。謝謝你！$h",
                 "AcceptGift_coffee_item": "喔……瑪妮阿姨還不讓我喝咖啡……$s",
                 "GreenRain": "我好怕……$s",

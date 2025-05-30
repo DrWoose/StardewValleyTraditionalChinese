@@ -2201,18 +2201,6 @@
 			}
 		},
 		{
-			"LogName": "furniture",
-			"Action": "EditImage",
-			"Target": "TileSheets/furniture",
-			"FromFile": "assets/TileSheets/furniture.zh-TW.png",
-			"Priority": "Early - 10",
-			"When": {
-				"EnableMod": true,
-				"EnableTexture": true,
-				"Language": "zh"
-			}
-		},
-		{
 			"LogName": "credits",
 			"Action": "Load",
 			"Target": "Strings/credits",
